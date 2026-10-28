@@ -1,0 +1,89 @@
+# One question for 만에 하나. Edit this file by hand; everything in data/signals and data/game.* is generated.
+# Don't write tiers here: the pipeline calculates them from Wikipedia pageviews and other signals.
+# To force a tier for one answer, add `tier:` (1-4) AND a `note:` explaining why.
+id: line2
+label: "2호선"
+question: "서울 지하철 2호선 역을 하나 대 보세요"
+hint: "본선과 성수·신정 지선 포함, 51개 역"
+status: live
+strip: ["역"]
+gem: "도림천"
+
+# Korean Wikipedia titles to try for each answer, in order. {name} is replaced by the answer.
+wiki_titles: ["{name}역 (서울)", "{name}역"]
+# Words that show an article is about the right topic (also used to pick from disambiguation pages)
+context: ["역", "지하철", "2호선"]
+# Use everyday word frequency? false when answers have other meanings (kings, places, surnames)
+use_wordfreq: false
+
+# Anchor pairs: the first answer MUST come out more common than the second, or the update is blocked.
+anchors:
+  - ["강남", "용답"]
+  - ["홍대입구", "도림천"]
+  - ["잠실", "신답"]
+  - ["신도림", "용두"]
+
+answers:
+  - name: "강남"
+  - name: "홍대입구"
+    aliases: ["홍대"]
+  - name: "잠실"
+  - name: "신촌"
+  - name: "시청"
+    aliases: ["서울시청"]
+  - name: "건대입구"
+    aliases: ["건대"]
+  - name: "성수"
+  - name: "왕십리"
+  - name: "사당"
+  - name: "신림"
+  - name: "신도림"
+  - name: "역삼"
+  - name: "삼성"
+  - name: "선릉"
+  - name: "교대"
+    aliases: ["서울교대"]
+  - name: "합정"
+  - name: "을지로입구"
+  - name: "서울대입구"
+    aliases: ["서울대"]
+  - name: "이대"
+    aliases: ["이화여대"]
+  - name: "동대문역사문화공원"
+    aliases: ["동역사", "동대문운동장"]
+  - name: "구로디지털단지"
+    aliases: ["구디", "구로공단"]
+  - name: "잠실새내"
+    aliases: ["신천"]
+  - name: "종합운동장"
+  - name: "당산"
+  - name: "을지로3가"
+    aliases: ["을지로삼가"]
+  - name: "을지로4가"
+    aliases: ["을지로사가"]
+  - name: "신당"
+  - name: "상왕십리"
+  - name: "한양대"
+  - name: "뚝섬"
+  - name: "구의"
+  - name: "강변"
+  - name: "잠실나루"
+    aliases: ["성내"]
+  - name: "서초"
+  - name: "방배"
+  - name: "낙성대"
+  - name: "봉천"
+  - name: "신대방"
+  - name: "대림"
+  - name: "문래"
+  - name: "영등포구청"
+  - name: "아현"
+  - name: "충정로"
+  - name: "신답"
+  - name: "용두"
+  - name: "신설동"
+  - name: "양천구청"
+  - name: "신정네거리"
+  - name: "까치산"
+  - name: "용답"
+  - name: "도림천"

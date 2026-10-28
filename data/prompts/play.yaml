@@ -1,0 +1,89 @@
+# One question for 만에 하나. Edit this file by hand; everything in data/signals and data/game.* is generated.
+# Don't write tiers here: the pipeline calculates them from Wikipedia pageviews and other signals.
+# To force a tier for one answer, add `tier:` (1-4) AND a `note:` explaining why.
+id: play
+label: "전통 놀이"
+question: "한국의 전통 놀이를 하나 대 보세요"
+hint: "민속놀이와 골목놀이 모두"
+status: live
+strip: ["놀이"]
+gem: "승경도"
+
+# Korean Wikipedia titles to try for each answer, in order. {name} is replaced by the answer.
+wiki_titles: ["{name}"]
+# Words that show an article is about the right topic (also used to pick from disambiguation pages)
+context: ["놀이", "민속", "게임"]
+# Use everyday word frequency? false when answers have other meanings (kings, places, surnames)
+use_wordfreq: true
+
+# Anchor pairs: the first answer MUST come out more common than the second, or the update is blocked.
+anchors:
+  - ["윷놀이", "승경도"]
+  - ["제기차기", "남승도"]
+  - ["연날리기", "가마싸움"]
+
+answers:
+  - name: "윷놀이"
+    aliases: ["윷"]
+  - name: "제기차기"
+    aliases: ["제기"]
+  - name: "연날리기"
+  - name: "팽이치기"
+    aliases: ["팽이"]
+  - name: "공기놀이"
+  - name: "투호"
+    aliases: ["투호놀이"]
+  - name: "널뛰기"
+  - name: "그네뛰기"
+    aliases: ["그네"]
+  - name: "씨름"
+  - name: "줄다리기"
+  - name: "강강술래"
+  - name: "비석치기"
+  - name: "딱지치기"
+    aliases: ["딱지"]
+  - name: "술래잡기"
+  - name: "숨바꼭질"
+  - name: "고무줄놀이"
+  - name: "땅따먹기"
+  - name: "무궁화꽃이피었습니다"
+  - name: "사방치기"
+    aliases: ["망줍기"]
+  - name: "자치기"
+  - name: "쥐불놀이"
+  - name: "구슬치기"
+  - name: "얼음땡"
+  - name: "꼬리잡기"
+  - name: "닭싸움"
+  - name: "말뚝박기"
+    aliases: ["말타기"]
+  - name: "수건돌리기"
+  - name: "실뜨기"
+  - name: "썰매타기"
+    aliases: ["썰매"]
+  - name: "바둑"
+  - name: "장기"
+  - name: "줄넘기"
+  - name: "오징어"
+    aliases: ["오징어게임"]
+  - name: "동대문놀이"
+  - name: "고싸움"
+    aliases: ["고싸움놀이"]
+  - name: "차전놀이"
+  - name: "놋다리밟기"
+  - name: "지신밟기"
+  - name: "칠교놀이"
+  - name: "고누"
+    aliases: ["고누놀이"]
+  - name: "쌍륙"
+  - name: "소싸움"
+  - name: "격구"
+  - name: "다리밟기"
+    aliases: ["답교놀이"]
+  - name: "여우놀이"
+  - name: "남승도"
+  - name: "석전"
+    aliases: ["돌싸움"]
+  - name: "가마싸움"
+  - name: "승경도"
+    aliases: ["승경도놀이", "종경도"]

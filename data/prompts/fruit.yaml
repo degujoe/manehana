@@ -1,0 +1,101 @@
+# One question for 만에 하나. Edit this file by hand; everything in data/signals and data/game.* is generated.
+# Don't write tiers here: the pipeline calculates them from Wikipedia pageviews and other signals.
+# To force a tier for one answer, add `tier:` (1-4) AND a `note:` explaining why.
+id: fruit
+label: "과일"
+question: "과일 이름을 하나 대 보세요"
+hint: "토마토도 인정"
+status: live
+strip: []
+gem: "으름"
+
+# Korean Wikipedia titles to try for each answer, in order. {name} is replaced by the answer.
+wiki_titles: ["{name}", "{name} (과일)"]
+# Words that show an article is about the right topic (also used to pick from disambiguation pages)
+context: ["과일", "열매", "식물", "나무"]
+# Use everyday word frequency? false when answers have other meanings (kings, places, surnames)
+use_wordfreq: true
+
+# Anchor pairs: the first answer MUST come out more common than the second, or the update is blocked.
+anchors:
+  - ["사과", "으름"]
+  - ["바나나", "보리수"]
+  - ["딸기", "다래"]
+  - ["포도", "비파"]
+
+answers:
+  - name: "사과"
+  - name: "바나나"
+  - name: "딸기"
+  - name: "포도"
+    aliases: ["청포도", "샤인머스캣", "거봉", "캠벨"]
+  - name: "수박"
+  - name: "배"
+  - name: "귤"
+    aliases: ["감귤", "밀감"]
+  - name: "복숭아"
+    aliases: ["천도복숭아", "백도", "황도"]
+  - name: "참외"
+  - name: "감"
+    aliases: ["홍시", "단감", "대봉", "연시", "곶감"]
+  - name: "오렌지"
+  - name: "키위"
+    aliases: ["참다래"]
+  - name: "망고"
+  - name: "파인애플"
+  - name: "체리"
+  - name: "블루베리"
+  - name: "레몬"
+  - name: "멜론"
+    aliases: ["메론"]
+  - name: "자두"
+    aliases: ["오얏"]
+  - name: "토마토"
+    aliases: ["방울토마토"]
+  - name: "자몽"
+  - name: "석류"
+  - name: "무화과"
+  - name: "대추"
+  - name: "앵두"
+  - name: "살구"
+  - name: "매실"
+  - name: "유자"
+  - name: "한라봉"
+  - name: "천혜향"
+  - name: "레드향"
+  - name: "라임"
+  - name: "아보카도"
+    aliases: ["아보가도"]
+  - name: "코코넛"
+  - name: "리치"
+    aliases: ["여지"]
+  - name: "용과"
+    aliases: ["피타야"]
+  - name: "두리안"
+  - name: "망고스틴"
+  - name: "람부탄"
+  - name: "파파야"
+  - name: "구아바"
+  - name: "라즈베리"
+  - name: "블랙베리"
+  - name: "크랜베리"
+  - name: "모과"
+  - name: "오디"
+  - name: "산딸기"
+  - name: "복분자"
+  - name: "머루"
+  - name: "다래"
+  - name: "패션프루트"
+    aliases: ["백향과", "패션후르츠", "패션푸르트"]
+  - name: "금귤"
+    aliases: ["낑깡", "금감"]
+  - name: "비파"
+  - name: "아로니아"
+  - name: "스타프루트"
+    aliases: ["카람볼라"]
+  - name: "버찌"
+  - name: "잭프루트"
+  - name: "보리수"
+    aliases: ["보리똥"]
+  - name: "탱자"
+  - name: "으름"

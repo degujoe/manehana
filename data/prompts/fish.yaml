@@ -1,0 +1,110 @@
+# One question for 만에 하나. Edit this file by hand; everything in data/signals and data/game.* is generated.
+# Don't write tiers here: the pipeline calculates them from Wikipedia pageviews and other signals.
+# To force a tier for one answer, add `tier:` (1-4) AND a `note:` explaining why.
+id: fish
+label: "생선"
+question: "한국에서 먹는 생선을 하나 대 보세요"
+hint: "물고기만 (오징어·조개 제외)"
+status: live
+strip: []
+gem: "뚝지"
+
+# Korean Wikipedia titles to try for each answer, in order. {name} is replaced by the answer.
+wiki_titles: ["{name}"]
+# Words that show an article is about the right topic (also used to pick from disambiguation pages)
+context: ["물고기", "어류", "과에 속하는", "바닷물고기", "민물고기"]
+# Use everyday word frequency? false when answers have other meanings (kings, places, surnames)
+use_wordfreq: true
+
+# Anchor pairs: the first answer MUST come out more common than the second, or the update is blocked.
+anchors:
+  - ["고등어", "뚝지"]
+  - ["갈치", "개복치"]
+  - ["명태", "꼼치"]
+  - ["연어", "황어"]
+
+answers:
+  - name: "고등어"
+  - name: "갈치"
+  - name: "조기"
+    aliases: ["굴비", "참조기"]
+  - name: "연어"
+  - name: "참치"
+    aliases: ["다랑어", "참다랑어"]
+  - name: "광어"
+    aliases: ["넙치"]
+  - name: "명태"
+    aliases: ["동태", "황태", "북어", "생태", "코다리", "노가리", "먹태"]
+  - name: "꽁치"
+  - name: "삼치"
+  - name: "우럭"
+    aliases: ["조피볼락"]
+  - name: "도미"
+    aliases: ["참돔", "돔"]
+  - name: "방어"
+  - name: "전어"
+  - name: "멸치"
+  - name: "대구"
+  - name: "아귀"
+    aliases: ["아구"]
+  - name: "장어"
+    aliases: ["뱀장어", "민물장어"]
+  - name: "붕장어"
+    aliases: ["아나고"]
+  - name: "숭어"
+  - name: "농어"
+  - name: "민어"
+  - name: "병어"
+  - name: "가자미"
+  - name: "도다리"
+  - name: "홍어"
+  - name: "가오리"
+  - name: "쥐치"
+  - name: "볼락"
+  - name: "메기"
+  - name: "미꾸라지"
+    aliases: ["추어", "미꾸리"]
+  - name: "잉어"
+  - name: "붕어"
+  - name: "송어"
+  - name: "빙어"
+  - name: "은어"
+  - name: "복어"
+    aliases: ["복"]
+  - name: "청어"
+  - name: "정어리"
+  - name: "전갱이"
+  - name: "도루묵"
+    aliases: ["도루메기"]
+  - name: "임연수어"
+    aliases: ["이면수", "임연수"]
+  - name: "열기"
+    aliases: ["불볼락"]
+  - name: "갯장어"
+    aliases: ["하모"]
+  - name: "서대"
+  - name: "박대"
+  - name: "노래미"
+    aliases: ["놀래미"]
+  - name: "쏨뱅이"
+  - name: "쏘가리"
+  - name: "양미리"
+  - name: "까나리"
+  - name: "꼼치"
+    aliases: ["물메기", "물곰"]
+  - name: "곰치"
+  - name: "삼세기"
+    aliases: ["삼식이"]
+  - name: "돌돔"
+  - name: "감성돔"
+  - name: "벵에돔"
+  - name: "부시리"
+  - name: "학꽁치"
+    aliases: ["학공치"]
+  - name: "날치"
+  - name: "망둥어"
+    aliases: ["망둑어"]
+  - name: "개복치"
+  - name: "황어"
+  - name: "뚝지"
+    aliases: ["도치", "심퉁이"]

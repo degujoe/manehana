@@ -1,0 +1,70 @@
+# One question for 만에 하나. Edit this file by hand; everything in data/signals and data/game.* is generated.
+# Don't write tiers here: the pipeline calculates them from Wikipedia pageviews and other signals.
+# To force a tier for one answer, add `tier:` (1-4) AND a `note:` explaining why.
+id: kimchi
+label: "김치"
+question: "김치 종류를 하나 대 보세요"
+hint: "물김치와 지역 김치 포함"
+status: live
+strip: ["김치"]
+gem: "비늘김치"
+
+# Korean Wikipedia titles to try for each answer, in order. {name} is replaced by the answer.
+wiki_titles: ["{name}"]
+# Words that show an article is about the right topic (also used to pick from disambiguation pages)
+context: ["김치"]
+# Use everyday word frequency? false when answers have other meanings (kings, places, surnames)
+use_wordfreq: true
+
+# Anchor pairs: the first answer MUST come out more common than the second, or the update is blocked.
+anchors:
+  - ["배추김치", "비늘김치"]
+  - ["깍두기", "숙깍두기"]
+  - ["열무김치", "고구마줄기김치"]
+  - ["백김치", "콩잎김치"]
+
+answers:
+  - name: "배추김치"
+    aliases: ["포기김치"]
+  - name: "깍두기"
+    aliases: ["깍뚜기"]
+  - name: "총각김치"
+    aliases: ["알타리김치"]
+  - name: "열무김치"
+  - name: "오이소박이"
+    aliases: ["오이김치", "오이소배기"]
+  - name: "파김치"
+    aliases: ["쪽파김치"]
+  - name: "백김치"
+  - name: "동치미"
+  - name: "갓김치"
+    aliases: ["돌산갓김치"]
+  - name: "나박김치"
+  - name: "물김치"
+  - name: "겉절이"
+  - name: "묵은지"
+    aliases: ["묵은김치"]
+  - name: "부추김치"
+    aliases: ["정구지김치", "솔김치"]
+  - name: "깻잎김치"
+  - name: "보쌈김치"
+    aliases: ["보김치"]
+  - name: "섞박지"
+    aliases: ["석박지"]
+  - name: "얼갈이김치"
+  - name: "열무물김치"
+  - name: "고들빼기김치"
+  - name: "양배추김치"
+  - name: "굴깍두기"
+  - name: "장김치"
+  - name: "콩잎김치"
+  - name: "우엉김치"
+  - name: "가지김치"
+  - name: "순무김치"
+  - name: "고수김치"
+  - name: "씀바귀김치"
+  - name: "호박김치"
+  - name: "미나리김치"
+  - name: "숙깍두기"
+  - name: "고구마줄기김치"
+  - name: "비늘김치"

@@ -1,0 +1,96 @@
+# One question for 만에 하나. Edit this file by hand; everything in data/signals and data/game.* is generated.
+# Don't write tiers here: the pipeline calculates them from Wikipedia pageviews and other signals.
+# To force a tier for one answer, add `tier:` (1-4) AND a `note:` explaining why.
+id: mountain
+label: "산"
+question: "한국의 산을 하나 대 보세요"
+hint: "남한·북한 모두"
+status: live
+strip: ["산"]
+gem: "마이산"
+
+# Korean Wikipedia titles to try for each answer, in order. {name} is replaced by the answer.
+wiki_titles: ["{name}"]
+# Words that show an article is about the right topic (also used to pick from disambiguation pages)
+context: ["산"]
+# Use everyday word frequency? false when answers have other meanings (kings, places, surnames)
+use_wordfreq: false
+
+# Anchor pairs: the first answer MUST come out more common than the second, or the update is blocked.
+anchors:
+  - ["한라산", "가리왕산"]
+  - ["지리산", "방태산"]
+  - ["설악산", "점봉산"]
+  - ["북한산", "대암산"]
+
+answers:
+  - name: "한라산"
+  - name: "지리산"
+  - name: "설악산"
+  - name: "북한산"
+  - name: "백두산"
+  - name: "남산"
+  - name: "관악산"
+  - name: "도봉산"
+  - name: "금강산"
+  - name: "덕유산"
+  - name: "속리산"
+  - name: "태백산"
+  - name: "소백산"
+  - name: "계룡산"
+  - name: "무등산"
+  - name: "내장산"
+  - name: "청계산"
+  - name: "오대산"
+  - name: "치악산"
+  - name: "월악산"
+  - name: "수락산"
+  - name: "인왕산"
+  - name: "가야산"
+  - name: "주왕산"
+  - name: "팔공산"
+  - name: "마니산"
+  - name: "불암산"
+  - name: "아차산"
+  - name: "대둔산"
+  - name: "월출산"
+  - name: "금정산"
+  - name: "묘향산"
+  - name: "칠갑산"
+  - name: "용문산"
+  - name: "유명산"
+  - name: "명지산"
+  - name: "운악산"
+  - name: "소요산"
+  - name: "감악산"
+  - name: "청량산"
+  - name: "황매산"
+  - name: "두륜산"
+  - name: "가지산"
+  - name: "신불산"
+  - name: "비슬산"
+  - name: "무학산"
+  - name: "칠보산"
+  - name: "천관산"
+  - name: "조계산"
+  - name: "민주지산"
+  - name: "황악산"
+  - name: "화왕산"
+  - name: "운장산"
+  - name: "응봉산"
+  - name: "영축산"
+    aliases: ["영취산"]
+  - name: "재약산"
+  - name: "간월산"
+  - name: "백운산"
+  - name: "축령산"
+  - name: "천마산"
+  - name: "예봉산"
+  - name: "검단산"
+  - name: "사패산"
+  - name: "가리왕산"
+  - name: "대암산"
+  - name: "점봉산"
+  - name: "계방산"
+  - name: "방태산"
+  - name: "마이산"

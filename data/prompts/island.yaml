@@ -1,0 +1,89 @@
+# One question for 만에 하나. Edit this file by hand; everything in data/signals and data/game.* is generated.
+# Don't write tiers here: the pipeline calculates them from Wikipedia pageviews and other signals.
+# To force a tier for one answer, add `tier:` (1-4) AND a `note:` explaining why.
+id: island
+label: "섬"
+question: "한국의 섬을 하나 대 보세요"
+hint: "남한의 섬"
+status: live
+strip: ["도", "섬"]
+gem: "가거도"
+
+# Korean Wikipedia titles to try for each answer, in order. {name} is replaced by the answer.
+wiki_titles: ["{name}", "{name} (섬)"]
+# Words that show an article is about the right topic (also used to pick from disambiguation pages)
+context: ["섬"]
+# Use everyday word frequency? false when answers have other meanings (kings, places, surnames)
+use_wordfreq: false
+
+# Anchor pairs: the first answer MUST come out more common than the second, or the update is blocked.
+anchors:
+  - ["제주도", "가거도"]
+  - ["울릉도", "만재도"]
+  - ["독도", "팔금도"]
+  - ["강화도", "장고도"]
+
+answers:
+  - name: "제주도"
+  - name: "울릉도"
+  - name: "독도"
+  - name: "강화도"
+  - name: "거제도"
+  - name: "진도"
+  - name: "완도"
+  - name: "남해도"
+  - name: "백령도"
+  - name: "연평도"
+  - name: "우도"
+  - name: "마라도"
+  - name: "안면도"
+  - name: "영종도"
+  - name: "대부도"
+  - name: "흑산도"
+  - name: "홍도"
+  - name: "청산도"
+  - name: "보길도"
+  - name: "외도"
+  - name: "소매물도"
+    aliases: ["매물도"]
+  - name: "욕지도"
+  - name: "비진도"
+  - name: "덕적도"
+  - name: "교동도"
+  - name: "석모도"
+  - name: "실미도"
+  - name: "무의도"
+  - name: "선유도"
+  - name: "위도"
+  - name: "거문도"
+  - name: "추자도"
+  - name: "대청도"
+  - name: "영흥도"
+  - name: "제부도"
+  - name: "가파도"
+  - name: "장봉도"
+  - name: "금오도"
+  - name: "돌산도"
+  - name: "증도"
+  - name: "비금도"
+  - name: "임자도"
+  - name: "하의도"
+  - name: "도초도"
+  - name: "노화도"
+  - name: "백도"
+  - name: "소청도"
+  - name: "자월도"
+  - name: "관매도"
+  - name: "압해도"
+  - name: "자은도"
+  - name: "안좌도"
+  - name: "암태도"
+  - name: "어청도"
+  - name: "외연도"
+  - name: "삽시도"
+  - name: "원산도"
+  - name: "신시도"
+  - name: "만재도"
+  - name: "팔금도"
+  - name: "장고도"
+  - name: "가거도"

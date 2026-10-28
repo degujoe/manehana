@@ -1,0 +1,65 @@
+# One question for 만에 하나. Edit this file by hand; everything in data/signals and data/game.* is generated.
+# Don't write tiers here: the pipeline calculates them from Wikipedia pageviews and other signals.
+# To force a tier for one answer, add `tier:` (1-4) AND a `note:` explaining why.
+id: joseon
+label: "조선의 왕"
+question: "조선의 왕을 한 명 대 보세요"
+hint: "태조부터 순종까지 27명 (묘호·이름 모두)"
+status: live
+strip: ["대왕", "왕", "황제"]
+gem: "경종"
+
+# Korean Wikipedia titles to try for each answer, in order. {name} is replaced by the answer.
+wiki_titles: ["{name} (조선)", "조선 {name}", "{name}"]
+# Words that show an article is about the right topic (also used to pick from disambiguation pages)
+context: ["조선"]
+# Use everyday word frequency? false when answers have other meanings (kings, places, surnames)
+use_wordfreq: false
+
+# Anchor pairs: the first answer MUST come out more common than the second, or the update is blocked.
+anchors:
+  - ["세종", "경종"]
+  - ["태조", "헌종"]
+  - ["정조", "예종"]
+  - ["연산군", "인종"]
+  - ["광해군", "문종"]
+
+answers:
+  - name: "세종"
+    aliases: ["세종대왕", "이도"]
+  - name: "태조"
+    aliases: ["이성계"]
+  - name: "정조"
+    aliases: ["이산"]
+  - name: "영조"
+  - name: "태종"
+    aliases: ["이방원"]
+  - name: "세조"
+    aliases: ["수양대군"]
+  - name: "연산군"
+    aliases: ["연산"]
+  - name: "광해군"
+    aliases: ["광해"]
+  - name: "단종"
+    aliases: ["노산군"]
+  - name: "고종"
+  - name: "선조"
+  - name: "숙종"
+  - name: "인조"
+  - name: "성종"
+  - name: "순종"
+  - name: "중종"
+  - name: "철종"
+    aliases: ["강화도령"]
+  - name: "문종"
+  - name: "정종"
+    aliases: ["이방과"]
+  - name: "효종"
+    aliases: ["봉림대군"]
+  - name: "현종"
+  - name: "명종"
+  - name: "순조"
+  - name: "헌종"
+  - name: "예종"
+  - name: "인종"
+  - name: "경종"
