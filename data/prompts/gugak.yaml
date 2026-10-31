@@ -40,6 +40,8 @@ answers:
   - name: "북"
     aliases: ["소리북", "법고"]
     wiki: "한국의 북"
+    tier: 1
+    note: "1 syllable, so text mentions can't be counted, and pageviews are split across 북 articles; the most basic Korean percussion instrument (사물놀이)"
   - name: "거문고"
     aliases: ["현금"]
   - name: "해금"
@@ -49,6 +51,8 @@ answers:
   - name: "단소"
   - name: "피리"
     aliases: ["향피리", "세피리", "당피리"]
+    tier: 1
+    note: "pageviews are split between 피리 (악기) and the general article; taught to every Korean schoolchild"
   - name: "징"
   - name: "태평소"
     aliases: ["날라리", "새납", "호적"]

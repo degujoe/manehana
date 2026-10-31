@@ -32,6 +32,8 @@ answers:
   - name: "강남"
   - name: "홍대입구"
     aliases: ["홍대"]
+    tier: 1
+    note: "one of Line 2's busiest stations (Seoul Metro ridership) and a famous district; station pageviews undercount it"
   - name: "잠실"
   - name: "신촌"
     wiki: "신촌역 (지하)"
@@ -43,6 +45,8 @@ answers:
   - name: "왕십리"
   - name: "사당"
   - name: "신림"
+    tier: 2
+    note: "one of Line 2's busiest stations (Seoul Metro ridership); station pageviews undercount it"
   - name: "신도림"
   - name: "역삼"
   - name: "삼성"
@@ -54,8 +58,12 @@ answers:
     aliases: ["을지로1가"]
   - name: "서울대입구"
     aliases: ["서울대"]
+    tier: 2
+    note: "one of Line 2's busiest stations, named after Seoul National University; station pageviews undercount it"
   - name: "이대"
     aliases: ["이화여대"]
+    tier: 2
+    note: "named after Ewha Womans University, widely known; station pageviews undercount it"
   - name: "동대문역사문화공원"
     aliases: ["동역사", "동대문운동장", "서울운동장"]
   - name: "구로디지털단지"
