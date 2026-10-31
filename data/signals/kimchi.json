@@ -1,0 +1,486 @@
+{
+ "id": "kimchi",
+ "answers": {
+  "배추김치": {
+   "status": "ok",
+   "note": "",
+   "article": "배추김치",
+   "qid": "Q30634372",
+   "pageviews": 2199,
+   "sitelinks": 6,
+   "mentions": 18,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "깍두기": {
+   "status": "ok",
+   "note": "",
+   "article": "깍두기",
+   "qid": "Q430583",
+   "pageviews": 2656,
+   "sitelinks": 14,
+   "mentions": 257,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "총각김치": {
+   "status": "ok",
+   "note": "",
+   "article": "총각김치",
+   "qid": "Q97656573",
+   "pageviews": 2297,
+   "sitelinks": 1,
+   "mentions": 13,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "열무김치": {
+   "status": "ok",
+   "note": "",
+   "article": "열무김치",
+   "qid": "Q14798260",
+   "pageviews": 2195,
+   "sitelinks": 4,
+   "mentions": 14,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "오이소박이": {
+   "status": "ok",
+   "note": "",
+   "article": "오이소박이",
+   "qid": "Q85982988",
+   "pageviews": 1019,
+   "sitelinks": 1,
+   "mentions": 6,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "파김치": {
+   "status": "ok",
+   "note": "",
+   "article": "파김치",
+   "qid": "Q25045178",
+   "pageviews": 848,
+   "sitelinks": 2,
+   "mentions": 16,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "백김치": {
+   "status": "ok",
+   "note": "",
+   "article": "백김치",
+   "qid": "Q1073156",
+   "pageviews": 925,
+   "sitelinks": 8,
+   "mentions": 51,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "동치미": {
+   "status": "ok",
+   "note": "",
+   "article": "동치미",
+   "qid": "Q904155",
+   "pageviews": 2224,
+   "sitelinks": 12,
+   "mentions": 176,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "갓김치": {
+   "status": "ok",
+   "note": "",
+   "article": "갓김치",
+   "qid": "Q55736533",
+   "pageviews": 2561,
+   "sitelinks": 2,
+   "mentions": 12,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "나박김치": {
+   "status": "ok",
+   "note": "",
+   "article": "나박김치",
+   "qid": "Q8018130",
+   "pageviews": 1076,
+   "sitelinks": 10,
+   "mentions": 49,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "물김치": {
+   "status": "ok",
+   "note": "",
+   "article": "물김치",
+   "qid": "Q61090700",
+   "pageviews": 837,
+   "sitelinks": 1,
+   "mentions": 3,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "겉절이": {
+   "status": "ok",
+   "note": "",
+   "article": "겉절이",
+   "qid": "Q12583445",
+   "pageviews": 1656,
+   "sitelinks": 2,
+   "mentions": 13,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "묵은지": {
+   "status": "ok",
+   "note": "",
+   "article": "묵은지",
+   "qid": "Q55737036",
+   "pageviews": 790,
+   "sitelinks": 2,
+   "mentions": 18,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "부추김치": {
+   "status": "ok",
+   "note": "",
+   "article": "김치",
+   "qid": "Q141898",
+   "pageviews": 16036,
+   "sitelinks": 77,
+   "mentions": 4,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "깻잎김치": {
+   "status": "check",
+   "note": "article intro doesn't mention: 김치",
+   "article": "들깨",
+   "qid": "Q1076038",
+   "pageviews": 13103,
+   "sitelinks": 29,
+   "mentions": 4,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "보쌈김치": {
+   "status": "ok",
+   "note": "",
+   "article": "보쌈김치",
+   "qid": "Q85979768",
+   "pageviews": 302,
+   "sitelinks": 1,
+   "mentions": 9,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "섞박지": {
+   "status": "ok",
+   "note": "",
+   "article": "섞박지",
+   "qid": "Q16172410",
+   "pageviews": 2941,
+   "sitelinks": 1,
+   "mentions": 103,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "얼갈이김치": {
+   "status": "missing",
+   "note": "no Korean Wikipedia article",
+   "pageviews": 0,
+   "mentions": 2,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "열무물김치": {
+   "status": "missing",
+   "note": "no Korean Wikipedia article",
+   "pageviews": 0,
+   "mentions": 3,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "고들빼기김치": {
+   "status": "missing",
+   "note": "no Korean Wikipedia article",
+   "pageviews": 0,
+   "mentions": 4,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "양배추김치": {
+   "status": "missing",
+   "note": "no Korean Wikipedia article",
+   "pageviews": 0,
+   "mentions": 3,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "굴깍두기": {
+   "status": "missing",
+   "note": "no Korean Wikipedia article",
+   "pageviews": 0,
+   "mentions": 2,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "장김치": {
+   "status": "ok",
+   "note": "",
+   "article": "장김치",
+   "qid": "Q16176340",
+   "pageviews": 288,
+   "sitelinks": 1,
+   "mentions": 101,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "콩잎김치": {
+   "status": "missing",
+   "note": "no Korean Wikipedia article",
+   "pageviews": 0,
+   "mentions": 2,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "우엉김치": {
+   "status": "missing",
+   "note": "no Korean Wikipedia article",
+   "pageviews": 0,
+   "mentions": 2,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "가지김치": {
+   "status": "missing",
+   "note": "no Korean Wikipedia article",
+   "pageviews": 0,
+   "mentions": 2,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "순무김치": {
+   "status": "ok",
+   "note": "",
+   "article": "순무김치",
+   "qid": null,
+   "pageviews": 171,
+   "sitelinks": null,
+   "mentions": 3,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "고수김치": {
+   "status": "ok",
+   "note": "",
+   "article": "고수김치",
+   "qid": null,
+   "pageviews": 619,
+   "sitelinks": null,
+   "mentions": 2,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "씀바귀김치": {
+   "status": "missing",
+   "note": "no Korean Wikipedia article",
+   "pageviews": 0,
+   "mentions": 0,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "호박김치": {
+   "status": "ok",
+   "note": "",
+   "article": "호박김치",
+   "qid": null,
+   "pageviews": 396,
+   "sitelinks": null,
+   "mentions": 4,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "미나리김치": {
+   "status": "missing",
+   "note": "no Korean Wikipedia article",
+   "pageviews": 0,
+   "mentions": 2,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "숙깍두기": {
+   "status": "missing",
+   "note": "no Korean Wikipedia article",
+   "pageviews": 0,
+   "mentions": 1,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "고구마줄기김치": {
+   "status": "missing",
+   "note": "no Korean Wikipedia article",
+   "pageviews": 0,
+   "mentions": 1,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "비늘김치": {
+   "status": "missing",
+   "note": "no Korean Wikipedia article",
+   "pageviews": 0,
+   "mentions": 1,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "막김치": {
+   "status": "ok",
+   "note": "",
+   "article": "김치",
+   "qid": "Q141898",
+   "pageviews": 16036,
+   "sitelinks": 77,
+   "mentions": 0,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "무김치": {
+   "status": "ok",
+   "note": "",
+   "article": "무김치",
+   "qid": "Q109286869",
+   "pageviews": 912,
+   "sitelinks": 1,
+   "mentions": 11,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "짠지": {
+   "status": "ok",
+   "note": "",
+   "article": "짠지",
+   "qid": "Q102819468",
+   "pageviews": 1636,
+   "sitelinks": 1,
+   "mentions": 5,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "양파김치": {
+   "status": "missing",
+   "note": "no Korean Wikipedia article",
+   "pageviews": 0,
+   "mentions": 0,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "고추김치": {
+   "status": "missing",
+   "note": "no Korean Wikipedia article",
+   "pageviews": 0,
+   "mentions": 2,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "굴김치": {
+   "status": "missing",
+   "note": "no Korean Wikipedia article",
+   "pageviews": 0,
+   "mentions": null,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "무말랭이김치": {
+   "status": "missing",
+   "note": "no Korean Wikipedia article",
+   "pageviews": 0,
+   "mentions": 2,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "젓국지": {
+   "status": "missing",
+   "note": "no Korean Wikipedia article",
+   "pageviews": 0,
+   "mentions": 101,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "석류김치": {
+   "status": "missing",
+   "note": "no Korean Wikipedia article",
+   "pageviews": 0,
+   "mentions": 1,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "동아김치": {
+   "status": "missing",
+   "note": "no Korean Wikipedia article",
+   "pageviews": 0,
+   "mentions": 1,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "박김치": {
+   "status": "missing",
+   "note": "no Korean Wikipedia article",
+   "pageviews": 0,
+   "mentions": 1,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "돌나물김치": {
+   "status": "missing",
+   "note": "no Korean Wikipedia article",
+   "pageviews": 0,
+   "mentions": 1,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "더덕김치": {
+   "status": "missing",
+   "note": "no Korean Wikipedia article",
+   "pageviews": 0,
+   "mentions": 1,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "톳김치": {
+   "status": "missing",
+   "note": "no Korean Wikipedia article",
+   "pageviews": 0,
+   "mentions": 1,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "감동젓김치": {
+   "status": "missing",
+   "note": "no Korean Wikipedia article",
+   "pageviews": 0,
+   "mentions": 1,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "창란젓깍두기": {
+   "status": "missing",
+   "note": "no Korean Wikipedia article",
+   "pageviews": 0,
+   "mentions": 0,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "서거리김치": {
+   "status": "missing",
+   "note": "no Korean Wikipedia article",
+   "pageviews": 0,
+   "mentions": 0,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  }
+ },
+ "collected": "2026-10-31"
+}

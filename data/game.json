@@ -35,7 +35,7 @@
     {
      "name": "갈치",
      "aliases": [],
-     "tier": 1
+     "tier": 2
     },
     {
      "name": "조기",
@@ -57,14 +57,14 @@
       "참다랑어",
       "가다랑어"
      ],
-     "tier": 1
+     "tier": 2
     },
     {
      "name": "광어",
      "aliases": [
       "넙치"
      ],
-     "tier": 1
+     "tier": 3
     },
     {
      "name": "명태",
@@ -82,12 +82,12 @@
     {
      "name": "꽁치",
      "aliases": [],
-     "tier": 2
+     "tier": 3
     },
     {
      "name": "삼치",
      "aliases": [],
-     "tier": 2
+     "tier": 3
     },
     {
      "name": "우럭",
@@ -107,22 +107,22 @@
     {
      "name": "방어",
      "aliases": [],
-     "tier": 2
+     "tier": 1
     },
     {
      "name": "전어",
      "aliases": [],
-     "tier": 2
+     "tier": 3
     },
     {
      "name": "멸치",
      "aliases": [],
-     "tier": 2
+     "tier": 1
     },
     {
      "name": "대구",
      "aliases": [],
-     "tier": 2
+     "tier": 1
     },
     {
      "name": "아귀",
@@ -149,12 +149,12 @@
     {
      "name": "숭어",
      "aliases": [],
-     "tier": 3
+     "tier": 2
     },
     {
      "name": "농어",
      "aliases": [],
-     "tier": 3
+     "tier": 2
     },
     {
      "name": "민어",
@@ -164,7 +164,7 @@
     {
      "name": "병어",
      "aliases": [],
-     "tier": 3
+     "tier": 4
     },
     {
      "name": "가자미",
@@ -174,19 +174,19 @@
     {
      "name": "도다리",
      "aliases": [],
-     "tier": 3
+     "tier": 1
     },
     {
      "name": "홍어",
      "aliases": [],
-     "tier": 3
+     "tier": 2
     },
     {
      "name": "가오리",
      "aliases": [
       "간재미"
      ],
-     "tier": 3
+     "tier": 1
     },
     {
      "name": "쥐치",
@@ -201,7 +201,7 @@
     {
      "name": "메기",
      "aliases": [],
-     "tier": 3
+     "tier": 2
     },
     {
      "name": "미꾸라지",
@@ -209,22 +209,22 @@
       "추어",
       "미꾸리"
      ],
-     "tier": 3
+     "tier": 2
     },
     {
      "name": "잉어",
      "aliases": [],
-     "tier": 3
+     "tier": 2
     },
     {
      "name": "붕어",
      "aliases": [],
-     "tier": 3
+     "tier": 1
     },
     {
      "name": "송어",
      "aliases": [],
-     "tier": 3
+     "tier": 2
     },
     {
      "name": "빙어",
@@ -241,17 +241,17 @@
      "aliases": [
       "복"
      ],
-     "tier": 3
+     "tier": 2
     },
     {
      "name": "청어",
      "aliases": [],
-     "tier": 3
+     "tier": 2
     },
     {
      "name": "정어리",
      "aliases": [],
-     "tier": 3
+     "tier": 2
     },
     {
      "name": "전갱이",
@@ -263,7 +263,7 @@
      "aliases": [
       "도루메기"
      ],
-     "tier": 3
+     "tier": 4
     },
     {
      "name": "임연수어",
@@ -271,21 +271,21 @@
       "이면수",
       "임연수"
      ],
-     "tier": 3
+     "tier": 4
     },
     {
      "name": "열기",
      "aliases": [
       "불볼락"
      ],
-     "tier": 3
+     "tier": 1
     },
     {
      "name": "갯장어",
      "aliases": [
       "하모"
      ],
-     "tier": 4
+     "tier": 3
     },
     {
      "name": "서대",
@@ -302,7 +302,7 @@
      "aliases": [
       "놀래미"
      ],
-     "tier": 4
+     "tier": 2
     },
     {
      "name": "쏨뱅이",
@@ -317,7 +317,7 @@
     {
      "name": "양미리",
      "aliases": [],
-     "tier": 4
+     "tier": 3
     },
     {
      "name": "까나리",
@@ -335,7 +335,7 @@
     {
      "name": "곰치",
      "aliases": [],
-     "tier": 4
+     "tier": 3
     },
     {
      "name": "삼세기",
@@ -352,7 +352,7 @@
     {
      "name": "감성돔",
      "aliases": [],
-     "tier": 4
+     "tier": 3
     },
     {
      "name": "벵에돔",
@@ -376,7 +376,7 @@
     {
      "name": "날치",
      "aliases": [],
-     "tier": 4
+     "tier": 3
     },
     {
      "name": "망둥어",
@@ -384,12 +384,12 @@
       "망둑어",
       "망둥이"
      ],
-     "tier": 4
+     "tier": 3
     },
     {
      "name": "개복치",
      "aliases": [],
-     "tier": 4
+     "tier": 2
     },
     {
      "name": "황어",
@@ -407,7 +407,7 @@
     {
      "name": "옥돔",
      "aliases": [],
-     "tier": 3
+     "tier": 4
     },
     {
      "name": "먹장어",
@@ -415,7 +415,7 @@
       "꼼장어",
       "곰장어"
      ],
-     "tier": 3
+     "tier": 2
     },
     {
      "name": "산천어",
@@ -430,19 +430,19 @@
     {
      "name": "밴댕이",
      "aliases": [],
-     "tier": 3
+     "tier": 4
     },
     {
      "name": "준치",
      "aliases": [],
-     "tier": 3
+     "tier": 2
     },
     {
      "name": "상어",
      "aliases": [
       "돔배기"
      ],
-     "tier": 3
+     "tier": 1
     },
     {
      "name": "부세",
@@ -455,29 +455,29 @@
       "빠가사리",
       "빠가"
      ],
-     "tier": 3
+     "tier": 4
     },
     {
      "name": "향어",
      "aliases": [],
-     "tier": 3
+     "tier": 4
     },
     {
      "name": "다금바리",
      "aliases": [
       "자바리"
      ],
-     "tier": 3
+     "tier": 4
     },
     {
      "name": "자리돔",
      "aliases": [],
-     "tier": 3
+     "tier": 4
     },
     {
      "name": "뱅어",
      "aliases": [],
-     "tier": 3
+     "tier": 4
     }
    ]
   },
@@ -530,7 +530,7 @@
     {
      "name": "수박",
      "aliases": [],
-     "tier": 1
+     "tier": 2
     },
     {
      "name": "배",
@@ -558,7 +558,7 @@
     {
      "name": "참외",
      "aliases": [],
-     "tier": 2
+     "tier": 3
     },
     {
      "name": "감",
@@ -569,12 +569,12 @@
       "연시",
       "곶감"
      ],
-     "tier": 2
+     "tier": 1
     },
     {
      "name": "오렌지",
      "aliases": [],
-     "tier": 2
+     "tier": 1
     },
     {
      "name": "키위",
@@ -598,7 +598,7 @@
     {
      "name": "체리",
      "aliases": [],
-     "tier": 2
+     "tier": 1
     },
     {
      "name": "블루베리",
@@ -615,21 +615,21 @@
      "aliases": [
       "메론"
      ],
-     "tier": 2
+     "tier": 1
     },
     {
      "name": "자두",
      "aliases": [
       "오얏"
      ],
-     "tier": 2
+     "tier": 3
     },
     {
      "name": "토마토",
      "aliases": [
       "방울토마토"
      ],
-     "tier": 2
+     "tier": 1
     },
     {
      "name": "자몽",
@@ -644,7 +644,7 @@
     {
      "name": "무화과",
      "aliases": [],
-     "tier": 3
+     "tier": 2
     },
     {
      "name": "대추",
@@ -654,7 +654,7 @@
     {
      "name": "앵두",
      "aliases": [],
-     "tier": 3
+     "tier": 4
     },
     {
      "name": "살구",
@@ -674,41 +674,41 @@
     {
      "name": "한라봉",
      "aliases": [],
-     "tier": 3
+     "tier": 4
     },
     {
      "name": "천혜향",
      "aliases": [],
-     "tier": 3
+     "tier": 4
     },
     {
      "name": "레드향",
      "aliases": [],
-     "tier": 3
+     "tier": 4
     },
     {
      "name": "라임",
      "aliases": [],
-     "tier": 3
+     "tier": 2
     },
     {
      "name": "아보카도",
      "aliases": [
       "아보가도"
      ],
-     "tier": 3
+     "tier": 2
     },
     {
      "name": "코코넛",
      "aliases": [],
-     "tier": 3
+     "tier": 2
     },
     {
      "name": "리치",
      "aliases": [
       "여지"
      ],
-     "tier": 3
+     "tier": 1
     },
     {
      "name": "용과",
@@ -716,7 +716,7 @@
       "피타야",
       "드래곤프루트"
      ],
-     "tier": 3
+     "tier": 2
     },
     {
      "name": "두리안",
@@ -726,12 +726,12 @@
     {
      "name": "망고스틴",
      "aliases": [],
-     "tier": 3
+     "tier": 4
     },
     {
      "name": "람부탄",
      "aliases": [],
-     "tier": 3
+     "tier": 4
     },
     {
      "name": "파파야",
@@ -751,17 +751,17 @@
     {
      "name": "블랙베리",
      "aliases": [],
-     "tier": 3
+     "tier": 2
     },
     {
      "name": "크랜베리",
      "aliases": [],
-     "tier": 3
+     "tier": 4
     },
     {
      "name": "모과",
      "aliases": [],
-     "tier": 3
+     "tier": 4
     },
     {
      "name": "오디",
@@ -776,12 +776,12 @@
     {
      "name": "복분자",
      "aliases": [],
-     "tier": 3
+     "tier": 4
     },
     {
      "name": "머루",
      "aliases": [],
-     "tier": 3
+     "tier": 4
     },
     {
      "name": "다래",
@@ -808,7 +808,7 @@
     {
      "name": "비파",
      "aliases": [],
-     "tier": 4
+     "tier": 2
     },
     {
      "name": "아로니아",
@@ -830,14 +830,14 @@
     {
      "name": "잭프루트",
      "aliases": [],
-     "tier": 4
+     "tier": 3
     },
     {
      "name": "보리수",
      "aliases": [
       "보리똥"
      ],
-     "tier": 4
+     "tier": 2
     },
     {
      "name": "탱자",
@@ -852,7 +852,7 @@
     {
      "name": "황금향",
      "aliases": [],
-     "tier": 3
+     "tier": 4
     },
     {
      "name": "대추야자",
@@ -866,7 +866,7 @@
      "aliases": [
       "용안"
      ],
-     "tier": 3
+     "tier": 4
     },
     {
      "name": "오미자",
@@ -876,7 +876,7 @@
     {
      "name": "산수유",
      "aliases": [],
-     "tier": 3
+     "tier": 2
     }
    ]
   },
@@ -909,7 +909,7 @@
       "쇠",
       "꽹매기"
      ],
-     "tier": 1
+     "tier": 2
     },
     {
      "name": "북",
@@ -924,7 +924,7 @@
      "aliases": [
       "현금"
      ],
-     "tier": 2
+     "tier": 1
     },
     {
      "name": "해금",
@@ -932,14 +932,14 @@
       "깡깡이",
       "앵금"
      ],
-     "tier": 2
+     "tier": 1
     },
     {
      "name": "대금",
      "aliases": [
       "젓대"
      ],
-     "tier": 2
+     "tier": 1
     },
     {
      "name": "단소",
@@ -953,7 +953,7 @@
       "세피리",
       "당피리"
      ],
-     "tier": 2
+     "tier": 1
     },
     {
      "name": "징",
@@ -977,32 +977,32 @@
     {
      "name": "소고",
      "aliases": [],
-     "tier": 2
+     "tier": 3
     },
     {
      "name": "편종",
      "aliases": [],
-     "tier": 3
+     "tier": 2
     },
     {
      "name": "편경",
      "aliases": [],
-     "tier": 3
+     "tier": 2
     },
     {
      "name": "양금",
      "aliases": [],
-     "tier": 3
+     "tier": 2
     },
     {
      "name": "생황",
      "aliases": [],
-     "tier": 3
+     "tier": 1
     },
     {
      "name": "소금",
      "aliases": [],
-     "tier": 3
+     "tier": 2
     },
     {
      "name": "퉁소",
@@ -1014,12 +1014,12 @@
     {
      "name": "나발",
      "aliases": [],
-     "tier": 3
+     "tier": 2
     },
     {
      "name": "박",
      "aliases": [],
-     "tier": 3
+     "tier": 2
     },
     {
      "name": "비파",
@@ -1027,39 +1027,39 @@
       "향비파",
       "당비파"
      ],
-     "tier": 3
+     "tier": 1
     },
     {
      "name": "좌고",
      "aliases": [],
-     "tier": 3
+     "tier": 4
     },
     {
      "name": "중금",
      "aliases": [],
-     "tier": 4
+     "tier": 3
     },
     {
      "name": "나각",
      "aliases": [
       "소라"
      ],
-     "tier": 4
+     "tier": 3
     },
     {
      "name": "축",
      "aliases": [],
-     "tier": 4
+     "tier": 3
     },
     {
      "name": "훈",
      "aliases": [],
-     "tier": 4
+     "tier": 3
     },
     {
      "name": "지",
      "aliases": [],
-     "tier": 4
+     "tier": 3
     },
     {
      "name": "공후",
@@ -1073,12 +1073,12 @@
     {
      "name": "월금",
      "aliases": [],
-     "tier": 4
+     "tier": 3
     },
     {
      "name": "운라",
      "aliases": [],
-     "tier": 4
+     "tier": 3
     },
     {
      "name": "용고",
@@ -1108,7 +1108,7 @@
     {
      "name": "방향",
      "aliases": [],
-     "tier": 4
+     "tier": 3
     },
     {
      "name": "특종",
@@ -1123,7 +1123,7 @@
     {
      "name": "어",
      "aliases": [],
-     "tier": 3
+     "tier": 2
     },
     {
      "name": "자바라",
@@ -1136,32 +1136,32 @@
     {
      "name": "응고",
      "aliases": [],
-     "tier": 3
+     "tier": 4
     },
     {
      "name": "진고",
      "aliases": [],
-     "tier": 3
+     "tier": 4
     },
     {
      "name": "건고",
      "aliases": [],
-     "tier": 3
+     "tier": 4
     },
     {
      "name": "교방고",
      "aliases": [],
-     "tier": 3
+     "tier": 4
     },
     {
      "name": "당적",
      "aliases": [],
-     "tier": 3
+     "tier": 2
     },
     {
      "name": "금",
      "aliases": [],
-     "tier": 3
+     "tier": 2
     },
     {
      "name": "슬",
@@ -1207,12 +1207,12 @@
     {
      "name": "거제도",
      "aliases": [],
-     "tier": 2
+     "tier": 1
     },
     {
      "name": "진도",
      "aliases": [],
-     "tier": 2
+     "tier": 1
     },
     {
      "name": "완도",
@@ -1227,7 +1227,7 @@
     {
      "name": "백령도",
      "aliases": [],
-     "tier": 2
+     "tier": 1
     },
     {
      "name": "연평도",
@@ -1237,12 +1237,12 @@
     {
      "name": "우도",
      "aliases": [],
-     "tier": 2
+     "tier": 1
     },
     {
      "name": "마라도",
      "aliases": [],
-     "tier": 2
+     "tier": 3
     },
     {
      "name": "안면도",
@@ -1252,27 +1252,27 @@
     {
      "name": "영종도",
      "aliases": [],
-     "tier": 2
+     "tier": 1
     },
     {
      "name": "대부도",
      "aliases": [],
-     "tier": 2
+     "tier": 3
     },
     {
      "name": "흑산도",
      "aliases": [],
-     "tier": 3
+     "tier": 2
     },
     {
      "name": "홍도",
      "aliases": [],
-     "tier": 3
+     "tier": 2
     },
     {
      "name": "청산도",
      "aliases": [],
-     "tier": 3
+     "tier": 2
     },
     {
      "name": "보길도",
@@ -1282,7 +1282,7 @@
     {
      "name": "외도",
      "aliases": [],
-     "tier": 3
+     "tier": 1
     },
     {
      "name": "소매물도",
@@ -1294,17 +1294,17 @@
     {
      "name": "욕지도",
      "aliases": [],
-     "tier": 3
+     "tier": 4
     },
     {
      "name": "비진도",
      "aliases": [],
-     "tier": 3
+     "tier": 4
     },
     {
      "name": "덕적도",
      "aliases": [],
-     "tier": 3
+     "tier": 2
     },
     {
      "name": "교동도",
@@ -1319,12 +1319,12 @@
     {
      "name": "실미도",
      "aliases": [],
-     "tier": 3
+     "tier": 1
     },
     {
      "name": "무의도",
      "aliases": [],
-     "tier": 3
+     "tier": 2
     },
     {
      "name": "선유도",
@@ -1334,22 +1334,22 @@
     {
      "name": "위도",
      "aliases": [],
-     "tier": 3
+     "tier": 2
     },
     {
      "name": "거문도",
      "aliases": [],
-     "tier": 3
+     "tier": 2
     },
     {
      "name": "추자도",
      "aliases": [],
-     "tier": 3
+     "tier": 4
     },
     {
      "name": "대청도",
      "aliases": [],
-     "tier": 3
+     "tier": 2
     },
     {
      "name": "영흥도",
@@ -1359,7 +1359,7 @@
     {
      "name": "제부도",
      "aliases": [],
-     "tier": 3
+     "tier": 4
     },
     {
      "name": "가파도",
@@ -1369,7 +1369,7 @@
     {
      "name": "장봉도",
      "aliases": [],
-     "tier": 3
+     "tier": 4
     },
     {
      "name": "금오도",
@@ -1414,12 +1414,12 @@
     {
      "name": "백도",
      "aliases": [],
-     "tier": 4
+     "tier": 3
     },
     {
      "name": "소청도",
      "aliases": [],
-     "tier": 4
+     "tier": 2
     },
     {
      "name": "자월도",
@@ -1434,12 +1434,12 @@
     {
      "name": "압해도",
      "aliases": [],
-     "tier": 4
+     "tier": 2
     },
     {
      "name": "자은도",
      "aliases": [],
-     "tier": 4
+     "tier": 3
     },
     {
      "name": "안좌도",
@@ -1449,7 +1449,7 @@
     {
      "name": "암태도",
      "aliases": [],
-     "tier": 4
+     "tier": 3
     },
     {
      "name": "어청도",
@@ -1496,7 +1496,7 @@
      "aliases": [
       "소흑산도"
      ],
-     "tier": 3
+     "tier": 2
     },
     {
      "name": "남이섬",
@@ -1506,17 +1506,17 @@
     {
      "name": "여의도",
      "aliases": [],
-     "tier": 3
+     "tier": 1
     },
     {
      "name": "영도",
      "aliases": [],
-     "tier": 3
+     "tier": 2
     },
     {
      "name": "가덕도",
      "aliases": [],
-     "tier": 3
+     "tier": 2
     },
     {
      "name": "한산도",
@@ -1531,12 +1531,12 @@
     {
      "name": "소록도",
      "aliases": [],
-     "tier": 3
+     "tier": 2
     },
     {
      "name": "나로도",
      "aliases": [],
-     "tier": 3
+     "tier": 2
     },
     {
      "name": "오륙도",
@@ -1546,37 +1546,37 @@
     {
      "name": "사량도",
      "aliases": [],
-     "tier": 3
+     "tier": 4
     },
     {
      "name": "지심도",
      "aliases": [],
-     "tier": 3
+     "tier": 4
     },
     {
      "name": "거금도",
      "aliases": [],
-     "tier": 3
+     "tier": 2
     },
     {
      "name": "비양도",
      "aliases": [],
-     "tier": 3
+     "tier": 2
     },
     {
      "name": "굴업도",
      "aliases": [],
-     "tier": 3
+     "tier": 4
     },
     {
      "name": "연화도",
      "aliases": [],
-     "tier": 3
+     "tier": 4
     },
     {
      "name": "선재도",
      "aliases": [],
-     "tier": 3
+     "tier": 4
     },
     {
      "name": "소안도",
@@ -1586,7 +1586,7 @@
     {
      "name": "신지도",
      "aliases": [],
-     "tier": 3
+     "tier": 4
     },
     {
      "name": "고금도",
@@ -1596,7 +1596,7 @@
     {
      "name": "장사도",
      "aliases": [],
-     "tier": 3
+     "tier": 4
     }
    ]
   },
@@ -1637,7 +1637,7 @@
       "이성계",
       "이단"
      ],
-     "tier": 1
+     "tier": 2
     },
     {
      "name": "정조",
@@ -1653,7 +1653,7 @@
       "연잉군",
       "영종"
      ],
-     "tier": 2
+     "tier": 3
     },
     {
      "name": "태종",
@@ -1668,7 +1668,7 @@
       "수양대군",
       "이유"
      ],
-     "tier": 2
+     "tier": 1
     },
     {
      "name": "연산군",
@@ -1676,7 +1676,7 @@
       "연산",
       "이융"
      ],
-     "tier": 2
+     "tier": 1
     },
     {
      "name": "광해군",
@@ -1692,7 +1692,7 @@
       "노산군",
       "이홍위"
      ],
-     "tier": 2
+     "tier": 1
     },
     {
      "name": "고종",
@@ -1729,7 +1729,7 @@
      "aliases": [
       "이혈"
      ],
-     "tier": 3
+     "tier": 2
     },
     {
      "name": "순종",
@@ -1753,14 +1753,14 @@
       "이변",
       "이원범"
      ],
-     "tier": 3
+     "tier": 4
     },
     {
      "name": "문종",
      "aliases": [
       "이향"
      ],
-     "tier": 4
+     "tier": 3
     },
     {
      "name": "정종",
@@ -1791,7 +1791,7 @@
      "aliases": [
       "이공"
      ],
-     "tier": 4
+     "tier": 3
     },
     {
      "name": "헌종",
@@ -1801,7 +1801,7 @@
     {
      "name": "예종",
      "aliases": [],
-     "tier": 4
+     "tier": 3
     },
     {
      "name": "인종",
@@ -1846,12 +1846,12 @@
      "aliases": [
       "알타리김치"
      ],
-     "tier": 1
+     "tier": 2
     },
     {
      "name": "열무김치",
      "aliases": [],
-     "tier": 2
+     "tier": 1
     },
     {
      "name": "오이소박이",
@@ -1871,12 +1871,12 @@
     {
      "name": "백김치",
      "aliases": [],
-     "tier": 2
+     "tier": 1
     },
     {
      "name": "동치미",
      "aliases": [],
-     "tier": 2
+     "tier": 1
     },
     {
      "name": "갓김치",
@@ -1888,12 +1888,12 @@
     {
      "name": "나박김치",
      "aliases": [],
-     "tier": 2
+     "tier": 1
     },
     {
      "name": "물김치",
      "aliases": [],
-     "tier": 2
+     "tier": 3
     },
     {
      "name": "겉절이",
@@ -1913,7 +1913,7 @@
       "정구지김치",
       "솔김치"
      ],
-     "tier": 3
+     "tier": 2
     },
     {
      "name": "깻잎김치",
@@ -1925,14 +1925,14 @@
      "aliases": [
       "보김치"
      ],
-     "tier": 3
+     "tier": 2
     },
     {
      "name": "섞박지",
      "aliases": [
       "석박지"
      ],
-     "tier": 3
+     "tier": 1
     },
     {
      "name": "얼갈이김치",
@@ -1957,37 +1957,37 @@
     {
      "name": "굴깍두기",
      "aliases": [],
-     "tier": 4
+     "tier": 3
     },
     {
      "name": "장김치",
      "aliases": [],
-     "tier": 4
+     "tier": 1
     },
     {
      "name": "콩잎김치",
      "aliases": [],
-     "tier": 4
+     "tier": 3
     },
     {
      "name": "우엉김치",
      "aliases": [],
-     "tier": 4
+     "tier": 3
     },
     {
      "name": "가지김치",
      "aliases": [],
-     "tier": 4
+     "tier": 3
     },
     {
      "name": "순무김치",
      "aliases": [],
-     "tier": 4
+     "tier": 3
     },
     {
      "name": "고수김치",
      "aliases": [],
-     "tier": 4
+     "tier": 3
     },
     {
      "name": "씀바귀김치",
@@ -1997,12 +1997,12 @@
     {
      "name": "호박김치",
      "aliases": [],
-     "tier": 4
+     "tier": 2
     },
     {
      "name": "미나리김치",
      "aliases": [],
-     "tier": 4
+     "tier": 3
     },
     {
      "name": "숙깍두기",
@@ -2024,24 +2024,24 @@
      "aliases": [
       "맛김치"
      ],
-     "tier": 3
+     "tier": 2
     },
     {
      "name": "무김치",
      "aliases": [],
-     "tier": 3
+     "tier": 2
     },
     {
      "name": "짠지",
      "aliases": [
       "무짠지"
      ],
-     "tier": 3
+     "tier": 2
     },
     {
      "name": "양파김치",
      "aliases": [],
-     "tier": 3
+     "tier": 4
     },
     {
      "name": "고추김치",
@@ -2063,52 +2063,52 @@
     {
      "name": "젓국지",
      "aliases": [],
-     "tier": 3
+     "tier": 2
     },
     {
      "name": "석류김치",
      "aliases": [],
-     "tier": 3
+     "tier": 4
     },
     {
      "name": "동아김치",
      "aliases": [],
-     "tier": 3
+     "tier": 4
     },
     {
      "name": "박김치",
      "aliases": [],
-     "tier": 3
+     "tier": 4
     },
     {
      "name": "돌나물김치",
      "aliases": [],
-     "tier": 3
+     "tier": 4
     },
     {
      "name": "더덕김치",
      "aliases": [],
-     "tier": 3
+     "tier": 4
     },
     {
      "name": "톳김치",
      "aliases": [],
-     "tier": 3
+     "tier": 4
     },
     {
      "name": "감동젓김치",
      "aliases": [],
-     "tier": 3
+     "tier": 4
     },
     {
      "name": "창란젓깍두기",
      "aliases": [],
-     "tier": 3
+     "tier": 4
     },
     {
      "name": "서거리김치",
      "aliases": [],
-     "tier": 3
+     "tier": 4
     }
    ]
   },
@@ -2142,7 +2142,7 @@
     {
      "name": "신촌",
      "aliases": [],
-     "tier": 1
+     "tier": 2
     },
     {
      "name": "시청",
@@ -2166,12 +2166,12 @@
     {
      "name": "왕십리",
      "aliases": [],
-     "tier": 2
+     "tier": 1
     },
     {
      "name": "사당",
      "aliases": [],
-     "tier": 2
+     "tier": 1
     },
     {
      "name": "신림",
@@ -2186,12 +2186,12 @@
     {
      "name": "역삼",
      "aliases": [],
-     "tier": 2
+     "tier": 3
     },
     {
      "name": "삼성",
      "aliases": [],
-     "tier": 2
+     "tier": 1
     },
     {
      "name": "선릉",
@@ -2203,19 +2203,19 @@
      "aliases": [
       "서울교대"
      ],
-     "tier": 2
+     "tier": 1
     },
     {
      "name": "합정",
      "aliases": [],
-     "tier": 2
+     "tier": 3
     },
     {
      "name": "을지로입구",
      "aliases": [
       "을지로1가"
      ],
-     "tier": 2
+     "tier": 3
     },
     {
      "name": "서울대입구",
@@ -2238,7 +2238,7 @@
       "동대문운동장",
       "서울운동장"
      ],
-     "tier": 2
+     "tier": 1
     },
     {
      "name": "구로디지털단지",
@@ -2246,7 +2246,7 @@
       "구디",
       "구로공단"
      ],
-     "tier": 2
+     "tier": 3
     },
     {
      "name": "잠실새내",
@@ -2277,17 +2277,17 @@
      "aliases": [
       "을지로사가"
      ],
-     "tier": 3
+     "tier": 4
     },
     {
      "name": "신당",
      "aliases": [],
-     "tier": 3
+     "tier": 2
     },
     {
      "name": "상왕십리",
      "aliases": [],
-     "tier": 3
+     "tier": 4
     },
     {
      "name": "한양대",
@@ -2302,19 +2302,19 @@
     {
      "name": "구의",
      "aliases": [],
-     "tier": 3
+     "tier": 2
     },
     {
      "name": "강변",
      "aliases": [],
-     "tier": 3
+     "tier": 2
     },
     {
      "name": "잠실나루",
      "aliases": [
       "성내"
      ],
-     "tier": 3
+     "tier": 4
     },
     {
      "name": "서초",
@@ -2329,17 +2329,17 @@
     {
      "name": "낙성대",
      "aliases": [],
-     "tier": 3
+     "tier": 4
     },
     {
      "name": "봉천",
      "aliases": [],
-     "tier": 3
+     "tier": 4
     },
     {
      "name": "신대방",
      "aliases": [],
-     "tier": 3
+     "tier": 4
     },
     {
      "name": "대림",
@@ -2349,7 +2349,7 @@
     {
      "name": "문래",
      "aliases": [],
-     "tier": 3
+     "tier": 4
     },
     {
      "name": "영등포구청",
@@ -2379,7 +2379,7 @@
     {
      "name": "신설동",
      "aliases": [],
-     "tier": 4
+     "tier": 2
     },
     {
      "name": "양천구청",
@@ -2394,7 +2394,7 @@
     {
      "name": "까치산",
      "aliases": [],
-     "tier": 4
+     "tier": 2
     },
     {
      "name": "용답",
@@ -2446,7 +2446,7 @@
     {
      "name": "남산",
      "aliases": [],
-     "tier": 2
+     "tier": 1
     },
     {
      "name": "관악산",
@@ -2461,7 +2461,7 @@
     {
      "name": "금강산",
      "aliases": [],
-     "tier": 2
+     "tier": 1
     },
     {
      "name": "덕유산",
@@ -2486,12 +2486,12 @@
     {
      "name": "계룡산",
      "aliases": [],
-     "tier": 2
+     "tier": 1
     },
     {
      "name": "무등산",
      "aliases": [],
-     "tier": 2
+     "tier": 1
     },
     {
      "name": "내장산",
@@ -2516,12 +2516,12 @@
     {
      "name": "월악산",
      "aliases": [],
-     "tier": 2
+     "tier": 3
     },
     {
      "name": "수락산",
      "aliases": [],
-     "tier": 2
+     "tier": 3
     },
     {
      "name": "인왕산",
@@ -2531,17 +2531,17 @@
     {
      "name": "가야산",
      "aliases": [],
-     "tier": 3
+     "tier": 2
     },
     {
      "name": "주왕산",
      "aliases": [],
-     "tier": 3
+     "tier": 2
     },
     {
      "name": "팔공산",
      "aliases": [],
-     "tier": 3
+     "tier": 1
     },
     {
      "name": "마니산",
@@ -2561,7 +2561,7 @@
     {
      "name": "대둔산",
      "aliases": [],
-     "tier": 3
+     "tier": 2
     },
     {
      "name": "월출산",
@@ -2571,17 +2571,17 @@
     {
      "name": "금정산",
      "aliases": [],
-     "tier": 3
+     "tier": 2
     },
     {
      "name": "묘향산",
      "aliases": [],
-     "tier": 3
+     "tier": 2
     },
     {
      "name": "칠갑산",
      "aliases": [],
-     "tier": 3
+     "tier": 4
     },
     {
      "name": "용문산",
@@ -2591,12 +2591,12 @@
     {
      "name": "유명산",
      "aliases": [],
-     "tier": 3
+     "tier": 4
     },
     {
      "name": "명지산",
      "aliases": [],
-     "tier": 3
+     "tier": 4
     },
     {
      "name": "운악산",
@@ -2621,37 +2621,37 @@
     {
      "name": "황매산",
      "aliases": [],
-     "tier": 3
+     "tier": 4
     },
     {
      "name": "두륜산",
      "aliases": [],
-     "tier": 3
+     "tier": 4
     },
     {
      "name": "가지산",
      "aliases": [],
-     "tier": 3
+     "tier": 4
     },
     {
      "name": "신불산",
      "aliases": [],
-     "tier": 3
+     "tier": 4
     },
     {
      "name": "비슬산",
      "aliases": [],
-     "tier": 3
+     "tier": 2
     },
     {
      "name": "무학산",
      "aliases": [],
-     "tier": 3
+     "tier": 4
     },
     {
      "name": "칠보산",
      "aliases": [],
-     "tier": 4
+     "tier": 2
     },
     {
      "name": "천관산",
@@ -2666,7 +2666,7 @@
     {
      "name": "민주지산",
      "aliases": [],
-     "tier": 4
+     "tier": 3
     },
     {
      "name": "황악산",
@@ -2676,7 +2676,7 @@
     {
      "name": "화왕산",
      "aliases": [],
-     "tier": 4
+     "tier": 3
     },
     {
      "name": "운장산",
@@ -2686,14 +2686,14 @@
     {
      "name": "응봉산",
      "aliases": [],
-     "tier": 4
+     "tier": 3
     },
     {
      "name": "영축산",
      "aliases": [
       "영취산"
      ],
-     "tier": 4
+     "tier": 3
     },
     {
      "name": "재약산",
@@ -2708,7 +2708,7 @@
     {
      "name": "백운산",
      "aliases": [],
-     "tier": 4
+     "tier": 3
     },
     {
      "name": "축령산",
@@ -2718,7 +2718,7 @@
     {
      "name": "천마산",
      "aliases": [],
-     "tier": 4
+     "tier": 3
     },
     {
      "name": "예봉산",
@@ -2743,12 +2743,12 @@
     {
      "name": "대암산",
      "aliases": [],
-     "tier": 4
+     "tier": 3
     },
     {
      "name": "점봉산",
      "aliases": [],
-     "tier": 4
+     "tier": 3
     },
     {
      "name": "계방산",
@@ -2763,7 +2763,7 @@
     {
      "name": "마이산",
      "aliases": [],
-     "tier": 3
+     "tier": 2
     }
    ]
   },
@@ -2782,31 +2782,31 @@
      "aliases": [
       "윷"
      ],
-     "tier": 1
+     "tier": 2
     },
     {
      "name": "제기차기",
      "aliases": [
       "제기"
      ],
-     "tier": 1
+     "tier": 2
     },
     {
      "name": "연날리기",
      "aliases": [],
-     "tier": 1
+     "tier": 2
     },
     {
      "name": "팽이치기",
      "aliases": [
       "팽이"
      ],
-     "tier": 1
+     "tier": 4
     },
     {
      "name": "공기놀이",
      "aliases": [],
-     "tier": 1
+     "tier": 3
     },
     {
      "name": "투호",
@@ -2825,17 +2825,17 @@
      "aliases": [
       "그네"
      ],
-     "tier": 2
+     "tier": 3
     },
     {
      "name": "씨름",
      "aliases": [],
-     "tier": 2
+     "tier": 1
     },
     {
      "name": "줄다리기",
      "aliases": [],
-     "tier": 2
+     "tier": 1
     },
     {
      "name": "강강술래",
@@ -2845,14 +2845,14 @@
     {
      "name": "비석치기",
      "aliases": [],
-     "tier": 2
+     "tier": 4
     },
     {
      "name": "딱지치기",
      "aliases": [
       "딱지"
      ],
-     "tier": 2
+     "tier": 3
     },
     {
      "name": "술래잡기",
@@ -2862,22 +2862,22 @@
     {
      "name": "숨바꼭질",
      "aliases": [],
-     "tier": 2
+     "tier": 1
     },
     {
      "name": "고무줄놀이",
      "aliases": [],
-     "tier": 2
+     "tier": 4
     },
     {
      "name": "땅따먹기",
      "aliases": [],
-     "tier": 2
+     "tier": 3
     },
     {
      "name": "무궁화꽃이피었습니다",
      "aliases": [],
-     "tier": 2
+     "tier": 4
     },
     {
      "name": "사방치기",
@@ -2889,12 +2889,12 @@
     {
      "name": "자치기",
      "aliases": [],
-     "tier": 3
+     "tier": 2
     },
     {
      "name": "쥐불놀이",
      "aliases": [],
-     "tier": 3
+     "tier": 2
     },
     {
      "name": "구슬치기",
@@ -2909,12 +2909,12 @@
     {
      "name": "꼬리잡기",
      "aliases": [],
-     "tier": 3
+     "tier": 4
     },
     {
      "name": "닭싸움",
      "aliases": [],
-     "tier": 3
+     "tier": 2
     },
     {
      "name": "말뚝박기",
@@ -2926,7 +2926,7 @@
     {
      "name": "수건돌리기",
      "aliases": [],
-     "tier": 3
+     "tier": 4
     },
     {
      "name": "실뜨기",
@@ -2938,34 +2938,34 @@
      "aliases": [
       "썰매"
      ],
-     "tier": 3
+     "tier": 4
     },
     {
      "name": "바둑",
      "aliases": [],
-     "tier": 3
+     "tier": 1
     },
     {
      "name": "장기",
      "aliases": [],
-     "tier": 3
+     "tier": 1
     },
     {
      "name": "줄넘기",
      "aliases": [],
-     "tier": 3
+     "tier": 1
     },
     {
      "name": "오징어",
      "aliases": [
       "오징어게임"
      ],
-     "tier": 3
+     "tier": 1
     },
     {
      "name": "동대문놀이",
      "aliases": [],
-     "tier": 3
+     "tier": 4
     },
     {
      "name": "고싸움",
@@ -2977,7 +2977,7 @@
     {
      "name": "차전놀이",
      "aliases": [],
-     "tier": 4
+     "tier": 3
     },
     {
      "name": "놋다리밟기",
@@ -2987,34 +2987,34 @@
     {
      "name": "지신밟기",
      "aliases": [],
-     "tier": 4
+     "tier": 2
     },
     {
      "name": "칠교놀이",
      "aliases": [],
-     "tier": 4
+     "tier": 3
     },
     {
      "name": "고누",
      "aliases": [
       "고누놀이"
      ],
-     "tier": 4
+     "tier": 3
     },
     {
      "name": "쌍륙",
      "aliases": [],
-     "tier": 4
+     "tier": 3
     },
     {
      "name": "소싸움",
      "aliases": [],
-     "tier": 4
+     "tier": 3
     },
     {
      "name": "격구",
      "aliases": [],
-     "tier": 4
+     "tier": 2
     },
     {
      "name": "다리밟기",
@@ -3038,7 +3038,7 @@
      "aliases": [
       "돌싸움"
      ],
-     "tier": 4
+     "tier": 2
     },
     {
      "name": "가마싸움",
@@ -3097,49 +3097,49 @@
     {
      "name": "강",
      "aliases": [],
-     "tier": 2
+     "tier": 1
     },
     {
      "name": "조",
      "aliases": [],
-     "tier": 2
+     "tier": 1
     },
     {
      "name": "윤",
      "aliases": [],
-     "tier": 2
+     "tier": 1
     },
     {
      "name": "장",
      "aliases": [],
-     "tier": 2
+     "tier": 1
     },
     {
      "name": "임",
      "aliases": [
       "림"
      ],
-     "tier": 2
+     "tier": 1
     },
     {
      "name": "한",
      "aliases": [],
-     "tier": 2
+     "tier": 1
     },
     {
      "name": "오",
      "aliases": [],
-     "tier": 2
+     "tier": 1
     },
     {
      "name": "서",
      "aliases": [],
-     "tier": 2
+     "tier": 1
     },
     {
      "name": "신",
      "aliases": [],
-     "tier": 2
+     "tier": 1
     },
     {
      "name": "권",
@@ -3149,27 +3149,27 @@
     {
      "name": "황",
      "aliases": [],
-     "tier": 2
+     "tier": 1
     },
     {
      "name": "안",
      "aliases": [],
-     "tier": 2
+     "tier": 1
     },
     {
      "name": "송",
      "aliases": [],
-     "tier": 2
+     "tier": 1
     },
     {
      "name": "전",
      "aliases": [],
-     "tier": 2
+     "tier": 1
     },
     {
      "name": "홍",
      "aliases": [],
-     "tier": 2
+     "tier": 1
     },
     {
      "name": "유",
@@ -3199,116 +3199,116 @@
     {
      "name": "배",
      "aliases": [],
-     "tier": 2
+     "tier": 1
     },
     {
      "name": "백",
      "aliases": [],
-     "tier": 3
+     "tier": 2
     },
     {
      "name": "허",
      "aliases": [],
-     "tier": 3
+     "tier": 2
     },
     {
      "name": "남",
      "aliases": [],
-     "tier": 3
+     "tier": 2
     },
     {
      "name": "심",
      "aliases": [],
-     "tier": 3
+     "tier": 2
     },
     {
      "name": "노",
      "aliases": [
       "로"
      ],
-     "tier": 3
+     "tier": 2
     },
     {
      "name": "하",
      "aliases": [],
-     "tier": 3
+     "tier": 2
     },
     {
      "name": "곽",
      "aliases": [],
-     "tier": 3
+     "tier": 2
     },
     {
      "name": "성",
      "aliases": [],
-     "tier": 3
+     "tier": 2
     },
     {
      "name": "차",
      "aliases": [],
-     "tier": 3
+     "tier": 2
     },
     {
      "name": "주",
      "aliases": [],
-     "tier": 3
+     "tier": 2
     },
     {
      "name": "우",
      "aliases": [],
-     "tier": 3
+     "tier": 2
     },
     {
      "name": "구",
      "aliases": [],
-     "tier": 3
+     "tier": 2
     },
     {
      "name": "민",
      "aliases": [],
-     "tier": 3
+     "tier": 2
     },
     {
      "name": "류",
      "aliases": [],
-     "tier": 3
+     "tier": 2
     },
     {
      "name": "나",
      "aliases": [
       "라"
      ],
-     "tier": 3
+     "tier": 4
     },
     {
      "name": "진",
      "aliases": [],
-     "tier": 3
+     "tier": 2
     },
     {
      "name": "지",
      "aliases": [],
-     "tier": 3
+     "tier": 2
     },
     {
      "name": "엄",
      "aliases": [],
-     "tier": 3
+     "tier": 2
     },
     {
      "name": "채",
      "aliases": [],
-     "tier": 3
+     "tier": 2
     },
     {
      "name": "원",
      "aliases": [],
-     "tier": 3
+     "tier": 2
     },
     {
      "name": "천",
      "aliases": [],
-     "tier": 3
+     "tier": 2
     },
     {
      "name": "방",
@@ -3323,22 +3323,22 @@
     {
      "name": "현",
      "aliases": [],
-     "tier": 3
+     "tier": 2
     },
     {
      "name": "함",
      "aliases": [],
-     "tier": 3
+     "tier": 2
     },
     {
      "name": "변",
      "aliases": [],
-     "tier": 3
+     "tier": 2
     },
     {
      "name": "염",
      "aliases": [],
-     "tier": 3
+     "tier": 2
     },
     {
      "name": "여",
@@ -3358,7 +3358,7 @@
     {
      "name": "소",
      "aliases": [],
-     "tier": 3
+     "tier": 2
     },
     {
      "name": "석",
@@ -3368,12 +3368,12 @@
     {
      "name": "선",
      "aliases": [],
-     "tier": 3
+     "tier": 2
     },
     {
      "name": "설",
      "aliases": [],
-     "tier": 3
+     "tier": 2
     },
     {
      "name": "마",
@@ -3388,7 +3388,7 @@
     {
      "name": "연",
      "aliases": [],
-     "tier": 3
+     "tier": 2
     },
     {
      "name": "위",
@@ -3463,57 +3463,57 @@
     {
      "name": "탁",
      "aliases": [],
-     "tier": 4
+     "tier": 3
     },
     {
      "name": "국",
      "aliases": [],
-     "tier": 4
+     "tier": 3
     },
     {
      "name": "어",
      "aliases": [],
-     "tier": 4
+     "tier": 3
     },
     {
      "name": "은",
      "aliases": [],
-     "tier": 4
+     "tier": 3
     },
     {
      "name": "편",
      "aliases": [],
-     "tier": 4
+     "tier": 3
     },
     {
      "name": "용",
      "aliases": [],
-     "tier": 4
+     "tier": 2
     },
     {
      "name": "예",
      "aliases": [],
-     "tier": 4
+     "tier": 3
     },
     {
      "name": "경",
      "aliases": [],
-     "tier": 4
+     "tier": 3
     },
     {
      "name": "봉",
      "aliases": [],
-     "tier": 4
+     "tier": 3
     },
     {
      "name": "사",
      "aliases": [],
-     "tier": 4
+     "tier": 3
     },
     {
      "name": "부",
      "aliases": [],
-     "tier": 4
+     "tier": 3
     },
     {
      "name": "가",
@@ -3528,12 +3528,12 @@
     {
      "name": "태",
      "aliases": [],
-     "tier": 4
+     "tier": 3
     },
     {
      "name": "목",
      "aliases": [],
-     "tier": 4
+     "tier": 3
     },
     {
      "name": "형",
@@ -3543,7 +3543,7 @@
     {
      "name": "피",
      "aliases": [],
-     "tier": 4
+     "tier": 3
     },
     {
      "name": "두",
@@ -3563,7 +3563,7 @@
     {
      "name": "빈",
      "aliases": [],
-     "tier": 4
+     "tier": 3
     },
     {
      "name": "동",
@@ -3658,17 +3658,17 @@
     {
      "name": "황보",
      "aliases": [],
-     "tier": 4
+     "tier": 3
     },
     {
      "name": "제갈",
      "aliases": [],
-     "tier": 4
+     "tier": 2
     },
     {
      "name": "선우",
      "aliases": [],
-     "tier": 4
+     "tier": 3
     },
     {
      "name": "빙",
@@ -3728,7 +3728,7 @@
     {
      "name": "사공",
      "aliases": [],
-     "tier": 4
+     "tier": 3
     },
     {
      "name": "서문",
