@@ -39,6 +39,8 @@ jobs:
         run: pip install pyyaml requests wordfreq
 
       - name: Collect signals (Korean Wikipedia, Wikidata, word frequency)
+        id: collect
+        continue-on-error: true
         run: python pipeline/collect.py
 
       - name: Score answers and run checks
@@ -79,7 +81,7 @@ jobs:
           fi
 
       - name: Fail if a check failed
-        if: steps.build.outputs.ok != 'true'
+        if: steps.build.outputs.ok != 'true' || steps.collect.outcome != 'success'
         run: |
           echo "::error::Some checks failed. See the summary page or data/report.md."
           exit 1

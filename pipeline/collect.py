@@ -41,19 +41,25 @@ def session():
 
 def get_json(url, params=None, tries=5):
     import requests
+    last = ""
     for attempt in range(tries):
         try:
             r = session().get(url, params=params, timeout=30)
             if r.status_code == 404:
                 return None
             if r.status_code == 429 or r.status_code >= 500:
+                last = f"HTTP {r.status_code}"
                 time.sleep(2 ** attempt + 1)
                 continue
-            r.raise_for_status()
+            if r.status_code >= 400:
+                last = f"HTTP {r.status_code}: {r.text[:200]}"
+                time.sleep(2 ** attempt + 1)
+                continue
             return r.json()
-        except requests.RequestException:
+        except (requests.RequestException, ValueError) as e:
+            last = f"{type(e).__name__}: {e}"[:300]
             time.sleep(2 ** attempt + 1)
-    raise RuntimeError(f"Request kept failing: {url} {params}")
+    raise RuntimeError(f"Request kept failing ({last}): {url} {params}")
 
 
 # ---------------------------------------------------------------- Wikipedia
@@ -288,10 +294,24 @@ def collect(prompt, offline=False):
 def main():
     args = [a for a in sys.argv[1:] if not a.startswith("--")]
     offline = "--offline" in sys.argv
+    failed = []
     for p in common.load_prompts():
         if args and p["id"] not in args:
             continue
-        collect(p, offline=offline)
+        try:
+            collect(p, offline=offline)
+        except Exception as e:  # keep going so one bad question doesn't stop the rest
+            import traceback
+            tb = traceback.format_exc()
+            print(tb, file=sys.stderr)
+            where = [l.strip() for l in tb.splitlines() if l.strip().startswith("File ")][-1:]
+            msg = f"{type(e).__name__}: {e} | {' '.join(where)}".replace("\n", " ")[:900]
+            # GitHub shows ::error lines on the run page, even when logs can't be downloaded
+            print(f"::error title=collect {p['id']} failed::{msg}")
+            failed.append(p["id"])
+    if failed:
+        print(f"Failed: {', '.join(failed)}")
+        sys.exit(1)
 
 
 if __name__ == "__main__":
