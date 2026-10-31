@@ -1,0 +1,465 @@
+{
+ "id": "line2",
+ "answers": {
+  "강남": {
+   "status": "ok",
+   "note": "",
+   "article": "강남역",
+   "qid": "Q17469",
+   "pageviews": 4390,
+   "sitelinks": 10,
+   "mentions": 2211
+  },
+  "홍대입구": {
+   "status": "ok",
+   "note": "",
+   "article": "홍대입구역",
+   "qid": "Q54267",
+   "pageviews": 5681,
+   "sitelinks": 9,
+   "mentions": 76
+  },
+  "잠실": {
+   "status": "ok",
+   "note": "",
+   "article": "잠실역",
+   "qid": "Q75330",
+   "pageviews": 4416,
+   "sitelinks": 11,
+   "mentions": 2133
+  },
+  "신촌": {
+   "status": "ok",
+   "note": "",
+   "article": "신촌역 (지하)",
+   "qid": "Q495627",
+   "pageviews": 1793,
+   "sitelinks": 11,
+   "mentions": 970
+  },
+  "시청": {
+   "status": "ok",
+   "note": "",
+   "article": "시청역 (서울)",
+   "qid": "Q246660",
+   "pageviews": 3174,
+   "sitelinks": 15,
+   "mentions": 5047
+  },
+  "건대입구": {
+   "status": "ok",
+   "note": "",
+   "article": "건대입구역",
+   "qid": "Q68859",
+   "pageviews": 3229,
+   "sitelinks": 11,
+   "mentions": 73
+  },
+  "성수": {
+   "status": "ok",
+   "note": "",
+   "article": "성수역",
+   "qid": "Q488271",
+   "pageviews": 4532,
+   "sitelinks": 9,
+   "mentions": 330
+  },
+  "왕십리": {
+   "status": "ok",
+   "note": "",
+   "article": "왕십리역",
+   "qid": "Q17184",
+   "pageviews": 5535,
+   "sitelinks": 10,
+   "mentions": 518
+  },
+  "사당": {
+   "status": "ok",
+   "note": "",
+   "article": "사당역",
+   "qid": "Q49098",
+   "pageviews": 4471,
+   "sitelinks": 12,
+   "mentions": 1284
+  },
+  "신림": {
+   "status": "ok",
+   "note": "",
+   "article": "신림역",
+   "qid": "Q487848",
+   "pageviews": 2752,
+   "sitelinks": 9,
+   "mentions": 184
+  },
+  "신도림": {
+   "status": "ok",
+   "note": "",
+   "article": "신도림역",
+   "qid": "Q43298",
+   "pageviews": 4514,
+   "sitelinks": 15,
+   "mentions": 137
+  },
+  "역삼": {
+   "status": "ok",
+   "note": "",
+   "article": "역삼역",
+   "qid": "Q488791",
+   "pageviews": 2159,
+   "sitelinks": 9,
+   "mentions": 100
+  },
+  "삼성": {
+   "status": "ok",
+   "note": "",
+   "article": "삼성역",
+   "qid": "Q488348",
+   "pageviews": 4912,
+   "sitelinks": 9,
+   "mentions": null
+  },
+  "선릉": {
+   "status": "ok",
+   "note": "",
+   "article": "선릉역",
+   "qid": "Q20204",
+   "pageviews": 3085,
+   "sitelinks": 10,
+   "mentions": null
+  },
+  "교대": {
+   "status": "ok",
+   "note": "",
+   "article": "교대역 (서울)",
+   "qid": "Q49099",
+   "pageviews": 3018,
+   "sitelinks": 11,
+   "mentions": 771
+  },
+  "합정": {
+   "status": "ok",
+   "note": "",
+   "article": "합정역",
+   "qid": "Q498168",
+   "pageviews": 3804,
+   "sitelinks": 10,
+   "mentions": 55
+  },
+  "을지로입구": {
+   "status": "ok",
+   "note": "",
+   "article": "을지로입구역",
+   "qid": "Q487872",
+   "pageviews": 2983,
+   "sitelinks": 9,
+   "mentions": 40
+  },
+  "서울대입구": {
+   "status": "ok",
+   "note": "",
+   "article": "서울대입구역",
+   "qid": "Q487598",
+   "pageviews": 2093,
+   "sitelinks": 9,
+   "mentions": 35
+  },
+  "이대": {
+   "status": "ok",
+   "note": "",
+   "article": "이대역",
+   "qid": "Q488243",
+   "pageviews": 1233,
+   "sitelinks": 9,
+   "mentions": 131
+  },
+  "동대문역사문화공원": {
+   "status": "ok",
+   "note": "",
+   "article": "동대문역사문화공원역",
+   "qid": "Q129579",
+   "pageviews": 5412,
+   "sitelinks": 14,
+   "mentions": 130
+  },
+  "구로디지털단지": {
+   "status": "ok",
+   "note": "",
+   "article": "구로디지털단지역",
+   "qid": "Q488236",
+   "pageviews": 3328,
+   "sitelinks": 9,
+   "mentions": 24
+  },
+  "잠실새내": {
+   "status": "ok",
+   "note": "",
+   "article": "잠실새내역",
+   "qid": "Q488126",
+   "pageviews": 6797,
+   "sitelinks": 9,
+   "mentions": 7
+  },
+  "종합운동장": {
+   "status": "ok",
+   "note": "",
+   "article": "종합운동장역 (서울)",
+   "qid": "Q491563",
+   "pageviews": 2878,
+   "sitelinks": 10,
+   "mentions": 340
+  },
+  "당산": {
+   "status": "ok",
+   "note": "",
+   "article": "당산역",
+   "qid": "Q59997",
+   "pageviews": 2561,
+   "sitelinks": 10,
+   "mentions": 186
+  },
+  "을지로3가": {
+   "status": "ok",
+   "note": "",
+   "article": "을지로3가역",
+   "qid": "Q79981",
+   "pageviews": 3693,
+   "sitelinks": 11,
+   "mentions": 37
+  },
+  "을지로4가": {
+   "status": "ok",
+   "note": "",
+   "article": "을지로4가역",
+   "qid": "Q490758",
+   "pageviews": 2361,
+   "sitelinks": 10,
+   "mentions": 47
+  },
+  "신당": {
+   "status": "ok",
+   "note": "",
+   "article": "신당역",
+   "qid": "Q498114",
+   "pageviews": 2405,
+   "sitelinks": 11,
+   "mentions": 696
+  },
+  "상왕십리": {
+   "status": "ok",
+   "note": "",
+   "article": "상왕십리역",
+   "qid": "Q488255",
+   "pageviews": 1204,
+   "sitelinks": 10,
+   "mentions": 21
+  },
+  "한양대": {
+   "status": "ok",
+   "note": "",
+   "article": "한양대역",
+   "qid": "Q488249",
+   "pageviews": 1379,
+   "sitelinks": 9,
+   "mentions": 465
+  },
+  "뚝섬": {
+   "status": "ok",
+   "note": "",
+   "article": "뚝섬역",
+   "qid": "Q488263",
+   "pageviews": 2015,
+   "sitelinks": 11,
+   "mentions": 84
+  },
+  "구의": {
+   "status": "ok",
+   "note": "",
+   "article": "구의역",
+   "qid": "Q488778",
+   "pageviews": 2116,
+   "sitelinks": 10,
+   "mentions": 2727
+  },
+  "강변": {
+   "status": "ok",
+   "note": "",
+   "article": "강변역",
+   "qid": "Q488101",
+   "pageviews": 2808,
+   "sitelinks": 10,
+   "mentions": 716
+  },
+  "잠실나루": {
+   "status": "ok",
+   "note": "",
+   "article": "잠실나루역",
+   "qid": "Q490666",
+   "pageviews": 2705,
+   "sitelinks": 11,
+   "mentions": 8
+  },
+  "서초": {
+   "status": "ok",
+   "note": "",
+   "article": "서초역",
+   "qid": "Q488083",
+   "pageviews": 1202,
+   "sitelinks": 9,
+   "mentions": 995
+  },
+  "방배": {
+   "status": "ok",
+   "note": "",
+   "article": "방배역",
+   "qid": "Q488239",
+   "pageviews": 1507,
+   "sitelinks": 9,
+   "mentions": 401
+  },
+  "낙성대": {
+   "status": "ok",
+   "note": "",
+   "article": "낙성대역",
+   "qid": "Q50010",
+   "pageviews": 1991,
+   "sitelinks": 10,
+   "mentions": 37
+  },
+  "봉천": {
+   "status": "ok",
+   "note": "",
+   "article": "봉천역",
+   "qid": "Q488265",
+   "pageviews": 1131,
+   "sitelinks": 9,
+   "mentions": 236
+  },
+  "신대방": {
+   "status": "ok",
+   "note": "",
+   "article": "신대방역",
+   "qid": "Q487835",
+   "pageviews": 1500,
+   "sitelinks": 9,
+   "mentions": 65
+  },
+  "대림": {
+   "status": "ok",
+   "note": "",
+   "article": "대림역",
+   "qid": "Q69008",
+   "pageviews": 1928,
+   "sitelinks": 10,
+   "mentions": 451
+  },
+  "문래": {
+   "status": "ok",
+   "note": "",
+   "article": "문래역",
+   "qid": "Q487853",
+   "pageviews": 1414,
+   "sitelinks": 10,
+   "mentions": 44
+  },
+  "영등포구청": {
+   "status": "ok",
+   "note": "",
+   "article": "영등포구청역",
+   "qid": "Q490667",
+   "pageviews": 2073,
+   "sitelinks": 10,
+   "mentions": 68
+  },
+  "아현": {
+   "status": "ok",
+   "note": "",
+   "article": "아현역",
+   "qid": "Q490677",
+   "pageviews": 1276,
+   "sitelinks": 10,
+   "mentions": 232
+  },
+  "충정로": {
+   "status": "ok",
+   "note": "",
+   "article": "충정로역",
+   "qid": "Q498145",
+   "pageviews": 1906,
+   "sitelinks": 10,
+   "mentions": 248
+  },
+  "신답": {
+   "status": "ok",
+   "note": "",
+   "article": "신답역",
+   "qid": "Q488809",
+   "pageviews": 1111,
+   "sitelinks": 9,
+   "mentions": 18
+  },
+  "용두": {
+   "status": "ok",
+   "note": "",
+   "article": "용두역",
+   "qid": "Q488801",
+   "pageviews": 858,
+   "sitelinks": 9,
+   "mentions": 633
+  },
+  "신설동": {
+   "status": "ok",
+   "note": "",
+   "article": "신설동역",
+   "qid": "Q490460",
+   "pageviews": 2835,
+   "sitelinks": 13,
+   "mentions": 163
+  },
+  "양천구청": {
+   "status": "ok",
+   "note": "",
+   "article": "양천구청역",
+   "qid": "Q488276",
+   "pageviews": 802,
+   "sitelinks": 9,
+   "mentions": 31
+  },
+  "신정네거리": {
+   "status": "ok",
+   "note": "",
+   "article": "신정네거리역",
+   "qid": "Q488259",
+   "pageviews": 1550,
+   "sitelinks": 10,
+   "mentions": 11
+  },
+  "까치산": {
+   "status": "ok",
+   "note": "",
+   "article": "까치산역",
+   "qid": "Q490909",
+   "pageviews": 2479,
+   "sitelinks": 13,
+   "mentions": 58
+  },
+  "용답": {
+   "status": "ok",
+   "note": "",
+   "article": "용답역",
+   "qid": "Q488108",
+   "pageviews": 1074,
+   "sitelinks": 9,
+   "mentions": 16
+  },
+  "도림천": {
+   "status": "ok",
+   "note": "",
+   "article": "도림천역",
+   "qid": "Q488782",
+   "pageviews": 719,
+   "sitelinks": 10,
+   "mentions": 41
+  }
+ },
+ "collected": "2026-10-31"
+}

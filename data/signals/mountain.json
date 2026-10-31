@@ -1,0 +1,627 @@
+{
+ "id": "mountain",
+ "answers": {
+  "한라산": {
+   "status": "ok",
+   "note": "",
+   "article": "한라산",
+   "qid": "Q494645",
+   "pageviews": 16952,
+   "sitelinks": 47,
+   "mentions": 577
+  },
+  "지리산": {
+   "status": "ok",
+   "note": "",
+   "article": "지리산",
+   "qid": "Q483204",
+   "pageviews": 14345,
+   "sitelinks": 24,
+   "mentions": 1664
+  },
+  "설악산": {
+   "status": "ok",
+   "note": "",
+   "article": "설악산",
+   "qid": "Q482644",
+   "pageviews": 15066,
+   "sitelinks": 25,
+   "mentions": 465
+  },
+  "북한산": {
+   "status": "ok",
+   "note": "",
+   "article": "북한산",
+   "qid": "Q494652",
+   "pageviews": 24092,
+   "sitelinks": 18,
+   "mentions": 574
+  },
+  "백두산": {
+   "status": "ok",
+   "note": "",
+   "article": "백두산",
+   "qid": "Q107635",
+   "pageviews": 31603,
+   "sitelinks": 72,
+   "mentions": 915
+  },
+  "남산": {
+   "status": "ok",
+   "note": "most-viewed of 8 articles on disambiguation page 남산: 남산 (경주), 남산 (서울), 남산 (서천), 남산 (순천), 남산 (청도), 남산동 (부산)",
+   "article": "남산 (서울)",
+   "qid": "Q484448",
+   "pageviews": 4294,
+   "sitelinks": 22,
+   "mentions": 1654
+  },
+  "관악산": {
+   "status": "ok",
+   "note": "",
+   "article": "관악산",
+   "qid": "Q626275",
+   "pageviews": 11445,
+   "sitelinks": 12,
+   "mentions": 341
+  },
+  "도봉산": {
+   "status": "ok",
+   "note": "",
+   "article": "도봉산",
+   "qid": "Q626000",
+   "pageviews": 2323,
+   "sitelinks": 10,
+   "mentions": 575
+  },
+  "금강산": {
+   "status": "ok",
+   "note": "",
+   "article": "금강산",
+   "qid": "Q495501",
+   "pageviews": 38609,
+   "sitelinks": 39,
+   "mentions": 733
+  },
+  "덕유산": {
+   "status": "ok",
+   "note": "",
+   "article": "덕유산",
+   "qid": "Q130821",
+   "pageviews": 3547,
+   "sitelinks": 7,
+   "mentions": 302
+  },
+  "속리산": {
+   "status": "ok",
+   "note": "",
+   "article": "속리산",
+   "qid": "Q482720",
+   "pageviews": 4366,
+   "sitelinks": 5,
+   "mentions": 1109
+  },
+  "태백산": {
+   "status": "ok",
+   "note": "",
+   "article": "태백산",
+   "qid": "Q625254",
+   "pageviews": 4299,
+   "sitelinks": 11,
+   "mentions": 409
+  },
+  "소백산": {
+   "status": "ok",
+   "note": "",
+   "article": "소백산",
+   "qid": "Q625589",
+   "pageviews": 5292,
+   "sitelinks": 6,
+   "mentions": 503
+  },
+  "계룡산": {
+   "status": "ok",
+   "note": "",
+   "article": "계룡산",
+   "qid": "Q496427",
+   "pageviews": 6604,
+   "sitelinks": 10,
+   "mentions": 591
+  },
+  "무등산": {
+   "status": "ok",
+   "note": "",
+   "article": "무등산",
+   "qid": "Q6931712",
+   "pageviews": 8621,
+   "sitelinks": 5,
+   "mentions": 661
+  },
+  "내장산": {
+   "status": "ok",
+   "note": "",
+   "article": "내장산",
+   "qid": "Q626648",
+   "pageviews": 4873,
+   "sitelinks": 9,
+   "mentions": 412
+  },
+  "청계산": {
+   "status": "ok",
+   "note": "picked from disambiguation page 청계산",
+   "article": "청계산 (경기/서울)",
+   "qid": "Q5091636",
+   "pageviews": 4539,
+   "sitelinks": 4,
+   "mentions": 294
+  },
+  "오대산": {
+   "status": "ok",
+   "note": "",
+   "article": "오대산",
+   "qid": "Q491028",
+   "pageviews": 2882,
+   "sitelinks": 14,
+   "mentions": 470
+  },
+  "치악산": {
+   "status": "ok",
+   "note": "",
+   "article": "치악산",
+   "qid": "Q5095160",
+   "pageviews": 3479,
+   "sitelinks": 7,
+   "mentions": 411
+  },
+  "월악산": {
+   "status": "ok",
+   "note": "",
+   "article": "월악산",
+   "qid": "Q482709",
+   "pageviews": 2626,
+   "sitelinks": 5,
+   "mentions": 239
+  },
+  "수락산": {
+   "status": "ok",
+   "note": "",
+   "article": "수락산",
+   "qid": "Q626151",
+   "pageviews": 2740,
+   "sitelinks": 8,
+   "mentions": 253
+  },
+  "인왕산": {
+   "status": "ok",
+   "note": "",
+   "article": "인왕산",
+   "qid": "Q625942",
+   "pageviews": 2848,
+   "sitelinks": 9,
+   "mentions": null
+  },
+  "가야산": {
+   "status": "ok",
+   "note": "",
+   "article": "가야산",
+   "qid": "Q5528708",
+   "pageviews": 3242,
+   "sitelinks": 9,
+   "mentions": 386
+  },
+  "주왕산": {
+   "status": "ok",
+   "note": "",
+   "article": "주왕산",
+   "qid": "Q6319107",
+   "pageviews": 4735,
+   "sitelinks": 4,
+   "mentions": 938
+  },
+  "팔공산": {
+   "status": "ok",
+   "note": "",
+   "article": "팔공산",
+   "qid": "Q624313",
+   "pageviews": 17660,
+   "sitelinks": 8,
+   "mentions": 785
+  },
+  "마니산": {
+   "status": "ok",
+   "note": "",
+   "article": "마니산",
+   "qid": "Q624003",
+   "pageviews": 2163,
+   "sitelinks": 7,
+   "mentions": 48
+  },
+  "불암산": {
+   "status": "ok",
+   "note": "",
+   "article": "불암산",
+   "qid": "Q4998105",
+   "pageviews": 3533,
+   "sitelinks": 9,
+   "mentions": 249
+  },
+  "아차산": {
+   "status": "ok",
+   "note": "",
+   "article": "아차산",
+   "qid": "Q4673558",
+   "pageviews": 4359,
+   "sitelinks": 6,
+   "mentions": 241
+  },
+  "대둔산": {
+   "status": "ok",
+   "note": "most-viewed of 2 articles on disambiguation page 대둔산: 대둔산 (전남), 대둔산 (충남/전북)",
+   "article": "대둔산 (충남/전북)",
+   "qid": "Q5208179",
+   "pageviews": 4276,
+   "sitelinks": 6,
+   "mentions": 653
+  },
+  "월출산": {
+   "status": "ok",
+   "note": "",
+   "article": "월출산",
+   "qid": "Q482741",
+   "pageviews": 4113,
+   "sitelinks": 9,
+   "mentions": 112
+  },
+  "금정산": {
+   "status": "ok",
+   "note": "",
+   "article": "금정산",
+   "qid": "Q482647",
+   "pageviews": 5906,
+   "sitelinks": 9,
+   "mentions": 514
+  },
+  "묘향산": {
+   "status": "ok",
+   "note": "",
+   "article": "묘향산",
+   "qid": "Q492781",
+   "pageviews": 11906,
+   "sitelinks": 19,
+   "mentions": 84
+  },
+  "칠갑산": {
+   "status": "ok",
+   "note": "",
+   "article": "칠갑산",
+   "qid": "Q5098908",
+   "pageviews": 1613,
+   "sitelinks": 5,
+   "mentions": 69
+  },
+  "용문산": {
+   "status": "ok",
+   "note": "picked from disambiguation page 용문산",
+   "article": "용문산 (경기)",
+   "qid": "Q8055033",
+   "pageviews": 831,
+   "sitelinks": 6,
+   "mentions": 379
+  },
+  "유명산": {
+   "status": "ok",
+   "note": "",
+   "article": "유명산",
+   "qid": "Q626674",
+   "pageviews": 852,
+   "sitelinks": 5,
+   "mentions": 137
+  },
+  "명지산": {
+   "status": "ok",
+   "note": "",
+   "article": "명지산",
+   "qid": "Q8528363",
+   "pageviews": 459,
+   "sitelinks": 5,
+   "mentions": 130
+  },
+  "운악산": {
+   "status": "ok",
+   "note": "",
+   "article": "운악산",
+   "qid": "Q8528375",
+   "pageviews": 1415,
+   "sitelinks": 6,
+   "mentions": 280
+  },
+  "소요산": {
+   "status": "ok",
+   "note": "",
+   "article": "소요산",
+   "qid": "Q623938",
+   "pageviews": 2434,
+   "sitelinks": 7,
+   "mentions": 202
+  },
+  "감악산": {
+   "status": "ok",
+   "note": "most-viewed of 3 articles on disambiguation page 감악산: 감악산 (강원/충북), 감악산 (경기), 감악산 (경남)",
+   "article": "감악산 (경기)",
+   "qid": "Q5519553",
+   "pageviews": 1764,
+   "sitelinks": 4,
+   "mentions": 182
+  },
+  "청량산": {
+   "status": "ok",
+   "note": "most-viewed of 3 articles on disambiguation page 청량산: 청량산 (경북), 청량산 (서울/경기), 청량산 (인천)",
+   "article": "청량산 (경북)",
+   "qid": "Q5091652",
+   "pageviews": 1610,
+   "sitelinks": 6,
+   "mentions": 503
+  },
+  "황매산": {
+   "status": "ok",
+   "note": "",
+   "article": "황매산",
+   "qid": "Q5952045",
+   "pageviews": 1546,
+   "sitelinks": 7,
+   "mentions": 21
+  },
+  "두륜산": {
+   "status": "ok",
+   "note": "",
+   "article": "두륜산",
+   "qid": "Q5316834",
+   "pageviews": 1191,
+   "sitelinks": 4,
+   "mentions": 69
+  },
+  "가지산": {
+   "status": "ok",
+   "note": "most-viewed of 2 articles on disambiguation page 가지산: 가지산 (경상도), 가지산 (전남)",
+   "article": "가지산 (경상도)",
+   "qid": "Q5517618",
+   "pageviews": 1257,
+   "sitelinks": 4,
+   "mentions": 225
+  },
+  "신불산": {
+   "status": "ok",
+   "note": "",
+   "article": "신불산",
+   "qid": "Q7521890",
+   "pageviews": 1395,
+   "sitelinks": 4,
+   "mentions": 121
+  },
+  "비슬산": {
+   "status": "ok",
+   "note": "",
+   "article": "비슬산",
+   "qid": "Q4917297",
+   "pageviews": 3032,
+   "sitelinks": 8,
+   "mentions": 492
+  },
+  "무학산": {
+   "status": "ok",
+   "note": "picked from disambiguation page 무학산",
+   "article": "무학산 (경남)",
+   "qid": "Q624473",
+   "pageviews": 859,
+   "sitelinks": 5,
+   "mentions": 119
+  },
+  "칠보산": {
+   "status": "ok",
+   "note": "most-viewed of 2 articles on disambiguation page 칠보산: 칠보산 (경기), 칠보산 (함경북도)",
+   "article": "칠보산 (함경북도)",
+   "qid": "Q708609",
+   "pageviews": 1635,
+   "sitelinks": 13,
+   "mentions": 443
+  },
+  "천관산": {
+   "status": "ok",
+   "note": "",
+   "article": "천관산",
+   "qid": "Q5091668",
+   "pageviews": 1369,
+   "sitelinks": 6,
+   "mentions": 98
+  },
+  "조계산": {
+   "status": "ok",
+   "note": "",
+   "article": "조계산",
+   "qid": "Q6214838",
+   "pageviews": 1141,
+   "sitelinks": 6,
+   "mentions": 180
+  },
+  "민주지산": {
+   "status": "ok",
+   "note": "",
+   "article": "민주지산",
+   "qid": "Q8533668",
+   "pageviews": 1574,
+   "sitelinks": 5,
+   "mentions": 231
+  },
+  "황악산": {
+   "status": "ok",
+   "note": "",
+   "article": "황악산",
+   "qid": "Q5951990",
+   "pageviews": 874,
+   "sitelinks": 5,
+   "mentions": 234
+  },
+  "화왕산": {
+   "status": "ok",
+   "note": "",
+   "article": "화왕산",
+   "qid": "Q5952091",
+   "pageviews": 1065,
+   "sitelinks": 7,
+   "mentions": 373
+  },
+  "운장산": {
+   "status": "ok",
+   "note": "",
+   "article": "운장산",
+   "qid": "Q7896931",
+   "pageviews": 971,
+   "sitelinks": 6,
+   "mentions": 116
+  },
+  "응봉산": {
+   "status": "ok",
+   "note": "most-viewed of 3 articles on disambiguation page 응봉산: 응봉산 (경북/강원), 응봉산 (서울), 응봉산 (홍천)",
+   "article": "응봉산 (서울)",
+   "qid": "Q8017617",
+   "pageviews": 972,
+   "sitelinks": 6,
+   "mentions": 359
+  },
+  "영축산": {
+   "status": "ok",
+   "note": "",
+   "article": "영축산",
+   "qid": "Q8052458",
+   "pageviews": 3659,
+   "sitelinks": 3,
+   "mentions": 122
+  },
+  "재약산": {
+   "status": "ok",
+   "note": "",
+   "article": "재약산",
+   "qid": "Q6121735",
+   "pageviews": 968,
+   "sitelinks": 5,
+   "mentions": 11
+  },
+  "간월산": {
+   "status": "ok",
+   "note": "",
+   "article": "간월산",
+   "qid": "Q626681",
+   "pageviews": 526,
+   "sitelinks": 4,
+   "mentions": 111
+  },
+  "백운산": {
+   "status": "ok",
+   "note": "most-viewed of 7 articles on disambiguation page 백운산: 백운산 (강원/충북), 백운산 (경기), 백운산 (경기/강원), 백운산 (울산), 백운산 (작가), 백운산 (전남)",
+   "article": "백운산 (작가)",
+   "qid": "Q65250467",
+   "pageviews": 886,
+   "sitelinks": 1,
+   "mentions": 719
+  },
+  "축령산": {
+   "status": "ok",
+   "note": "picked from disambiguation page 축령산",
+   "article": "축령산 (경기)",
+   "qid": "Q5116393",
+   "pageviews": 923,
+   "sitelinks": 5,
+   "mentions": 186
+  },
+  "천마산": {
+   "status": "ok",
+   "note": "most-viewed of 3 articles on disambiguation page 천마산: 천마산 (남양주), 천마산 (부산), 천마산 (하남)",
+   "article": "천마산 (남양주)",
+   "qid": "Q5091679",
+   "pageviews": 1455,
+   "sitelinks": 6,
+   "mentions": 207
+  },
+  "예봉산": {
+   "status": "ok",
+   "note": "",
+   "article": "예봉산",
+   "qid": "Q8051029",
+   "pageviews": 1366,
+   "sitelinks": 5,
+   "mentions": 134
+  },
+  "검단산": {
+   "status": "ok",
+   "note": "most-viewed of 2 articles on disambiguation page 검단산: 검단산 (성남/광주), 검단산 (하남/광주)",
+   "article": "검단산 (하남/광주)",
+   "qid": "Q5535460",
+   "pageviews": 1363,
+   "sitelinks": 4,
+   "mentions": 167
+  },
+  "사패산": {
+   "status": "ok",
+   "note": "",
+   "article": "사패산",
+   "qid": "Q16164152",
+   "pageviews": 1351,
+   "sitelinks": 1,
+   "mentions": null
+  },
+  "가리왕산": {
+   "status": "ok",
+   "note": "",
+   "article": "가리왕산",
+   "qid": "Q5523374",
+   "pageviews": 1838,
+   "sitelinks": 6,
+   "mentions": 11
+  },
+  "대암산": {
+   "status": "ok",
+   "note": "picked from disambiguation page 대암산",
+   "article": "대암산 (강원)",
+   "qid": "Q5208144",
+   "pageviews": 589,
+   "sitelinks": 8,
+   "mentions": 269
+  },
+  "점봉산": {
+   "status": "ok",
+   "note": "",
+   "article": "점봉산",
+   "qid": "Q6180125",
+   "pageviews": 1636,
+   "sitelinks": 4,
+   "mentions": 272
+  },
+  "계방산": {
+   "status": "ok",
+   "note": "picked from disambiguation page 계방산",
+   "article": "계방산 (강원)",
+   "qid": "Q623665",
+   "pageviews": 406,
+   "sitelinks": 7,
+   "mentions": 136
+  },
+  "방태산": {
+   "status": "ok",
+   "note": "",
+   "article": "방태산",
+   "qid": "Q626912",
+   "pageviews": 641,
+   "sitelinks": 8,
+   "mentions": 130
+  },
+  "마이산": {
+   "status": "ok",
+   "note": "",
+   "article": "마이산",
+   "qid": "Q562938",
+   "pageviews": 6037,
+   "sitelinks": 7,
+   "mentions": 495
+  }
+ },
+ "collected": "2026-10-31"
+}
