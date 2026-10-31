@@ -1,3 +1,7 @@
+<!doctype html>
+<html lang="ko">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>만에 하나</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -24,8 +28,13 @@
   --f-mono:"IBM Plex Mono",ui-monospace,"SFMono-Regular",monospace;
   color-scheme:dark;
 }
-html{height:100%}
+[hidden]{display:none!important}
+:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+html{height:100%;-webkit-text-size-adjust:100%;text-size-adjust:100%}
 body{
+  margin:0;
+  word-break:keep-all;
+  overflow-wrap:break-word;
   min-height:100%;
   background-color:var(--abyss);
   background-image:linear-gradient(180deg,
@@ -395,9 +404,15 @@ function candidates(raw, p) {
   const push = (s, how, fuzzyOk) => { if (s == null) return; const k = norm(s); if (k && !out.some(o => o.k === k)) out.push({k, how, fuzzyOk}); };
   push(raw, null, true);
   const compact = raw.replace(/\s/g, '');
-  if (/^[A-Za-z]+$/.test(compact)) push(Hangul.fromQwerty(compact), 'qwerty', true);
-  for (const c of [...out]) {
-    for (const suf of p.strip) if (c.k.endsWith(suf) && len(c.k) > len(suf)) push(c.k.slice(0, -suf.length), c.how, true);
+  if (/^[A-Za-z]+$/.test(compact)) {
+    push(Hangul.fromQwerty(compact), 'qwerty', true);
+    // Caps Lock: 'RUDWHD' → 경종 (Shift on purpose gives ㄲ, but all-capitals almost never does)
+    if (compact.length > 1 && compact === compact.toUpperCase()) push(Hangul.fromQwerty(compact.toLowerCase()), 'qwerty', true);
+  }
+  // 조사와 접미사가 함께 붙어도: '강남역이요' → '강남역' → '강남'
+  for (let i = 0; i < out.length && out.length < 40; i++) {
+    const c = out[i];
+    for (const suf of p.strip) if (c.k.endsWith(suf) && len(c.k) > len(suf)) push(c.k.slice(0, -suf.length), c.how, c.fuzzyOk);
     for (const suf of PARTICLES) if (c.k.endsWith(suf) && len(c.k) > len(suf)) push(c.k.slice(0, -suf.length), c.how, false);
   }
   return out;
@@ -498,17 +513,43 @@ if (typeof document !== 'undefined') (function ui() {
     }).join('');
   }
 
+  // 오늘의 기록: 문제를 열 때마다, 답할 때마다 저장해요.
+  // 문제를 보고 새로고침하거나 나가면 그 문제는 시간 초과로 처리돼요 (다시 하기 방지).
+  const isDone = s => !!s && (s.done === true || (s.done === undefined && (s.results || []).length >= PER_DAY));
+  const timeoutResult = p => ({id: p.id, label: p.label, typed: '', name: '', tier: 0, pts: 0, via: null, how: null, fixed: false});
+  function saveDaily(extra) {
+    if (S.mode !== 'daily') return;
+    store.set(Object.assign({day: TODAY, no: NO, results: S.results, depth: S.depth, current: S.i, done: false}, extra));
+  }
+  function updateStartLabel() {
+    const s = store.get();
+    $('#startBtn').textContent = s && !isDone(s) && (s.results || []).length ? '이어서 잠수하기' : '오늘의 잠수 시작';
+  }
+
   function start(mode) {
     S.mode = mode;
     S.list = mode === 'daily' ? pickPrompts(TODAY) : pickPrompts('practice-' + Date.now());
     S.i = 0; S.results = []; S.depth = 0;
-    $('#depthNow').textContent = '0';
+    if (mode === 'daily') {
+      const saved = store.get();
+      if (isDone(saved)) { renderDone(saved, 'daily'); return; }
+      if (saved && Array.isArray(saved.results)) {
+        S.results = saved.results.slice(0, PER_DAY);
+        S.depth = saved.depth || 0;
+        if (typeof saved.current === 'number' && saved.current >= S.results.length && saved.current < PER_DAY)
+          S.results[saved.current] = timeoutResult(S.list[saved.current]);
+        S.results = S.results.filter(Boolean);
+      }
+    }
+    $('#depthNow').textContent = fmt(S.depth);
     show('play');
-    ask(0);
+    if (S.results.length >= PER_DAY) { S.i = PER_DAY - 1; S.done = true; end(); return; }
+    ask(S.results.length);
   }
 
   function ask(i) {
     S.i = i; S.done = false;
+    saveDaily();
     const p = S.list[i];
     $('#qNo').textContent = `${S.mode === 'practice' ? '연습 · ' : ''}${i + 1} / ${PER_DAY}`;
     $('#promptText').textContent = p.q;
@@ -567,6 +608,7 @@ if (typeof document !== 'undefined') (function ui() {
     S.results[S.i] = r;
     const from = S.depth;
     S.depth += pts * M_PER_PT;
+    saveDaily();
     animateNumber($('#depthNow'), from, S.depth);
     renderSteps();
     renderReveal(p, r);
@@ -613,12 +655,19 @@ if (typeof document !== 'undefined') (function ui() {
     $('#reveal').scrollIntoView({block: 'nearest', behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth'});
   }
 
-  function next() { if (S.i < PER_DAY - 1) ask(S.i + 1); else end(); }
+  function next() {
+    if (!S.done || $('#play').hidden) return;          // 답하기 전에는 넘어갈 수 없어요
+    if (S.i < PER_DAY - 1) ask(S.i + 1); else end();
+  }
 
   function end() {
     const total = S.results.reduce((s, r) => s + r.pts, 0);
-    const result = {day: TODAY, no: NO, results: S.results, total, depth: S.depth};
-    if (S.mode === 'daily') store.set(result);
+    const result = {day: TODAY, no: NO, results: S.results, total, depth: S.depth, done: true};
+    if (S.mode === 'daily') {
+      const prev = store.get();
+      if (isDone(prev)) { renderDone(prev, 'daily'); return; }   // 오늘 기록은 한 번만
+      store.set(result);
+    }
     renderDone(result, S.mode);
   }
 
@@ -674,7 +723,7 @@ if (typeof document !== 'undefined') (function ui() {
   $('#homeBtn').addEventListener('click', () => {
     clearInterval(S.timerId); S.done = true;
     const saved = store.get();
-    if (saved) renderDone(saved, 'daily'); else { show('intro'); setDepthTint(0); }
+    if (isDone(saved)) renderDone(saved, 'daily'); else { updateStartLabel(); show('intro'); setDepthTint(0); }
   });
   $('#copyBtn').addEventListener('click', () => {
     const text = $('#shareText').textContent;
@@ -689,7 +738,7 @@ if (typeof document !== 'undefined') (function ui() {
 
   // 오늘 이미 했다면 결과부터
   const saved = store.get();
-  if (saved) renderDone(saved, 'daily'); else show('intro');
+  if (isDone(saved)) renderDone(saved, 'daily'); else { updateStartLabel(); show('intro'); }
 
   // 바다눈 (marine snow)
   (function snow() {
