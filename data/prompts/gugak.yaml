@@ -16,6 +16,9 @@ context: ["악기", "국악"]
 # Use everyday word frequency? false when answers have other meanings (kings, places, surnames)
 use_wordfreq: false
 
+# Signal weights for this question (many instruments are also common words (소금, 징, 박), so text mentions would mislead)
+weights: {mentions: 0}
+
 # Anchor pairs: the first answer MUST come out more common than the second, or the update is blocked.
 anchors:
   - ["가야금", "어"]

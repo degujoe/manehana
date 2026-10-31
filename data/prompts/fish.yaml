@@ -16,6 +16,9 @@ context: ["물고기", "어류", "과에 속하는", "바닷물고기", "민물�
 # Use everyday word frequency? false when answers have other meanings (kings, places, surnames)
 use_wordfreq: true
 
+# Signal weights for this question (everyday words: nobody looks up 고등어 on Wikipedia, so lean on how often it is written)
+weights: {mentions: 3, wordfreq: 2, pageviews: 1, sitelinks: 0}
+
 # Anchor pairs: the first answer MUST come out more common than the second, or the update is blocked.
 anchors:
   - ["고등어", "뚝지"]

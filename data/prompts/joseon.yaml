@@ -16,6 +16,9 @@ context: ["조선"]
 # Use everyday word frequency? false when answers have other meanings (kings, places, surnames)
 use_wordfreq: false
 
+# Signal weights for this question (king names are also common words (경종 = alarm bell, 정종 = sake), so text mentions would mislead)
+weights: {mentions: 0}
+
 # Anchor pairs: the first answer MUST come out more common than the second, or the update is blocked.
 anchors:
   - ["세종", "경종"]

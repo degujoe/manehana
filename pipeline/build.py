@@ -33,7 +33,10 @@ import sys
 
 import common
 
-WEIGHTS = {"count": 3.0, "pageviews": 2.0, "sitelinks": 1.0, "wordfreq": 1.0}
+# Default weight of each signal. A question can override these with `weights:` in its file
+# (everyday-word questions lean on mentions and word frequency, since nobody looks up
+# 고등어 on Wikipedia but everyone knows it).
+WEIGHTS = {"count": 3.0, "mentions": 2.0, "pageviews": 2.0, "wordfreq": 1.0, "sitelinks": 0.5}
 DEFAULT_CUTOFFS = [0.15, 0.40, 0.70]
 CEILING_PCT = 0.90
 FLOOR_PCT = 0.25
@@ -71,6 +74,7 @@ def usable_signals(prompt, sig):
             raw["sitelinks"][a["name"]] = r.get("sitelinks") if st == "ok" else None
         if prompt.get("use_wordfreq") and not r.get("wordfreq_homonym"):
             raw["wordfreq"][a["name"]] = r.get("wordfreq")
+        raw["mentions"][a["name"]] = r.get("mentions")
         if prompt.get("count_source") and count_reliable:
             # answers missing from a well-matched census table are very rare
             raw["count"][a["name"]] = r.get("count") or 0
@@ -78,13 +82,14 @@ def usable_signals(prompt, sig):
 
 
 def score_prompt(prompt, sig, previous):
+    w = dict(WEIGHTS, **(prompt.get("weights") or {}))
     raw = usable_signals(prompt, sig)
-    pct = {k: percentiles(v) for k, v in raw.items()}
+    pct = {k: percentiles(v) for k, v in raw.items() if w.get(k, 0) > 0}
     rows = []
     for a in prompt["answers"]:
         name = a["name"]
-        mine = {k: pct[k][name] for k in WEIGHTS if name in pct[k]}
-        fam = (sum(WEIGHTS[k] * v for k, v in mine.items()) / sum(WEIGHTS[k] for k in mine)) if mine else None
+        mine = {k: pct[k][name] for k in pct if name in pct[k]}
+        fam = (sum(w[k] * v for k, v in mine.items()) / sum(w[k] for k in mine)) if mine else None
         rows.append({"name": name, "aliases": a["aliases"], "fam": fam, "pct": mine,
                      "raw": {k: raw[k].get(name) for k in WEIGHTS},
                      "sig": sig.get("answers", {}).get(name, {}),
@@ -194,15 +199,15 @@ def report_section(prompt, sig, rows, problems, warnings, anchors):
         L.append(f"<details><summary>Needs a look ({len(warnings)})</summary>\n")
         L += [f"- {w}" for w in warnings] + ["", "</details>", ""]
     L.append("<details><summary>All answers</summary>\n")
-    L.append("| answer | tier | score | pageviews (12 mo) | languages | word freq | count | article |")
-    L.append("|---|---|---|---|---|---|---|---|")
+    L.append("| answer | tier | score | pageviews (12 mo) | wiki mentions | languages | word freq | count | article |")
+    L.append("|---|---|---|---|---|---|---|---|---|")
     for r in sorted(rows, key=lambda r: (-(r["fam"] if r["fam"] is not None else -1))):
         s = r["sig"]
         tier = common.TIER_NAMES[r["tier"]] + (f" ({r['rule']})" if r.get("rule") else "") \
             + (" (set by hand)" if r["override"] is not None and r["name"] != prompt["gem"] else "")
         art = s.get("article") or s.get("status", "")
         L.append(f"| {r['name']} | {tier} | {fmt_num(r['fam'] and round(r['fam'], 2))} | "
-                 f"{fmt_num(s.get('pageviews'))} | {fmt_num(s.get('sitelinks'))} | "
+                 f"{fmt_num(s.get('pageviews'))} | {fmt_num(s.get('mentions'))} | {fmt_num(s.get('sitelinks'))} | "
                  f"{fmt_num(s.get('wordfreq'))}{'*' if s.get('wordfreq_homonym') else ''} | "
                  f"{fmt_num(s.get('count'))} | {art} |")
     L += ["", "</details>", ""]

@@ -137,11 +137,17 @@ def resolve(answer, prompt, cache):
             picks = [l for l in links if l.startswith(name) and any(w in l for w in context)]
             if not picks:
                 picks = [l for l in links if name in l and any(w in l for w in context)]
-            if len(picks) == 1:
+            if picks:
                 page_info(picks, cache)
-                picked = cache[picks[0]]
-                if picked["exists"] and not picked["disambig"]:
-                    return "ok", picked, f"picked from disambiguation page {info['title']}"
+                real = [cache[l] for l in picks if cache[l]["exists"] and not cache[l]["disambig"]]
+                if len(real) == 1:
+                    return "ok", real[0], f"picked from disambiguation page {info['title']}"
+                if len(real) > 1:
+                    # several things share the name (e.g. many mountains called 남산): any of them is a
+                    # valid answer, so the best-known one decides how familiar the answer is
+                    best = max(real, key=lambda i: pageviews(i["title"]))
+                    return "ok", best, (f"most-viewed of {len(real)} articles on disambiguation page "
+                                        f"{info['title']}: " + ", ".join(i["title"] for i in real[:6]))
             continue
         if on_topic(info, context):
             return "ok", info, ""
@@ -205,9 +211,15 @@ def table_counts(page, names):
         cells = [strip_markup(c) for c in re.split(r"\|\||\n[|!]", row)]
         hit = None
         for c in cells:
-            c2 = c[:-1] if c.endswith("씨") and c[:-1] in wanted else c
-            if c2 in wanted:
-                hit = c2
+            m = re.match(r"\s*([가-힣]+)", c)
+            if not m:
+                continue
+            word = m.group(1)
+            for cand in (word, word[:-1] if word.endswith("씨") else None):
+                if cand and cand in wanted:
+                    hit = cand
+                    break
+            if hit:
                 break
         if not hit:
             continue
@@ -216,6 +228,16 @@ def table_counts(page, names):
         if nums:
             found[hit] = max(found.get(hit, 0), max(nums))
     return found, len(text)
+
+
+def mentions(term):
+    """How many Korean Wikipedia articles contain the exact term. Works even when the
+    answer has no article of its own. Homonyms inflate it, which only ever makes an
+    answer look MORE common: the safe direction (an easy answer can't score high)."""
+    d = get_json(WIKI_API, {"action": "query", "format": "json", "list": "search",
+                            "srsearch": f'"{term}"', "srwhat": "text", "srinfo": "totalhits",
+                            "srlimit": 1, "srprop": ""})
+    return ((d or {}).get("query", {}).get("searchinfo") or {}).get("totalhits")
 
 
 # ------------------------------------------------------------ word frequency
@@ -277,6 +299,9 @@ def collect(prompt, offline=False):
                 rec["pageviews"] = 0
             if prompt.get("count_source"):
                 rec["count"] = counts.get(name)
+            # one-syllable answers (배, 북, 김) match far too many unrelated words to count
+            rec["mentions"] = mentions(name) if len(name) >= 2 else None
+            time.sleep(0.1)
         if prompt.get("use_wordfreq"):
             bare = cache.get(name)
             rec["wordfreq"] = word_zipf(name)

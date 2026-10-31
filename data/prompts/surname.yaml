@@ -20,6 +20,9 @@ count_source:
   page: "한국의 성씨"
   label: "2015년 인구주택총조사 인구"
 
+# Signal weights for this question (surnames are also common words (강, 빈, 영), so text mentions would mislead; census counts decide)
+weights: {mentions: 0, pageviews: 1}
+
 # Anchor pairs: the first answer MUST come out more common than the second, or the update is blocked.
 anchors:
   - ["김", "독고"]

@@ -16,6 +16,9 @@ context: ["과일", "열매", "식물", "나무"]
 # Use everyday word frequency? false when answers have other meanings (kings, places, surnames)
 use_wordfreq: true
 
+# Signal weights for this question (everyday words: lean on how often they are written, not on article pageviews)
+weights: {mentions: 3, wordfreq: 2, pageviews: 1, sitelinks: 0}
+
 # Anchor pairs: the first answer MUST come out more common than the second, or the update is blocked.
 anchors:
   - ["사과", "으름"]
