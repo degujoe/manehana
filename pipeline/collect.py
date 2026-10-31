@@ -39,17 +39,29 @@ def session():
     return _session
 
 
-def get_json(url, params=None, tries=5):
+MIN_GAP = 0.35          # seconds between requests: stay well under Wikimedia's rate limits
+_last_call = [0.0]
+
+
+def get_json(url, params=None, tries=7):
     import requests
     last = ""
     for attempt in range(tries):
+        wait = MIN_GAP - (time.time() - _last_call[0])
+        if wait > 0:
+            time.sleep(wait)
+        _last_call[0] = time.time()
         try:
             r = session().get(url, params=params, timeout=30)
             if r.status_code == 404:
                 return None
             if r.status_code == 429 or r.status_code >= 500:
                 last = f"HTTP {r.status_code}"
-                time.sleep(2 ** attempt + 1)
+                try:
+                    pause = float(r.headers.get("Retry-After", ""))
+                except ValueError:
+                    pause = 0
+                time.sleep(min(120, max(pause, 5 * 2 ** attempt)))
                 continue
             if r.status_code >= 400:
                 last = f"HTTP {r.status_code}: {r.text[:200]}"
@@ -276,12 +288,18 @@ def collect(prompt, offline=False):
         out["count_source"] = {"page": prompt["count_source"]["page"], "page_size": size,
                                "matched": len(counts), "of": len(prompt["answers"])}
 
-    resolved = {}
+    resolved, errors = {}, {}
     if not offline:
         for a in prompt["answers"]:
-            resolved[a["name"]] = resolve(a, prompt, cache)
+            try:
+                resolved[a["name"]] = resolve(a, prompt, cache)
+            except RuntimeError as e:      # one refused request shouldn't sink the whole question
+                resolved[a["name"]] = ("error", None, str(e)[:200])
         qids = [info["qid"] for _, info, _ in resolved.values() if info]
-        sl = sitelink_counts(qids)
+        try:
+            sl = sitelink_counts(qids)
+        except RuntimeError:
+            sl = {}
 
     for a in prompt["answers"]:
         name = a["name"]
@@ -290,18 +308,22 @@ def collect(prompt, offline=False):
         else:
             status, info, note = resolved[name]
             rec = {"status": status, "note": note}
-            if info:
-                rec["article"] = info["title"]
-                rec["qid"] = info.get("qid")
-                rec["pageviews"] = pageviews(info["title"])
-                rec["sitelinks"] = sl.get(info.get("qid"))
-            elif status == "missing":
-                rec["pageviews"] = 0
-            if prompt.get("count_source"):
-                rec["count"] = counts.get(name)
-            # one-syllable answers (배, 북, 김) match far too many unrelated words to count
-            rec["mentions"] = mentions(name) if len(name) >= 2 else None
-            time.sleep(0.1)
+            try:
+                if info:
+                    rec["article"] = info["title"]
+                    rec["qid"] = info.get("qid")
+                    rec["pageviews"] = pageviews(info["title"])
+                    rec["sitelinks"] = sl.get(info.get("qid"))
+                elif status == "missing":
+                    rec["pageviews"] = 0
+                if prompt.get("count_source"):
+                    rec["count"] = counts.get(name)
+                # one-syllable answers (배, 북, 김) match far too many unrelated words to count
+                rec["mentions"] = mentions(name) if len(name) >= 2 else None
+            except RuntimeError as e:
+                rec = {"status": "error", "note": str(e)[:200]}
+            if rec["status"] == "error":
+                errors[name] = rec["note"]
         if prompt.get("use_wordfreq"):
             bare = cache.get(name)
             rec["wordfreq"] = word_zipf(name)
@@ -310,6 +332,9 @@ def collect(prompt, offline=False):
 
     common.SIGNALS_DIR.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(out, ensure_ascii=False, indent=1) + "\n", "utf8")
+    if errors:
+        print(f"::warning title=collect {prompt['id']}::{len(errors)} answers failed to collect "
+              f"(kept their previous tier): {', '.join(list(errors)[:10])}")
     st = {}
     for r in out["answers"].values():
         st[r.get("status")] = st.get(r.get("status"), 0) + 1
