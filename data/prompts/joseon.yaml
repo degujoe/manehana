@@ -4,10 +4,12 @@
 id: joseon
 label: "조선의 왕"
 question: "조선의 왕을 한 명 대 보세요"
-hint: "태조부터 순종까지 27명 (묘호·이름 모두)"
+hint: "태조부터 순종까지 27명 (묘호 또는 이름) · 추존왕 제외"
 status: live
 strip: ["대왕", "왕", "황제"]
 gem: "경종"
+# Typed often but NOT valid. Rejected outright, so the typo fixer can't turn them into a real answer.
+reject: ["장조", "익종", "문조", "덕종", "원종", "진종", "이호", "이연", "이환"]
 
 # Korean Wikipedia titles to try for each answer, in order. {name} is replaced by the answer.
 wiki_titles: ["{name} (조선)", "조선 {name}", "{name}"]
@@ -15,7 +17,6 @@ wiki_titles: ["{name} (조선)", "조선 {name}", "{name}"]
 context: ["조선"]
 # Use everyday word frequency? false when answers have other meanings (kings, places, surnames)
 use_wordfreq: false
-
 # Signal weights for this question (king names are also common words (경종 = alarm bell, 정종 = sake), so text mentions would mislead)
 weights: {mentions: 0}
 
@@ -27,34 +28,49 @@ anchors:
   - ["연산군", "인종"]
   - ["광해군", "문종"]
 
+# Where the answer list was checked
+sources:
+  - https://ko.wikipedia.org/wiki/조선_국왕
+  - https://en.wikipedia.org/wiki/List_of_Joseon_people
+
 answers:
   - name: "세종"
-    aliases: ["세종대왕", "이도"]
+    aliases: ["세종대왕", "이도", "충녕대군"]
   - name: "태조"
-    aliases: ["이성계"]
+    aliases: ["이성계", "이단"]
   - name: "정조"
     aliases: ["이산"]
   - name: "영조"
+    aliases: ["이금", "연잉군", "영종"]
   - name: "태종"
     aliases: ["이방원"]
   - name: "세조"
-    aliases: ["수양대군"]
+    aliases: ["수양대군", "이유"]
   - name: "연산군"
-    aliases: ["연산"]
+    aliases: ["연산", "이융"]
   - name: "광해군"
-    aliases: ["광해"]
+    aliases: ["광해", "이혼"]
   - name: "단종"
-    aliases: ["노산군"]
+    aliases: ["노산군", "이홍위"]
   - name: "고종"
+    aliases: ["이명복", "이재황", "광무제", "광무황제"]
+    wiki: "고종 (대한제국)"
   - name: "선조"
   - name: "숙종"
+    aliases: ["이순"]
   - name: "인조"
+    aliases: ["이종", "능양군"]
   - name: "성종"
+    aliases: ["이혈"]
   - name: "순종"
+    aliases: ["이척", "융희제"]
+    wiki: "순종 (대한제국)"
   - name: "중종"
+    aliases: ["이역"]
   - name: "철종"
-    aliases: ["강화도령"]
+    aliases: ["강화도령", "이변", "이원범"]
   - name: "문종"
+    aliases: ["이향"]
   - name: "정종"
     aliases: ["이방과"]
   - name: "효종"
@@ -62,7 +78,9 @@ answers:
   - name: "현종"
   - name: "명종"
   - name: "순조"
+    aliases: ["이공"]
   - name: "헌종"
   - name: "예종"
   - name: "인종"
   - name: "경종"
+    aliases: ["이윤"]

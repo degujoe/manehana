@@ -23,12 +23,18 @@ anchors:
   - ["잠실", "신답"]
   - ["신도림", "용두"]
 
+# Where the answer list was checked
+sources:
+  - https://en.wikipedia.org/wiki/Seoul_Subway_Line_2
+  - https://ko.wikipedia.org/wiki/서울_지하철_2호선
+
 answers:
   - name: "강남"
   - name: "홍대입구"
     aliases: ["홍대"]
   - name: "잠실"
   - name: "신촌"
+    wiki: "신촌역 (지하)"
   - name: "시청"
     aliases: ["서울시청"]
   - name: "건대입구"
@@ -45,12 +51,13 @@ answers:
     aliases: ["서울교대"]
   - name: "합정"
   - name: "을지로입구"
+    aliases: ["을지로1가"]
   - name: "서울대입구"
     aliases: ["서울대"]
   - name: "이대"
     aliases: ["이화여대"]
   - name: "동대문역사문화공원"
-    aliases: ["동역사", "동대문운동장"]
+    aliases: ["동역사", "동대문운동장", "서울운동장"]
   - name: "구로디지털단지"
     aliases: ["구디", "구로공단"]
   - name: "잠실새내"

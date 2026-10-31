@@ -7,7 +7,7 @@ question: "한국 전통 악기를 하나 대 보세요"
 hint: "궁중 악기와 민속 악기 모두"
 status: live
 strip: []
-gem: "어"
+gem: "공후"
 
 # Korean Wikipedia titles to try for each answer, in order. {name} is replaced by the answer.
 wiki_titles: ["{name} (악기)", "{name}"]
@@ -15,7 +15,6 @@ wiki_titles: ["{name} (악기)", "{name}"]
 context: ["악기", "국악"]
 # Use everyday word frequency? false when answers have other meanings (kings, places, surnames)
 use_wordfreq: false
-
 # Signal weights for this question (many instruments are also common words (소금, 징, 박), so text mentions would mislead)
 weights: {mentions: 0}
 
@@ -26,18 +25,30 @@ anchors:
   - ["꽹과리", "방향"]
   - ["북", "특경"]
 
+# Where the answer list was checked
+sources:
+  - https://ko.wikipedia.org/wiki/한국_전통_악기
+  - https://ko.wikipedia.org/wiki/해금
+
 answers:
   - name: "가야금"
+    aliases: ["가얏고", "가야고"]
   - name: "장구"
     aliases: ["장고"]
   - name: "꽹과리"
+    aliases: ["쇠", "꽹매기"]
   - name: "북"
+    aliases: ["소리북", "법고"]
+    wiki: "한국의 북"
   - name: "거문고"
+    aliases: ["현금"]
   - name: "해금"
+    aliases: ["깡깡이", "앵금"]
   - name: "대금"
     aliases: ["젓대"]
   - name: "단소"
   - name: "피리"
+    aliases: ["향피리", "세피리", "당피리"]
   - name: "징"
   - name: "태평소"
     aliases: ["날라리", "새납", "호적"]
@@ -48,12 +59,14 @@ answers:
   - name: "양금"
   - name: "생황"
   - name: "소금"
+    wiki: "소금 (악기)"
   - name: "퉁소"
     aliases: ["통소"]
   - name: "나발"
   - name: "박"
   - name: "비파"
     aliases: ["향비파", "당비파"]
+    wiki: "향비파"
   - name: "좌고"
   - name: "중금"
   - name: "나각"
@@ -74,3 +87,12 @@ answers:
   - name: "특종"
   - name: "특경"
   - name: "어"
+  - name: "자바라"
+    aliases: ["바라", "제금"]
+  - name: "응고"
+  - name: "진고"
+  - name: "건고"
+  - name: "교방고"
+  - name: "당적"
+  - name: "금"
+  - name: "슬"

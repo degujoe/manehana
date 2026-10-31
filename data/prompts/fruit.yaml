@@ -4,10 +4,12 @@
 id: fruit
 label: "과일"
 question: "과일 이름을 하나 대 보세요"
-hint: "토마토도 인정"
+hint: "토마토도 인정 · 채소와 견과류(밤·호두)는 제외"
 status: live
 strip: []
 gem: "으름"
+# Typed often but NOT valid. Rejected outright, so the typo fixer can't turn them into a real answer.
+reject: ["배추", "오이", "감자", "고구마", "당근", "호박", "밤", "호두", "잣", "땅콩", "은행"]
 
 # Korean Wikipedia titles to try for each answer, in order. {name} is replaced by the answer.
 wiki_titles: ["{name}", "{name} (과일)"]
@@ -15,7 +17,6 @@ wiki_titles: ["{name}", "{name} (과일)"]
 context: ["과일", "열매", "식물", "나무"]
 # Use everyday word frequency? false when answers have other meanings (kings, places, surnames)
 use_wordfreq: true
-
 # Signal weights for this question (everyday words: lean on how often they are written, not on article pageviews)
 weights: {mentions: 3, wordfreq: 2, pageviews: 1, sitelinks: 0}
 
@@ -26,16 +27,23 @@ anchors:
   - ["딸기", "다래"]
   - ["포도", "비파"]
 
+# Where the answer list was checked
+sources:
+  - https://ko.wikipedia.org/wiki/과일
+  - https://ko.wikipedia.org/wiki/비파나무
+  - https://ko.wikipedia.org/wiki/보리수
+
 answers:
   - name: "사과"
   - name: "바나나"
   - name: "딸기"
   - name: "포도"
-    aliases: ["청포도", "샤인머스캣", "거봉", "캠벨"]
+    aliases: ["청포도", "샤인머스캣", "거봉", "캠벨", "캠벨포도"]
   - name: "수박"
   - name: "배"
+    wiki: "배나무"
   - name: "귤"
-    aliases: ["감귤", "밀감"]
+    aliases: ["감귤", "밀감", "청귤"]
   - name: "복숭아"
     aliases: ["천도복숭아", "백도", "황도"]
   - name: "참외"
@@ -44,7 +52,9 @@ answers:
   - name: "오렌지"
   - name: "키위"
     aliases: ["참다래"]
+    wiki: "키위 (과일)"
   - name: "망고"
+    aliases: ["애플망고"]
   - name: "파인애플"
   - name: "체리"
   - name: "블루베리"
@@ -73,7 +83,7 @@ answers:
   - name: "리치"
     aliases: ["여지"]
   - name: "용과"
-    aliases: ["피타야"]
+    aliases: ["피타야", "드래곤프루트"]
   - name: "두리안"
   - name: "망고스틴"
   - name: "람부탄"
@@ -93,6 +103,7 @@ answers:
   - name: "금귤"
     aliases: ["낑깡", "금감"]
   - name: "비파"
+    wiki: "비파나무"
   - name: "아로니아"
   - name: "스타프루트"
     aliases: ["카람볼라"]
@@ -100,5 +111,13 @@ answers:
   - name: "잭프루트"
   - name: "보리수"
     aliases: ["보리똥"]
+    wiki: "보리수나무"
   - name: "탱자"
   - name: "으름"
+  - name: "황금향"
+  - name: "대추야자"
+    aliases: ["데이트"]
+  - name: "롱안"
+    aliases: ["용안"]
+  - name: "오미자"
+  - name: "산수유"

@@ -380,6 +380,7 @@ const norm = s => s.normalize('NFC').trim().toLowerCase()
 function prepare(p) {
   p.answers = p.answers.map(a => ({name: a.name, tier: a.tier, aliases: a.aliases || []}));
   p.gem = p.answers.find(a => a.tier === 5);
+  p.rejectSet = new Set((p.reject || []).map(norm));
   const exact = new Map(), fuzzy = [];
   const add = (k, ans, via) => { if (k && !exact.has(k)) exact.set(k, {ans, via}); };
   // 정답 이름을 먼저 등록해서 별칭보다 우선하게
@@ -425,15 +426,19 @@ function match(raw, p) {
     const hit = p.index.exact.get(c.k);
     if (hit) return {ans: hit.ans, via: hit.via, how: c.how, fixed: false};
   }
+  // 자주 나오지만 틀린 답(조개, 추존왕 등)은 오타 교정으로 다른 답이 되지 않게 바로 거절
+  if (cands.some(c => p.rejectSet && p.rejectSet.has(c.k))) return null;
   let best = null;
   for (const c of cands) {
-    if (!c.fuzzyOk || len(c.k) < 2) continue;      // 한 글자 답은 오타 교정 안 함
+    // 두 글자 이하는 오타 교정 안 함: 한 자모만 달라도 다른 낱말이에요 (상어/방어, 배추/대추)
+    if (!c.fuzzyOk || len(c.k) < 3) continue;
     const ck = Hangul.keys(c.k);
     for (const f of p.index.fuzzy) {
       if (f.len < 2) continue;
       // 짧은 답은 글자 수가 같아야 해요: '김치'가 '파김치'로 바뀌지 않게
       if (Math.abs(f.len - len(c.k)) > (f.len >= 4 ? 1 : 0)) continue;
-      const lim = f.keys.length <= 6 ? 1 : f.keys.length <= 10 ? 2 : 3;
+      // 허용 오타: 자모 9개까지 1개, 13개까지 2개, 그 이상 3개 (한산도→흑산도 같은 다른 낱말 막기)
+      const lim = f.keys.length <= 9 ? 1 : f.keys.length <= 13 ? 2 : 3;
       const d = Hangul.distance(ck, f.keys, lim);
       if (d > lim) continue;
       // 같은 거리면 더 흔한(낮은 등급) 답으로: 애매한 교정이 점수를 부풀리지 않게

@@ -7,7 +7,7 @@ question: "한국의 산을 하나 대 보세요"
 hint: "남한·북한 모두"
 status: live
 strip: ["산"]
-gem: "마이산"
+gem: "가리왕산"
 
 # Korean Wikipedia titles to try for each answer, in order. {name} is replaced by the answer.
 wiki_titles: ["{name}"]

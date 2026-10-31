@@ -29,6 +29,7 @@ def load_prompts():
         p.setdefault("status", "live")
         p.setdefault("strip", [])
         p.setdefault("anchors", [])
+        p.setdefault("reject", [])
         p.setdefault("use_wordfreq", False)
         for a in p["answers"]:
             a["name"] = str(a["name"])

@@ -7,7 +7,9 @@ question: "한국의 섬을 하나 대 보세요"
 hint: "남한의 섬"
 status: live
 strip: ["도", "섬"]
-gem: "가거도"
+gem: "만재도"
+# Typed often but NOT valid. Rejected outright, so the typo fixer can't turn them into a real answer.
+reject: ["송도", "이어도"]
 
 # Korean Wikipedia titles to try for each answer, in order. {name} is replaced by the answer.
 wiki_titles: ["{name}", "{name} (섬)"]
@@ -23,6 +25,10 @@ anchors:
   - ["독도", "팔금도"]
   - ["강화도", "장고도"]
 
+# Where the answer list was checked
+sources:
+  - https://ko.wikipedia.org/wiki/대한민국의_섬_목록
+
 answers:
   - name: "제주도"
   - name: "울릉도"
@@ -30,6 +36,7 @@ answers:
   - name: "강화도"
   - name: "거제도"
   - name: "진도"
+    wiki: "진도 (섬)"
   - name: "완도"
   - name: "남해도"
   - name: "백령도"
@@ -54,7 +61,9 @@ answers:
   - name: "실미도"
   - name: "무의도"
   - name: "선유도"
+    wiki: "선유도 (군산시)"
   - name: "위도"
+    wiki: "위도 (부안군)"
   - name: "거문도"
   - name: "추자도"
   - name: "대청도"
@@ -71,6 +80,7 @@ answers:
   - name: "도초도"
   - name: "노화도"
   - name: "백도"
+    wiki: "백도 (여수시)"
   - name: "소청도"
   - name: "자월도"
   - name: "관매도"
@@ -87,3 +97,24 @@ answers:
   - name: "팔금도"
   - name: "장고도"
   - name: "가거도"
+    aliases: ["소흑산도"]
+  - name: "남이섬"
+  - name: "여의도"
+  - name: "영도"
+  - name: "가덕도"
+  - name: "한산도"
+  - name: "오동도"
+  - name: "소록도"
+  - name: "나로도"
+  - name: "오륙도"
+  - name: "사량도"
+  - name: "지심도"
+  - name: "거금도"
+  - name: "비양도"
+  - name: "굴업도"
+  - name: "연화도"
+  - name: "선재도"
+  - name: "소안도"
+  - name: "신지도"
+  - name: "고금도"
+  - name: "장사도"

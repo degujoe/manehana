@@ -135,6 +135,20 @@ def score_prompt(prompt, sig, previous):
             spread = ", ".join(f"{k} {v:.2f}" for k, v in r["pct"].items())
             warnings.append(f"`{r['name']}`: signals disagree ({spread})")
 
+    # every name and alias must point to exactly one answer, and nothing rejected may be an answer
+    def key(x):
+        return "".join(str(x).split()).lower()
+    owner = {}
+    for a in prompt["answers"]:
+        for form in [a["name"]] + a["aliases"]:
+            k = key(form)
+            if k in owner and owner[k] != a["name"]:
+                problems.append(f"`{form}` is listed for both `{owner[k]}` and `{a['name']}`")
+            owner.setdefault(k, a["name"])
+    for x in prompt["reject"]:
+        if key(x) in owner:
+            problems.append(f"`{x}` is in `reject:` but is also an answer or alias of `{owner[key(x)]}`")
+
     by = {r["name"]: r for r in rows}
     gem = by.get(prompt["gem"])
     if not gem:
@@ -238,7 +252,7 @@ def main():
             failed.append(p["id"])
         if p["status"] == "live":
             game.append({"id": p["id"], "label": p["label"], "q": p["question"], "hint": p["hint"],
-                         "strip": p["strip"],
+                         "strip": p["strip"], "reject": p["reject"],
                          "answers": [{"name": r["name"], "aliases": r["aliases"], "tier": r["tier"]} for r in rows]})
 
     head = ["# 만에 하나 data report", "",

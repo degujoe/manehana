@@ -8,14 +8,15 @@ hint: "물고기만 (오징어·조개 제외)"
 status: live
 strip: []
 gem: "뚝지"
+# Typed often but NOT valid. Rejected outright, so the typo fixer can't turn them into a real answer.
+reject: ["오징어", "문어", "낙지", "주꾸미", "꼴뚜기", "새우", "대게", "꽃게", "게", "조개", "전복", "굴", "소라", "멍게", "해삼", "고래", "미역", "김"]
 
 # Korean Wikipedia titles to try for each answer, in order. {name} is replaced by the answer.
-wiki_titles: ["{name}"]
+wiki_titles: ["{name} (어류)", "{name}"]
 # Words that show an article is about the right topic (also used to pick from disambiguation pages)
 context: ["물고기", "어류", "과에 속하는", "바닷물고기", "민물고기"]
 # Use everyday word frequency? false when answers have other meanings (kings, places, surnames)
 use_wordfreq: true
-
 # Signal weights for this question (everyday words: nobody looks up 고등어 on Wikipedia, so lean on how often it is written)
 weights: {mentions: 3, wordfreq: 2, pageviews: 1, sitelinks: 0}
 
@@ -26,28 +27,41 @@ anchors:
   - ["명태", "꼼치"]
   - ["연어", "황어"]
 
+# Where the answer list was checked
+sources:
+  - https://ko.wikipedia.org/wiki/어류
+  - https://ko.wikipedia.org/wiki/대구_(어류)
+  - https://ko.wikipedia.org/wiki/방어_(어류)
+  - https://ko.wikipedia.org/wiki/부세
+
 answers:
   - name: "고등어"
   - name: "갈치"
   - name: "조기"
     aliases: ["굴비", "참조기"]
+    wiki: "참조기"
   - name: "연어"
   - name: "참치"
-    aliases: ["다랑어", "참다랑어"]
+    aliases: ["다랑어", "참다랑어", "가다랑어"]
+    wiki: "참다랑어"
   - name: "광어"
     aliases: ["넙치"]
+    wiki: "넙치"
   - name: "명태"
     aliases: ["동태", "황태", "북어", "생태", "코다리", "노가리", "먹태"]
   - name: "꽁치"
   - name: "삼치"
   - name: "우럭"
     aliases: ["조피볼락"]
+    wiki: "조피볼락"
   - name: "도미"
     aliases: ["참돔", "돔"]
   - name: "방어"
+    wiki: "방어 (어류)"
   - name: "전어"
   - name: "멸치"
   - name: "대구"
+    wiki: "대구 (어류)"
   - name: "아귀"
     aliases: ["아구"]
   - name: "장어"
@@ -62,6 +76,7 @@ answers:
   - name: "도다리"
   - name: "홍어"
   - name: "가오리"
+    aliases: ["간재미"]
   - name: "쥐치"
   - name: "볼락"
   - name: "메기"
@@ -72,6 +87,7 @@ answers:
   - name: "송어"
   - name: "빙어"
   - name: "은어"
+    wiki: "은어 (어류)"
   - name: "복어"
     aliases: ["복"]
   - name: "청어"
@@ -83,6 +99,7 @@ answers:
     aliases: ["이면수", "임연수"]
   - name: "열기"
     aliases: ["불볼락"]
+    wiki: "불볼락"
   - name: "갯장어"
     aliases: ["하모"]
   - name: "서대"
@@ -102,12 +119,30 @@ answers:
   - name: "감성돔"
   - name: "벵에돔"
   - name: "부시리"
+    aliases: ["히라스"]
   - name: "학꽁치"
     aliases: ["학공치"]
   - name: "날치"
   - name: "망둥어"
-    aliases: ["망둑어"]
+    aliases: ["망둑어", "망둥이"]
   - name: "개복치"
   - name: "황어"
   - name: "뚝지"
     aliases: ["도치", "심퉁이"]
+  - name: "옥돔"
+  - name: "먹장어"
+    aliases: ["꼼장어", "곰장어"]
+  - name: "산천어"
+  - name: "가물치"
+  - name: "밴댕이"
+  - name: "준치"
+  - name: "상어"
+    aliases: ["돔배기"]
+  - name: "부세"
+  - name: "동자개"
+    aliases: ["빠가사리", "빠가"]
+  - name: "향어"
+  - name: "다금바리"
+    aliases: ["자바리"]
+  - name: "자리돔"
+  - name: "뱅어"

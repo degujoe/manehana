@@ -15,7 +15,6 @@ wiki_titles: ["{name}"]
 context: ["김치"]
 # Use everyday word frequency? false when answers have other meanings (kings, places, surnames)
 use_wordfreq: true
-
 # Signal weights for this question (everyday words: lean on how often they are written, not on article pageviews)
 weights: {mentions: 3, wordfreq: 2, pageviews: 1, sitelinks: 0}
 
@@ -25,6 +24,11 @@ anchors:
   - ["깍두기", "숙깍두기"]
   - ["열무김치", "고구마줄기김치"]
   - ["백김치", "콩잎김치"]
+
+# Where the answer list was checked
+sources:
+  - https://ko.wikipedia.org/wiki/김치
+  - https://ko.wikipedia.org/wiki/무김치
 
 answers:
   - name: "배추김치"
@@ -71,3 +75,23 @@ answers:
   - name: "숙깍두기"
   - name: "고구마줄기김치"
   - name: "비늘김치"
+  - name: "막김치"
+    aliases: ["맛김치"]
+  - name: "무김치"
+  - name: "짠지"
+    aliases: ["무짠지"]
+  - name: "양파김치"
+  - name: "고추김치"
+  - name: "굴김치"
+  - name: "무말랭이김치"
+    aliases: ["골곰짠지"]
+  - name: "젓국지"
+  - name: "석류김치"
+  - name: "동아김치"
+  - name: "박김치"
+  - name: "돌나물김치"
+  - name: "더덕김치"
+  - name: "톳김치"
+  - name: "감동젓김치"
+  - name: "창란젓깍두기"
+  - name: "서거리김치"
