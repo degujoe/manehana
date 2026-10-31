@@ -10,6 +10,8 @@ Common answers keep you in shallow water; rare ones sink you deeper.
 | `index.html` | The game | Yes, for design and game rules |
 | `data/prompts/*.yaml` | One file per question: wording, answers, aliases, checks | **Yes, this is the database** |
 | `data/ideas.md` | Ideas for new questions | Yes |
+| `data/days/YYYY-MM-DD.js` | One file per day: that day's 7 questions with their answers and tiers, frozen once the day starts in Korea | No (generated) |
+| `data/days/schedule.md` | Which questions run on which day, and where questions repeat | No (generated) |
 | `data/report.md` | Every answer's numbers, tier and warnings | No (generated) |
 | `data/signals/*.json` | Raw numbers collected for each answer | No (generated) |
 | `data/game.js`, `data/game.json` | What the game loads | No (generated) |
@@ -38,6 +40,25 @@ Accuracy checks run every time:
 - **Too clever**: the gem must score at least red on the data.
 - **Wrong article**: answers whose article looks off-topic or ambiguous are left out of
   the scoring and listed in the report so you can pin the right title with `wiki:`.
+
+## Daily questions
+
+The game loads the file for today's date in Korea, e.g. `data/days/2026-11-01.js`.
+Each file is a full copy of that day's 7 questions, so a past day always plays
+exactly as it did, even after tiers or answers change.
+
+A GitHub job (**Schedule daily questions**) runs every evening Korea time and keeps
+the next week of files ready. It picks questions that have never been used first,
+then the ones used longest ago, and avoids repeating a question within 60 days when
+the pool allows. Tomorrow's file keeps its questions but picks up newly approved
+tiers; days that have started are never changed. `data/days/schedule.md` lists every
+day and flags repeats.
+
+To choose a future day's questions yourself:
+
+```
+python pipeline/schedule.py --set 2026-11-05 joseon,fish,fruit,island,kimchi,gugak,line2
+```
 
 ## Updating
 

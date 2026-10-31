@@ -45,6 +45,14 @@ what guarantees that. You may only set `tier:` when the data is demonstrably wro
    (a Korean speaker) to decide. If checks still fail, open it as a draft PR.
 7. Never merge your own PR and never push to `main`.
 
+## Daily files
+
+`data/days/*.js` are written by `pipeline/schedule.py` (run daily by
+`.github/workflows/schedule-days.yml`). Never edit them, and never change a day that
+has started in Korea. The game needs 7 fresh questions a day, so growing the pool is
+the main job: `data/days/schedule.md` shows how many questions have never been used
+and which days repeat.
+
 ## Writing a new question
 
 Copy an existing file in `data/prompts/` and keep the same fields.

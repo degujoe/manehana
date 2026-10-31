@@ -14,7 +14,7 @@ on:
   workflow_dispatch:
   push:
     branches: ["main", "agent/**"]
-    paths: ["data/prompts/**", "pipeline/**", ".github/workflows/update-data.yml"]
+    paths: ["data/prompts/**", "pipeline/**", "!pipeline/schedule.py", ".github/workflows/update-data.yml"]
 
 permissions:
   contents: write

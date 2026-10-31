@@ -1,0 +1,50 @@
+# Keeps a week of daily question files ready in data/days/ (one file per day, Korea time).
+# Runs every evening before midnight in Korea, and whenever approved data changes on main
+# (e.g. after merging a "Rarity data refresh"), so tomorrow gets the latest tiers.
+# Days that have started are never changed.
+name: Schedule daily questions
+
+on:
+  schedule:
+    - cron: "7 13 * * *"    # 22:07 Korea time
+    - cron: "37 3 * * *"    # 12:37 Korea time, a second chance if the first is delayed
+  workflow_dispatch:
+  push:
+    branches: ["main"]
+    paths: ["data/game.json", "pipeline/schedule.py", ".github/workflows/schedule-days.yml"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: schedule-days
+  cancel-in-progress: false
+
+jobs:
+  schedule:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install
+        run: pip install pyyaml
+
+      - name: Write the next week of daily files
+        run: |
+          python pipeline/schedule.py
+          cat data/days/schedule.md >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898333+github-actions[bot]@users.noreply.github.com"
+          git add data/days
+          if ! git diff --cached --quiet; then
+            git commit -m "Schedule daily questions"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
