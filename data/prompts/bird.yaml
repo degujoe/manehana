@@ -1,0 +1,200 @@
+# One question for 만에 하나. Edit this file by hand; everything in data/signals and data/game.* is generated.
+# Don't write tiers here: the pipeline calculates them from Wikipedia pageviews and other signals.
+# To force a tier for one answer, add `tier:` (1-4) AND a `note:` explaining why.
+id: bird
+label: "새"
+question: "한국에서 볼 수 있는 새를 하나 대 보세요"
+hint: "텃새·철새 모두 (닭·거위 같은 가축 제외)"
+status: draft
+strip: []
+gem: "후투티"
+gem_note: "오디 먹으러 온 벌레를 잡아먹어 옛날엔 '오디새'라고 불렸어요."
+# Typed often but NOT valid. Rejected outright, so the typo fixer can't turn them into a real answer.
+# Domestic or caged birds (닭, 거위, 집오리, 칠면조, 오골계, 십자매, 잉꼬, 카나리아, 문조, 앵무새, 공작)
+# and birds that don't live wild in Korea (타조, 펭귄, 홍학/플라밍고, 벌새, 키위, 에뮤). 박쥐 is a mammal.
+reject: ["닭", "거위", "집오리", "칠면조", "오골계", "십자매", "잉꼬", "카나리아", "문조", "앵무새", "공작", "공작새", "타조", "펭귄", "홍학", "플라밍고", "벌새", "키위", "에뮤", "박쥐"]
+
+# Korean Wikipedia titles to try for each answer, in order. {name} is replaced by the answer.
+wiki_titles: ["{name} (새)", "{name} (조류)", "{name}"]
+# Words that show an article is about the right topic (also used to pick from disambiguation pages)
+# "(새)" / "(조류)" match disambiguation links such as a "매 (새)" entry on the 매 page.
+context: ["조류", "철새", "텃새", "나그네새", "과에 속하는", "(새)", "(조류)", "새이다"]
+# Use everyday word frequency? false when answers have other meanings (kings, places, surnames)
+use_wordfreq: true
+# Signal weights for this question (everyday words: nobody looks up 참새 on Wikipedia, so lean on how often it is written)
+weights: {mentions: 3, wordfreq: 2, pageviews: 1, sitelinks: 0}
+
+# Anchor pairs: the first answer MUST come out more common than the second, or the update is blocked.
+anchors:
+  - ["까치", "곤줄박이"]
+  - ["참새", "쇠박새"]
+  - ["비둘기", "흑비둘기"]
+  - ["까마귀", "노랑턱멧새"]
+
+# Where the answer list was checked
+sources:
+  - https://birdskoreablog.org/wp-content/uploads/2024/08/Birds-Korea-checklist-Kor-2024-final-with-quick-fix-20240827.pdf
+  - https://newstomato.com/ReadNews.aspx?no=1303061
+  - https://encykorea.aks.ac.kr/Article/E0058670
+  - https://www.ytn.co.kr/_ln/0106_201905040336406017
+
+# Generic names (비둘기, 오리, 갈매기, 딱따구리...) and specific species (멧비둘기, 청둥오리, 괭이갈매기,
+# 오색딱다구리...) are separate answers: the generic word scores as common, the species rarer.
+# Species names follow the Birds Korea checklist (which spells 딱다구리); dictionary spellings are aliases.
+answers:
+  - name: "참새"
+  - name: "까치"
+  - name: "비둘기"
+    aliases: ["집비둘기"]
+  - name: "멧비둘기"
+    aliases: ["산비둘기"]
+  - name: "흑비둘기"
+  - name: "까마귀"
+  - name: "큰부리까마귀"
+  - name: "떼까마귀"
+  - name: "제비"
+  - name: "갈매기"
+  - name: "괭이갈매기"
+  - name: "재갈매기"
+  - name: "검은머리갈매기"
+  - name: "제비갈매기"
+  - name: "쇠제비갈매기"
+  - name: "독수리"
+  - name: "검독수리"
+  - name: "흰꼬리수리"
+  - name: "참수리"
+  - name: "매"
+  - name: "황조롱이"
+  - name: "솔개"
+  - name: "말똥가리"
+  - name: "참매"
+  - name: "새매"
+  - name: "부엉이"
+  - name: "수리부엉이"
+  - name: "칡부엉이"
+  - name: "솔부엉이"
+  - name: "올빼미"
+  - name: "소쩍새"
+  - name: "두루미"
+    aliases: ["학", "단정학"]
+  - name: "재두루미"
+  - name: "흑두루미"
+  - name: "백로"
+  - name: "중대백로"
+  - name: "쇠백로"
+  - name: "노랑부리백로"
+  - name: "왜가리"
+  - name: "해오라기"
+  - name: "황로"
+  - name: "황새"
+  - name: "저어새"
+  - name: "노랑부리저어새"
+  - name: "따오기"
+  - name: "오리"
+    aliases: ["물오리", "들오리"]
+  - name: "청둥오리"
+  - name: "흰뺨검둥오리"
+  - name: "가창오리"
+  - name: "원앙"
+    aliases: ["원앙새"]
+  - name: "비오리"
+  - name: "호사비오리"
+  - name: "기러기"
+  - name: "쇠기러기"
+  - name: "큰기러기"
+  - name: "개리"
+  - name: "고니"
+    aliases: ["백조"]
+  - name: "큰고니"
+  - name: "딱따구리"
+    aliases: ["딱다구리"]
+  - name: "오색딱다구리"
+    aliases: ["오색딱따구리"]
+  - name: "큰오색딱다구리"
+    aliases: ["큰오색딱따구리"]
+  - name: "청딱다구리"
+    aliases: ["청딱따구리"]
+  - name: "쇠딱다구리"
+    aliases: ["쇠딱따구리"]
+  - name: "까막딱다구리"
+    aliases: ["까막딱따구리"]
+  - name: "크낙새"
+  - name: "꿩"
+    aliases: ["장끼", "까투리"]
+  - name: "메추라기"
+    aliases: ["메추리"]
+  - name: "뻐꾸기"
+  - name: "검은등뻐꾸기"
+  - name: "두견이"
+    aliases: ["두견새"]
+  - name: "꾀꼬리"
+  - name: "종다리"
+    aliases: ["종달새"]
+  - name: "박새"
+  - name: "쇠박새"
+  - name: "진박새"
+  - name: "곤줄박이"
+  - name: "오목눈이"
+  - name: "붉은머리오목눈이"
+    aliases: ["뱁새"]
+  - name: "동박새"
+  - name: "직박구리"
+  - name: "딱새"
+  - name: "물총새"
+  - name: "호반새"
+  - name: "청호반새"
+  - name: "파랑새"
+  - name: "후투티"
+    aliases: ["오디새"]
+  - name: "팔색조"
+  - name: "동고비"
+  - name: "굴뚝새"
+  - name: "휘파람새"
+  - name: "개개비"
+  - name: "할미새"
+  - name: "알락할미새"
+  - name: "노랑할미새"
+  - name: "때까치"
+  - name: "어치"
+  - name: "물까치"
+  - name: "찌르레기"
+  - name: "지빠귀"
+  - name: "개똥지빠귀"
+  - name: "호랑지빠귀"
+  - name: "노랑지빠귀"
+  - name: "황여새"
+  - name: "홍여새"
+  - name: "되새"
+  - name: "콩새"
+  - name: "밀화부리"
+  - name: "방울새"
+  - name: "멧새"
+  - name: "노랑턱멧새"
+  - name: "촉새"
+  - name: "쑥새"
+  - name: "큰유리새"
+  - name: "상모솔새"
+  - name: "물까마귀"
+  - name: "물닭"
+  - name: "쇠물닭"
+  - name: "뜸부기"
+  - name: "논병아리"
+  - name: "뿔논병아리"
+  - name: "가마우지"
+  - name: "민물가마우지"
+  - name: "도요새"
+  - name: "마도요"
+  - name: "알락꼬리마도요"
+  - name: "민물도요"
+  - name: "넓적부리도요"
+  - name: "물떼새"
+  - name: "꼬마물떼새"
+  - name: "흰물떼새"
+  - name: "댕기물떼새"
+  - name: "검은머리물떼새"
+  - name: "뿔쇠오리"
+  - name: "슴새"
+  - name: "바다제비"
+  - name: "쏙독새"
+  - name: "칼새"
+  - name: "느시"

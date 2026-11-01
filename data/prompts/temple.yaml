@@ -1,0 +1,161 @@
+# One question for 만에 하나. Edit this file by hand; everything in data/signals and data/game.* is generated.
+# Don't write tiers here: the pipeline calculates them from Wikipedia pageviews and other signals.
+# To force a tier for one answer, add `tier:` (1-4) AND a `note:` explaining why.
+id: temple
+label: "절"
+question: "한국의 절(사찰)을 하나 대 보세요"
+hint: "남한의 절 · 이름에 '사'나 '암'이 붙는 곳"
+status: draft
+strip: []
+gem: "운주사"
+gem_note: "도선국사가 하룻밤 새 천불천탑을 세웠다는 전설이 있어요."
+# Typed often but NOT valid. Rejected outright, so the typo fixer can't turn them into a real answer.
+# Famous temples outside Korea (Japan, Cambodia), and 종묘, which is a royal shrine, not a Buddhist temple.
+# Not 소림사 / 한산사 / 백마사: small Korean temples share those Chinese names (e.g. 소림사 in 종로구).
+reject: ["금각사", "은각사", "법륭사", "앙코르와트", "종묘"]
+
+# Korean Wikipedia titles to try for each answer, in order. {name} is replaced by the answer.
+wiki_titles: ["{name}", "{name} (사찰)", "{name} (절)"]
+# Words that show an article is about the right topic (also used to pick from disambiguation pages)
+context: ["사찰", "절", "불교", "조계종", "천태종", "암자", "본사", "말사"]
+# Use everyday word frequency? false when answers have other meanings (kings, places, surnames)
+use_wordfreq: false
+
+# Anchor pairs: the first answer MUST come out more common than the second, or the update is blocked.
+anchors:
+  - ["불국사", "태안사"]
+  - ["해인사", "쌍봉사"]
+  - ["통도사", "개암사"]
+  - ["조계사", "무위사"]
+
+# Where the answer list was checked
+sources:
+  - https://encykorea.aks.ac.kr/Article/E0023752
+  - https://mobile.newsis.com/view/NISX20180702_0000351882
+  - https://v.daum.net/v/XDV085x2mQ
+  - https://m.cafe.daum.net/tkpolice29/EbYl/53550
+  - https://weekly.khan.co.kr/article/202011271552131
+  - https://dh.aks.ac.kr/wiki/index.php/%EC%8A%B9%ED%83%91%EB%B9%84%EB%AC%B8_%EA%B8%B0%EC%82%AC_%EB%AA%A9%EB%A1%9D
+  - https://sanshin.pages.dev/Top108Temples.html
+  - https://en.wikipedia.org/wiki/List_of_Buddhist_temples_in_Seoul
+  - https://koreantempleguide.com/category/jeollanam-do/page/3/
+  - https://koreantempleguide.com/tag/korean-temple/page/33
+  - https://amp.cnn.com/cnn/travel/article/south-korea-beautiful-temples
+
+# Many names are shared by several temples (보문사, 송광사, 용문사, 관음사, 흥국사...): any of them counts.
+# Hermitages (암) count. 석굴암 is its own answer (a separate national treasure and World Heritage site,
+# though administered by 불국사). Famous historic temples known today as sites (황룡사, 미륵사, 감은사,
+# 정림사) count too; their "-지" site names are aliases.
+answers:
+  # 조계종 25 교구본사
+  - name: "조계사"
+  - name: "용주사"
+  - name: "신흥사"
+  - name: "월정사"
+  - name: "법주사"
+  - name: "마곡사"
+  - name: "수덕사"
+  - name: "직지사"
+  - name: "동화사"
+  - name: "은해사"
+  - name: "불국사"
+  - name: "해인사"
+  - name: "쌍계사"
+  - name: "범어사"
+  - name: "통도사"
+  - name: "고운사"
+  - name: "금산사"
+  - name: "백양사"
+  - name: "화엄사"
+  - name: "선암사"
+  - name: "송광사"
+  - name: "대흥사"
+    aliases: ["대둔사"]
+  - name: "관음사"
+  - name: "선운사"
+  - name: "봉선사"
+  # 산사, 한국의 산지승원 (not already above) and other well-known temples
+  - name: "부석사"
+  - name: "봉정사"
+  - name: "석굴암"
+    aliases: ["석불사"]
+  - name: "봉은사"
+  - name: "낙산사"
+  - name: "운주사"
+  - name: "미황사"
+  - name: "내소사"
+  - name: "개심사"
+  - name: "기림사"
+  - name: "청량사"
+  - name: "전등사"
+  - name: "보문사"
+  - name: "상원사"
+  - name: "백담사"
+  - name: "갑사"
+  - name: "동학사"
+  - name: "신원사"
+  - name: "구인사"
+  - name: "표충사"
+  - name: "해동용궁사"
+    aliases: ["용궁사"]
+  - name: "길상사"
+  - name: "진관사"
+  - name: "도선사"
+  - name: "화계사"
+  - name: "봉원사"
+  - name: "승가사"
+  - name: "신륵사"
+  - name: "용문사"
+  - name: "수종사"
+  - name: "칠장사"
+  - name: "정암사"
+  - name: "법흥사"
+  - name: "삼화사"
+  - name: "건봉사"
+  - name: "구룡사"
+  - name: "청평사"
+  - name: "무량사"
+  - name: "관촉사"
+  - name: "고란사"
+  - name: "보경사"
+  - name: "운문사"
+  - name: "분황사"
+  - name: "파계사"
+  - name: "옥천사"
+  - name: "실상사"
+  - name: "천은사"
+  - name: "내장사"
+  - name: "무위사"
+  - name: "도갑사"
+  - name: "흥국사"
+  - name: "화암사"
+  - name: "개암사"
+  - name: "쌍봉사"
+  - name: "태안사"
+  - name: "약천사"
+  - name: "오어사"
+  - name: "불영사"
+  - name: "봉암사"
+  - name: "보림사"
+  - name: "인각사"
+  - name: "골굴사"
+  - name: "선본사"
+  - name: "연곡사"
+  # hermitages (암자)
+  - name: "보리암"
+  - name: "향일암"
+  - name: "홍련암"
+  - name: "봉정암"
+  - name: "오세암"
+  - name: "사리암"
+  - name: "연주암"
+  - name: "간월암"
+  # historic temples now known as sites
+  - name: "황룡사"
+    aliases: ["황룡사지"]
+  - name: "미륵사"
+    aliases: ["미륵사지"]
+  - name: "감은사"
+    aliases: ["감은사지"]
+  - name: "정림사"
+    aliases: ["정림사지"]
