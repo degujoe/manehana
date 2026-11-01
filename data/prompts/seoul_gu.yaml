@@ -1,0 +1,64 @@
+# One question for 만에 하나. Edit this file by hand; everything in data/signals and data/game.* is generated.
+# Don't write tiers here: the pipeline calculates them from Wikipedia pageviews and other signals.
+# To force a tier for one answer, add `tier:` (1-4) AND a `note:` explaining why.
+id: seoul_gu
+label: "서울의 구"
+question: "서울의 자치구를 하나 대 보세요"
+hint: "25개 자치구"
+status: draft
+strip: ["구"]
+gem: "금천구"
+gem_note: "조선 시대 지명 '금천현'을 되살린 이름으로, 중구 다음으로 작은 구예요."
+# Typed often but NOT valid. Rejected outright, so the typo fixer can't turn them into a real answer.
+reject: ["해운대구", "수성구", "유성구", "부평구", "연수구", "달서구", "광산구", "분당구", "일산", "여의도", "잠실", "신촌", "홍대", "명동", "이태원", "압구정", "목동", "동구", "서구", "남구", "북구"]
+
+# Korean Wikipedia titles to try for each answer, in order. {name} is replaced by the answer.
+wiki_titles: ["{name} (서울특별시)", "서울 {name}", "{name}"]
+# Words that show an article is about the right topic (also used to pick from disambiguation pages)
+context: ["서울", "자치구"]
+# Use everyday word frequency? false when answers have other meanings (kings, places, surnames)
+use_wordfreq: false
+
+# Anchor pairs: the first answer MUST come out more common than the second, or the update is blocked.
+anchors:
+  - ["강남구", "금천구"]
+  - ["송파구", "도봉구"]
+  - ["용산구", "중랑구"]
+  - ["마포구", "도봉구"]
+
+# Where the answer list was checked
+sources:
+  - https://ko.wikipedia.org/wiki/서울특별시
+  - https://ko.wikipedia.org/wiki/중구_(서울특별시)
+  - https://ko.wikipedia.org/wiki/강서구_(서울특별시)
+  - https://ko.wikipedia.org/wiki/금천구
+
+answers:
+  - name: "강남구"
+  - name: "서초구"
+  - name: "송파구"
+  - name: "종로구"
+  - name: "용산구"
+  - name: "마포구"
+  - name: "중구"
+    aliases: ["서울중구"]
+    wiki: "중구 (서울특별시)"
+  - name: "영등포구"
+  - name: "강동구"
+  - name: "강서구"
+    wiki: "강서구 (서울특별시)"
+  - name: "성동구"
+  - name: "광진구"
+  - name: "동대문구"
+  - name: "서대문구"
+  - name: "성북구"
+  - name: "노원구"
+  - name: "은평구"
+  - name: "관악구"
+  - name: "동작구"
+  - name: "양천구"
+  - name: "구로구"
+  - name: "강북구"
+  - name: "도봉구"
+  - name: "중랑구"
+  - name: "금천구"

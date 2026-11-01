@@ -1,0 +1,105 @@
+# One question for 만에 하나. Edit this file by hand; everything in data/signals and data/game.* is generated.
+# Don't write tiers here: the pipeline calculates them from Wikipedia pageviews and other signals.
+# To force a tier for one answer, add `tier:` (1-4) AND a `note:` explaining why.
+id: goryeo
+label: "고려의 왕"
+question: "고려의 왕을 한 명 대 보세요"
+hint: "태조부터 공양왕까지 34명 (묘호·시호 또는 이름) · 추존왕 제외"
+status: draft
+strip: ["대왕", "왕"]
+gem: "충선왕"
+gem_note: "원나라에서 모함을 받아 토번(지금의 티베트)까지 유배된 고려 왕이에요."
+# Typed often but NOT valid. Rejected outright, so the typo fixer can't turn them into a real answer.
+# Joseon-only kings (태종, 세종, 세조 …), Goryeo 추존왕 (국조, 의조, 세조, 대종, 안종) and other rulers of the period.
+reject: ["태종", "세종", "단종", "세조", "연산군", "중종", "선조", "광해군", "인조", "효종", "영조", "정조", "순조", "철종", "국조", "의조", "대종", "안종", "궁예", "견훤", "이성계", "경순왕"]
+
+# Korean Wikipedia titles to try for each answer, in order. {name} is replaced by the answer.
+wiki_titles: ["{name} (고려)", "고려 {name}", "{name}"]
+# Words that show an article is about the right topic (also used to pick from disambiguation pages)
+context: ["고려"]
+# Use everyday word frequency? false when answers have other meanings (kings, places, surnames)
+use_wordfreq: false
+# Signal weights for this question (most names are shared with Joseon kings and common words (경종 = alarm bell), so text mentions would mislead)
+weights: {mentions: 0}
+
+# Anchor pairs: the first answer MUST come out more common than the second, or the update is blocked.
+anchors:
+  - ["태조", "강종"]
+  - ["공민왕", "충목왕"]
+  - ["광종", "희종"]
+  - ["공양왕", "덕종"]
+
+# Where the answer list was checked
+sources:
+  - https://ko.wikipedia.org/wiki/고려_국왕
+  - https://ko.wikipedia.org/wiki/고려_왕실
+  - https://en.wikipedia.org/wiki/List_of_monarchs_of_Korea
+  - https://ko.wikipedia.org/wiki/충선왕
+
+# Personal names left out on purpose because two people share them in Hangul:
+# 왕요 (3대 정종 王堯, 공양왕 王瑤), 왕욱 (헌종, 추존 대종·안종), 왕우 (예종 王俁, 우왕 王禑),
+# 왕전 (공민왕 王顓, 원종의 초명 王倎). 왕도·왕정·왕창 are everyday words.
+answers:
+  - name: "태조"
+    aliases: ["왕건", "태조왕건"]
+  - name: "혜종"
+    aliases: ["왕무"]
+  - name: "정종"
+    # two kings: 3대 정종 (定宗, 왕요) and 10대 정종 (靖宗, 왕형); one answer, scored on the better-known 3대
+    aliases: ["왕형"]
+    wiki: "정종 (고려 3대)"
+  - name: "광종"
+    aliases: ["왕소"]
+  - name: "경종"
+    aliases: ["왕주"]
+  - name: "성종"
+    aliases: ["왕치"]
+  - name: "목종"
+    aliases: ["왕송"]
+  - name: "현종"
+    aliases: ["왕순"]
+  - name: "덕종"
+    aliases: ["왕흠"]
+  - name: "문종"
+    aliases: ["왕휘"]
+  - name: "순종"
+    aliases: ["왕훈"]
+  - name: "선종"
+    aliases: ["왕운"]
+  - name: "헌종"
+  - name: "숙종"
+    aliases: ["왕옹"]
+  - name: "예종"
+  - name: "인종"
+    aliases: ["왕해"]
+  - name: "의종"
+    aliases: ["왕현"]
+  - name: "명종"
+    aliases: ["왕호"]
+  - name: "신종"
+    aliases: ["왕탁"]
+  - name: "희종"
+    aliases: ["왕영"]
+  - name: "강종"
+    aliases: ["왕오"]
+  - name: "고종"
+    aliases: ["왕철"]
+  - name: "원종"
+    aliases: ["왕식"]
+  - name: "충렬왕"
+    aliases: ["왕거"]
+  - name: "충선왕"
+    aliases: ["왕장", "이지르부카"]
+  - name: "충숙왕"
+  - name: "충혜왕"
+  - name: "충목왕"
+    aliases: ["왕흔"]
+  - name: "충정왕"
+    aliases: ["왕저"]
+  - name: "공민왕"
+  - name: "우왕"
+    aliases: ["신우", "모니노"]
+    wiki: "고려 우왕"
+  - name: "창왕"
+    aliases: ["신창"]
+  - name: "공양왕"

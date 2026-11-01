@@ -1,0 +1,160 @@
+# One question for 만에 하나. Edit this file by hand; everything in data/signals and data/game.* is generated.
+# Don't write tiers here: the pipeline calculates them from Wikipedia pageviews and other signals.
+# To force a tier for one answer, add `tier:` (1-4) AND a `note:` explaining why.
+id: korea_city
+label: "대한민국의 시"
+question: "대한민국의 시를 하나 대 보세요"
+hint: "특별시·광역시·특별자치시·일반 시 모두 (군 제외)"
+status: draft
+strip: ["통합특별시", "특별자치시", "특별시", "광역시", "특례시", "시"]
+gem: "계룡"
+gem_note: "육·해·공군 본부가 모인 계룡대 덕분에 2003년 논산에서 갈라져 나온 시예요."
+# Typed often but NOT valid. Rejected outright, so the typo fixer can't turn them into a real answer.
+# 군 that people mistake for cities, 구 and neighbourhoods, and North Korean cities.
+reject: ["양평", "가평", "연천", "홍천", "횡성", "평창", "정선", "영월", "철원", "양양", "고성", "울릉", "칠곡", "달성", "기장", "군위", "강화", "청원", "홍성", "예산", "부여", "태안", "단양", "완주", "담양", "해남", "무안", "진도", "완도", "울진", "영덕", "청송", "남해", "하동", "거창", "해운대", "분당", "일산", "수지", "강남", "평양", "개성"]
+
+# Korean Wikipedia titles to try for each answer, in order. {name} is replaced by the answer.
+wiki_titles: ["{name}시", "{name}광역시", "{name}특별시", "{name}특별자치시", "{name}"]
+# Words that show an article is about the right topic (also used to pick from disambiguation pages)
+context: ["시", "도시"]
+# Use everyday word frequency? false when answers have other meanings (kings, places, surnames)
+use_wordfreq: false
+
+# Anchor pairs: the first answer MUST come out more common than the second, or the update is blocked.
+anchors:
+  - ["서울", "계룡"]
+  - ["부산", "의왕"]
+  - ["수원", "영천"]
+  - ["대전", "김제"]
+
+# Where the answer list was checked
+sources:
+  - https://ko.wikipedia.org/wiki/대한민국의_행정_구역
+  - https://ko.wikipedia.org/wiki/시_(행정_구역)
+  - https://ko.wikipedia.org/wiki/전남광주통합특별시
+  - https://ko.wikipedia.org/wiki/계룡시
+  - https://www.wikitree.co.kr/articles/1151621
+  - https://mobile.newsis.com/view/NISX20260409_0003584734
+
+answers:
+  # 특별시 · 광역시 · 특별자치시
+  - name: "서울"
+    wiki: "서울특별시"
+  - name: "부산"
+    wiki: "부산광역시"
+  - name: "대구"
+    wiki: "대구광역시"
+  - name: "인천"
+    wiki: "인천광역시"
+  - name: "대전"
+    wiki: "대전광역시"
+  - name: "울산"
+    wiki: "울산광역시"
+  - name: "세종"
+    wiki: "세종특별자치시"
+  # 광주광역시 merged with 전라남도 into 전남광주통합특별시 on 2026-07-01. The only 시 still called 광주 is
+  # 경기도 광주시, so typing 광주 is valid either way; it is scored on the 광주광역시 article because that
+  # is the 광주 almost everyone has in mind.
+  - name: "전남광주"
+    aliases: ["광주전남"]
+    wiki: "전남광주통합특별시"
+  - name: "광주"
+    aliases: ["경기광주", "경기도광주"]
+    wiki: "광주광역시"
+  # 경기도 (28)
+  - name: "수원"
+  - name: "성남"
+  - name: "고양"
+  - name: "용인"
+  - name: "부천"
+  - name: "안산"
+  - name: "안양"
+  - name: "남양주"
+    aliases: ["미금"]
+  - name: "화성"
+  - name: "평택"
+    aliases: ["송탄"]
+  - name: "의정부"
+  - name: "시흥"
+  - name: "파주"
+  - name: "김포"
+  - name: "광명"
+  - name: "군포"
+  - name: "하남"
+  - name: "오산"
+  - name: "이천"
+  - name: "안성"
+  - name: "의왕"
+  - name: "양주"
+  - name: "구리"
+  - name: "포천"
+  - name: "동두천"
+  - name: "과천"
+  - name: "여주"
+  # 강원특별자치도 (7)
+  - name: "춘천"
+  - name: "원주"
+  - name: "강릉"
+  - name: "동해"
+  - name: "태백"
+  - name: "속초"
+  - name: "삼척"
+  # 충청북도 (3)
+  - name: "청주"
+  - name: "충주"
+  - name: "제천"
+  # 충청남도 (8)
+  - name: "천안"
+  - name: "공주"
+  - name: "보령"
+    aliases: ["대천"]
+  - name: "아산"
+    aliases: ["온양"]
+  - name: "서산"
+  - name: "논산"
+  - name: "계룡"
+  - name: "당진"
+  # 전북특별자치도 (6)
+  - name: "전주"
+  - name: "군산"
+  - name: "익산"
+    aliases: ["이리"]
+  - name: "정읍"
+  - name: "남원"
+  - name: "김제"
+  # 전남광주통합특별시의 시 (옛 전라남도, 5)
+  - name: "목포"
+  - name: "여수"
+    aliases: ["여천"]
+  - name: "순천"
+  - name: "나주"
+  - name: "광양"
+    aliases: ["동광양"]
+  # 경상북도 (10)
+  - name: "포항"
+  - name: "경주"
+  - name: "김천"
+  - name: "안동"
+  - name: "구미"
+  - name: "영주"
+  - name: "영천"
+  - name: "상주"
+  - name: "문경"
+    aliases: ["점촌"]
+  - name: "경산"
+  # 경상남도 (8)
+  - name: "창원"
+    aliases: ["마산", "진해"]
+  - name: "진주"
+  - name: "통영"
+    aliases: ["충무"]
+  - name: "사천"
+    aliases: ["삼천포"]
+  - name: "김해"
+  - name: "밀양"
+  - name: "거제"
+    aliases: ["장승포"]
+  - name: "양산"
+  # 제주특별자치도 행정시 (2)
+  - name: "제주"
+  - name: "서귀포"
