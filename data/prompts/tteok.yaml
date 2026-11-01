@@ -1,0 +1,157 @@
+# One question for 만에 하나. Edit this file by hand; everything in data/signals and data/game.* is generated.
+# Don't write tiers here: the pipeline calculates them from Wikipedia pageviews and other signals.
+# To force a tier for one answer, add `tier:` (1-4) AND a `note:` explaining why.
+id: tteok
+label: "떡"
+question: "떡 종류를 하나 대 보세요"
+hint: "한국 떡이면 모두 (떡볶이·떡국 같은 떡 요리와 한과는 제외)"
+status: draft
+# No strip: "떡" would turn 감자떡/호박떡/상추떡/도토리떡 into 감자/호박/상추/도토리, which aren't 떡.
+strip: []
+gem: "두텁떡"
+gem_note: "두텁떡은 궁중에서 봉우리떡·후병이라고도 부르던 떡이에요."
+# Typed often but NOT valid. Rejected outright, so the typo fixer can't turn them into a real answer.
+# 빈대떡 is 전 (encykorea files it under 기타 as 빈자떡; pressian notes it isn't thought of as 떡 today).
+# 약과·유과·강정·다식·정과·엿 are 한과, not 떡.
+reject: ["떡볶이", "떡국", "떡갈비", "떡꼬치", "떡만둣국", "떡산적", "떡잡채", "빈대떡", "호떡",
+         "한과", "약과", "유과", "강정", "다식", "정과", "엿", "빵", "찐빵", "케이크", "만두"]
+
+# Korean Wikipedia titles to try for each answer, in order. {name} is replaced by the answer.
+wiki_titles: ["{name}", "{name} (떡)", "{name} (음식)"]
+# Words that show an article is about the right topic (also used to pick from disambiguation pages)
+context: ["떡", "음식"]
+# Use everyday word frequency? false when answers have other meanings (kings, places, surnames)
+use_wordfreq: true
+# Signal weights for this question (everyday words: lean on how often they are written, not on article pageviews)
+weights: {mentions: 3, wordfreq: 2, pageviews: 1, sitelinks: 0}
+
+# Anchor pairs: the first answer MUST come out more common than the second, or the update is blocked.
+anchors:
+  - ["송편", "두텁떡"]
+  - ["인절미", "석이단자"]
+  - ["가래떡", "오그랑떡"]
+  - ["백설기", "느티떡"]
+
+# Where the answer list was checked
+sources:
+  - https://encykorea.aks.ac.kr/Article/E0017196
+  - https://encykorea.aks.ac.kr/Article/E0017048
+  - https://encykorea.aks.ac.kr/Article/E0039878
+  - https://encykorea.aks.ac.kr/Article/E0017205
+  - https://www.thinkfood.co.kr/news/articleView.html?idxno=19299
+  - https://www.100ssd.co.kr/news/articleView.html?idxno=18157
+  - https://kttfia.or.kr/59/?bmode=view&idx=14322489
+  - https://lady.khan.co.kr/cooking/article/9532
+  - https://www.pressian.com/pages/articles/100589
+  - https://en.wikipedia.org/wiki/Tteok
+
+answers:
+  - name: "가래떡"
+    aliases: ["흰떡", "떡가래", "떡국떡"]
+  - name: "인절미"
+  - name: "송편"
+  - name: "시루떡"
+    aliases: ["팥시루떡", "팥떡", "고사떡"]
+  - name: "백설기"
+    aliases: ["흰무리", "설기", "설기떡", "무리떡"]
+  - name: "절편"
+  - name: "꿀떡"
+  - name: "경단"
+  - name: "약식"
+    aliases: ["약밥", "약반"]
+  - name: "증편"
+    aliases: ["술떡", "기정떡"]
+  - name: "찹쌀떡"
+    aliases: ["찰떡", "모찌", "찹쌀모찌"]
+  - name: "개피떡"
+    aliases: ["바람떡", "공갈떡"]
+  - name: "무지개떡"
+  - name: "쑥떡"
+  - name: "콩떡"
+    aliases: ["콩설기"]
+  - name: "호박떡"
+    aliases: ["호박시루떡", "호박설기", "단호박설기"]
+  - name: "감자떡"
+  - name: "오메기떡"
+    aliases: ["오매기떡"]
+  - name: "빙떡"
+  - name: "망개떡"
+  - name: "두텁떡"
+    aliases: ["봉우리떡", "후병", "합병"]
+  - name: "쇠머리떡"
+    aliases: ["쇠머리찰떡"]
+  - name: "화전"
+    aliases: ["꽃전", "진달래화전", "두견화전"]
+  - name: "주악"
+    aliases: ["조악"]
+  - name: "부꾸미"
+    aliases: ["수수부꾸미", "찰부꾸미"]
+  - name: "수수팥떡"
+    aliases: ["수수경단", "수수팥경단", "팥수수경단", "수수팥단자"]
+  - name: "단자"
+  - name: "석이단자"
+  - name: "대추단자"
+  - name: "쑥구리단자"
+    aliases: ["쑥구리"]
+  - name: "유자단자"
+  - name: "밤단자"
+  - name: "쑥굴레"
+  - name: "쑥버무리"
+    aliases: ["쑥털털이"]
+  - name: "수리취떡"
+    aliases: ["수리취절편", "차륜병"]
+  - name: "모싯잎송편"
+    aliases: ["모시잎송편", "모시송편", "모시떡"]
+  - name: "감자송편"
+  - name: "구름떡"
+  - name: "상추떡"
+    aliases: ["상치떡"]
+  - name: "느티떡"
+    aliases: ["느티설기"]
+  - name: "송기떡"
+    aliases: ["송피떡"]
+  - name: "골무떡"
+    aliases: ["골미떡"]
+  - name: "고치떡"
+  - name: "개떡"
+    aliases: ["보리개떡", "쑥개떡"]
+  - name: "꼬장떡"
+  - name: "노티"
+    aliases: ["노티떡"]
+  - name: "오그랑떡"
+  - name: "우메기"
+    aliases: ["우메기떡", "우매기", "개성주악"]
+  - name: "여주산병"
+    aliases: ["산병"]
+  - name: "꽃산병"
+  - name: "잡과병"
+    aliases: ["잡과편"]
+  - name: "석탄병"
+  - name: "혼돈병"
+  - name: "무시루떡"
+    aliases: ["나복병", "무떡"]
+  - name: "물호박떡"
+  - name: "각색편"
+  - name: "백편"
+  - name: "약편"
+    aliases: ["대추약편"]
+  - name: "도토리떡"
+  - name: "칡떡"
+  - name: "메밀전병"
+    aliases: ["총떡", "메밀총떡"]
+  - name: "상애떡"
+    aliases: ["상외떡"]
+  - name: "상화병"
+    aliases: ["상화"]
+  - name: "차좁쌀떡"
+    aliases: ["좁쌀떡"]
+  - name: "잣구리"
+  - name: "부편"
+  - name: "색떡"
+  - name: "봉치떡"
+    aliases: ["봉채떡"]
+  - name: "달떡"
+  - name: "해장떡"
+  - name: "오쟁이떡"
+  - name: "니도래미"
+  - name: "감고지떡"

@@ -1,0 +1,150 @@
+# One question for 만에 하나. Edit this file by hand; everything in data/signals and data/game.* is generated.
+# Don't write tiers here: the pipeline calculates them from Wikipedia pageviews and other signals.
+# To force a tier for one answer, add `tier:` (1-4) AND a `note:` explaining why.
+id: namul
+label: "나물"
+question: "나물 이름을 하나 대 보세요"
+hint: "산나물·들나물·나물로 무쳐 먹는 채소 모두 (김치·쌈채소는 제외)"
+status: draft
+# "냉이나물", "고사리나물" → 냉이, 고사리. The game only adds a stripped answer form when 2+ syllables
+# are left, so 콩나물/참나물/돌나물 never shrink to 콩/참/돌.
+strip: ["나물"]
+gem: "눈개승마"
+gem_note: "눈개승마는 쫄깃해서 울릉도에선 '산에서 나는 쇠고기'라 불려요."
+# Typed often but NOT valid. Rejected outright, so the typo fixer can't turn them into a real answer.
+# 배추·상추 are 김치·쌈 vegetables, not 나물 (encykorea's 나물 article doesn't list them).
+reject: ["김치", "배추", "양배추", "상추", "양상추", "당근", "감자", "고구마", "양파",
+         "브로콜리", "파프리카", "깍두기", "비빔밥", "김", "미역", "다시마"]
+
+# Korean Wikipedia titles to try for each answer, in order. {name} is replaced by the answer.
+wiki_titles: ["{name}", "{name} (식물)"]
+# Words that show an article is about the right topic (also used to pick from disambiguation pages)
+context: ["나물", "식물", "채소", "잎"]
+# Use everyday word frequency? false when answers have other meanings (kings, places, surnames)
+use_wordfreq: true
+# Signal weights for this question (everyday words: lean on how often they are written, not on article pageviews)
+weights: {mentions: 3, wordfreq: 2, pageviews: 1, sitelinks: 0}
+
+# Anchor pairs: the first answer MUST come out more common than the second, or the update is blocked.
+anchors:
+  - ["콩나물", "눈개승마"]
+  - ["시금치", "어수리"]
+  - ["고사리", "곤달비"]
+  - ["도라지", "뽀리뱅이"]
+
+# Where the answer list was checked
+sources:
+  - https://encykorea.aks.ac.kr/Article/E0011354
+  - https://en.wikipedia.org/wiki/Namul
+  - https://every-ease.com/entry/%EB%B4%84%EB%82%98%EB%AC%BC%EC%9D%98-%EC%A2%85%EB%A5%98-100%EA%B0%80%EC%A7%80-%EB%B4%84%EB%82%98%EB%AC%BC-%ED%9A%A8%EB%8A%A5-%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0
+  - https://guide.michelin.com/kr/ko/article/features/%EB%AF%B8%EA%B0%81%EC%9D%84-%EA%B9%A8%EC%9A%B0%EB%8A%94-%EB%B4%84%EB%82%98%EB%AC%BC%EC%9D%98-%ED%96%A5%EC%97%B0
+  - https://v.daum.net/v/20250412014233431
+  - https://www.kbmaeil.com/article/20260401500307
+  - https://kbmaeil.com/article/201302200059464
+  - https://ob.forest.go.kr/kfs/images/data/down/imsan/imsan_03_11.pdf
+
+answers:
+  - name: "콩나물"
+  - name: "숙주나물"
+    aliases: ["숙주", "녹두나물"]
+  - name: "시금치"
+    aliases: ["섬초", "포항초", "남해초"]
+  - name: "고사리"
+  - name: "도라지"
+  - name: "취나물"
+    aliases: ["취", "참취"]
+  - name: "곰취"
+  - name: "냉이"
+  - name: "달래"
+  - name: "쑥"
+  - name: "미나리"
+    aliases: ["돌미나리"]
+  - name: "비름"
+    aliases: ["참비름"]
+  - name: "참나물"
+  - name: "파드득나물"
+  - name: "곤드레"
+    aliases: ["고려엉겅퀴"]
+  - name: "두릅"
+    aliases: ["참두릅"]
+  - name: "땅두릅"
+    aliases: ["독활"]
+  - name: "음나무순"
+    aliases: ["엄나무순", "개두릅"]
+  - name: "고비"
+    aliases: ["참고비"]
+  - name: "원추리"
+    aliases: ["넘나물", "언추리나물"]
+  - name: "머위"
+    aliases: ["머윗대", "머위대", "머구"]
+  - name: "씀바귀"
+  - name: "돌나물"
+    aliases: ["돈나물"]
+  - name: "방풍나물"
+    aliases: ["방풍", "갯기름나물"]
+  - name: "산마늘"
+    aliases: ["명이", "명이나물", "맹이"]
+  - name: "눈개승마"
+    aliases: ["삼나물"]
+  - name: "부지깽이나물"
+    aliases: ["부지깽이", "섬쑥부쟁이", "부지갱이"]
+  - name: "쑥부쟁이"
+  - name: "전호"
+    aliases: ["전호나물"]
+  - name: "미역취"
+  - name: "고들빼기"
+  - name: "민들레"
+  - name: "질경이"
+  - name: "쑥갓"
+  - name: "부추"
+    aliases: ["정구지"]
+  - name: "깻잎순"
+  - name: "시래기"
+  - name: "고구마순"
+    aliases: ["고구마줄기"]
+  - name: "토란대"
+    aliases: ["토란줄기"]
+  - name: "고춧잎"
+    aliases: ["고추잎"]
+  - name: "피마자잎"
+    aliases: ["아주까리잎"]
+  - name: "호박"
+    aliases: ["애호박", "호박고지", "호박오가리"]
+  - name: "가지"
+  - name: "오이"
+  - name: "무"
+  - name: "엉겅퀴"
+  - name: "어수리"
+  - name: "곤달비"
+  - name: "개미취"
+  - name: "단풍취"
+  - name: "잔대"
+  - name: "더덕"
+  - name: "삽주"
+  - name: "우산나물"
+  - name: "바디나물"
+  - name: "산부추"
+  - name: "얼레지"
+  - name: "비비추"
+  - name: "풀솜대"
+  - name: "밀나물"
+  - name: "박쥐나물"
+  - name: "모싯대"
+  - name: "둥굴레"
+    aliases: ["둥글레"]
+  - name: "다래순"
+  - name: "죽순"
+  - name: "홑잎나물"
+    aliases: ["홑잎", "화살나무순"]
+  - name: "참죽나물"
+    aliases: ["참죽순", "가죽나물"]
+  - name: "유채"
+  - name: "세발나물"
+  - name: "쇠비름"
+  - name: "명아주"
+  - name: "꽃다지"
+  - name: "광대나물"
+  - name: "망초"
+  - name: "지칭개"
+  - name: "뽀리뱅이"
+  - name: "나비나물"
