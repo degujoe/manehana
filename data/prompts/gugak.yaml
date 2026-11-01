@@ -8,6 +8,8 @@ hint: "궁중 악기와 민속 악기 모두"
 status: live
 strip: []
 gem: "공후"
+# One sentence about the gem, shown to players on the results screen
+gem_note: "하프를 닮은 옛 현악기로, 고조선 노래 '공후인(공무도하가)'의 이름이 여기서 왔어요."
 
 # Korean Wikipedia titles to try for each answer, in order. {name} is replaced by the answer.
 wiki_titles: ["{name} (악기)", "{name}"]

@@ -8,6 +8,8 @@ hint: "한 글자·두 글자 성씨 모두"
 status: live
 strip: ["씨", "가"]
 gem: "독고"
+# One sentence about the gem, shown to players on the results screen
+gem_note: "인구가 1천 명이 채 안 되는, 아주 드문 두 글자 성씨예요."
 
 # Korean Wikipedia titles to try for each answer, in order. {name} is replaced by the answer.
 wiki_titles: ["{name} (성씨)", "{name}씨"]

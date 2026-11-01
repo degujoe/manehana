@@ -8,6 +8,8 @@ hint: "태조부터 순종까지 27명 (묘호 또는 이름) · 추존왕 제�
 status: live
 strip: ["대왕", "왕", "황제"]
 gem: "경종"
+# One sentence about the gem, shown to players on the results screen
+gem_note: "장희빈의 아들로, 왕위에 오른 지 4년 만에 세상을 떠났어요."
 # Typed often but NOT valid. Rejected outright, so the typo fixer can't turn them into a real answer.
 reject: ["장조", "익종", "문조", "덕종", "원종", "진종", "이호", "이연", "이환"]
 

@@ -158,6 +158,26 @@ button{font:inherit;cursor:pointer}
 .rrow .ra{font-family:var(--f-display);font-size:18px;font-weight:600}
 .rrow .rp{font-family:var(--f-mono);font-size:14px;font-variant-numeric:tabular-nums;min-width:3.5ch;text-align:right}
 .rrow .rtxt{min-width:0;display:flex;flex-direction:column}
+.rows-hint{margin:0 0 -14px;font-size:13px;color:var(--ink-dim)}
+/* 결과 줄을 누르면 펼쳐지는 정답 목록 */
+.rd{border-bottom:1px solid var(--line)}
+.rd > summary{list-style:none;cursor:pointer;border-bottom:0;grid-template-columns:minmax(0,1fr) auto auto 12px;border-radius:8px}
+.rd > summary::-webkit-details-marker{display:none}
+.rd > summary:hover .ra{color:var(--glow)}
+.rd > summary:focus-visible{outline:2px solid var(--glow);outline-offset:2px}
+.rd .caret{width:8px;height:8px;border-right:2px solid var(--ink-dim);border-bottom:2px solid var(--ink-dim);transform:translateY(-3px) rotate(45deg);transition:transform .2s}
+.rd[open] .caret{transform:translateY(2px) rotate(-135deg)}
+.rpanel{display:flex;flex-direction:column;gap:14px;padding:2px 0 18px}
+.rgem{display:flex;flex-direction:column;gap:2px;padding:12px 14px;border-radius:12px;border:1px solid var(--lure);background:color-mix(in oklab, var(--lure) 9%, transparent)}
+.rgem .gl{font-family:var(--f-mono);font-size:11px;letter-spacing:.12em;color:var(--lure)}
+.rgem strong{font-family:var(--f-display);font-size:21px;font-weight:600;color:var(--lure)}
+.rgem p{margin:0;font-size:14px;line-height:1.55;color:var(--ink)}
+.rtier{display:flex;flex-direction:column;gap:5px}
+.rtier .th{display:flex;align-items:center;gap:8px}
+.rtier .chip{font-size:13px;padding:1px 9px}
+.rtier .cnt{font-family:var(--f-mono);font-size:12px;color:var(--ink-dim);font-variant-numeric:tabular-nums}
+.rtier .names{margin:0;font-size:14px;line-height:1.75;color:var(--ink-dim);min-width:0}
+.rtier .names .me{color:var(--ink);font-weight:600;text-decoration:underline;text-decoration-color:var(--c);text-decoration-thickness:2px;text-underline-offset:4px}
 .share{display:flex;flex-direction:column;gap:10px}
 .share pre{margin:0;padding:14px 16px;border-radius:12px;background:var(--panel);border:1px solid var(--line);font-family:var(--f-mono);font-size:15px;line-height:1.6;white-space:pre-wrap;overflow-x:auto;user-select:all}
 .countdown{font-family:var(--f-mono);font-size:13px;color:var(--ink-dim);font-variant-numeric:tabular-nums;margin:0}
@@ -232,6 +252,7 @@ button{font:inherit;cursor:pointer}
       <p class="sub" id="finalSub"></p>
       <div class="trench" aria-hidden="true"><i id="trenchBar"></i></div>
     </div>
+    <p class="rows-hint">문제를 누르면 모든 정답과 등급을 볼 수 있어요.</p>
     <div class="rows" id="rows"></div>
     <div class="share">
       <pre id="shareText"></pre>
@@ -697,16 +718,48 @@ if (typeof document !== 'undefined') (function ui() {
     $('#finalSub').textContent = `${res.total} / ${PER_DAY * 100}점 · 챌린저 해연(10,935 m)의 ${pct}%`;
     $('#trenchBar').style.width = Math.max(2, pct) + '%';
     $('#rows').innerHTML = res.results.map(r =>
-      `<div class="rrow"><div class="rtxt"><span class="rl"></span><span class="ra"></span></div><span class="chip z${r.tier}">${TIERS[r.tier].name}</span><span class="rp">${r.pts}</span></div>`).join('');
+      `<details class="rd"><summary class="rrow"><div class="rtxt"><span class="rl"></span><span class="ra"></span></div><span class="chip z${r.tier}">${TIERS[r.tier].name}</span><span class="rp">${r.pts}</span><span class="caret" aria-hidden="true"></span></summary><div class="rpanel"></div></details>`).join('');
     [...$('#rows').children].forEach((row, i) => {
       const r = res.results[i];
       row.querySelector('.rl').textContent = r.label;
       row.querySelector('.ra').textContent = r.name || '—';
+      row.addEventListener('toggle', () => {
+        if (!row.open || row.dataset.built) return;
+        row.querySelector('.rpanel').innerHTML = answerPanel(r, questionFor(r.id, mode));
+        row.dataset.built = '1';
+      });
     });
     $('#shareText').textContent = shareText(res, mode);
     $('#copyMsg').textContent = '';
     $('#countdown').hidden = mode !== 'daily';
     updateCountdown();
+  }
+
+  // 결과 화면: 문제 하나의 모든 정답을 등급별로 (내 답 강조, 만에 하나 설명)
+  const esc = s => String(s).replace(/[&<>"']/g, c => ({'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'}[c]));
+  function questionFor(id, mode) {
+    const fromList = list => (list || []).find(q => q.id === id && Array.isArray(q.answers));
+    return (mode === 'practice' && fromList(S.list)) || (DAY && fromList(DAY.questions)) || fromList(S.list) || fromList(PROMPTS);
+  }
+  function answerPanel(r, q) {
+    if (!q) return '<p class="hint">정답 목록을 불러오지 못했어요.</p>';
+    const pool = PROMPTS.find(p => p.id === q.id) || {};
+    const note = q.gem_note || pool.gem_note || '';
+    const gem = q.answers.find(a => a.tier === 5);
+    let html = '';
+    if (gem) {
+      html += `<div class="rgem"><span class="gl">만에 하나 · ${TIERS[5].name}</span>` +
+        `<strong>${esc(gem.name)}${r.name === gem.name ? ' — 찾았어요!' : ''}</strong>` +
+        (note ? `<p>${esc(note)}</p>` : '') + `</div>`;
+    }
+    for (let t = 1; t <= 4; t++) {
+      const list = q.answers.filter(a => a.tier === t).map(a => a.name).sort((a, b) => a.localeCompare(b, 'ko'));
+      if (!list.length) continue;
+      html += `<div class="rtier z${t}"><div class="th"><span class="chip z${t}">${TIERS[t].name}</span>` +
+        `<span class="cnt">${list.length}개 · ${TIERS[t].pts}점</span></div><p class="names">` +
+        list.map(n => n === r.name ? `<span class="me">${esc(n)}</span>` : esc(n)).join(' · ') + `</p></div>`;
+    }
+    return html;
   }
 
   function updateCountdown() {

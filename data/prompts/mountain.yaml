@@ -8,6 +8,8 @@ hint: "남한·북한 모두"
 status: live
 strip: ["산"]
 gem: "가리왕산"
+# One sentence about the gem, shown to players on the results screen
+gem_note: "강원도 정선의 산으로, 2018 평창 동계올림픽 알파인 스키 경기가 열렸어요."
 
 # Korean Wikipedia titles to try for each answer, in order. {name} is replaced by the answer.
 wiki_titles: ["{name}"]

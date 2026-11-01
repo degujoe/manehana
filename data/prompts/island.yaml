@@ -8,6 +8,8 @@ hint: "남한의 섬"
 status: live
 strip: ["도", "섬"]
 gem: "만재도"
+# One sentence about the gem, shown to players on the results screen
+gem_note: "신안군의 외딴섬으로, 예능 '삼시세끼 어촌편'을 찍은 곳이에요."
 # Typed often but NOT valid. Rejected outright, so the typo fixer can't turn them into a real answer.
 reject: ["송도", "이어도"]
 

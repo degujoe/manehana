@@ -73,7 +73,8 @@ def write_day(day, questions, note=""):
 def snapshot(pool, qid):
     p = pool[qid]
     return {"id": p["id"], "label": p["label"], "q": p["q"], "hint": p["hint"],
-            "strip": p.get("strip", []), "reject": p.get("reject", []), "answers": p["answers"]}
+            "strip": p.get("strip", []), "reject": p.get("reject", []),
+            "gem_note": p.get("gem_note", ""), "answers": p["answers"]}
 
 
 def history():

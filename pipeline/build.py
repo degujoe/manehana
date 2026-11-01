@@ -252,7 +252,7 @@ def main():
             failed.append(p["id"])
         if p["status"] == "live":
             game.append({"id": p["id"], "label": p["label"], "q": p["question"], "hint": p["hint"],
-                         "strip": p["strip"], "reject": p["reject"],
+                         "strip": p["strip"], "reject": p["reject"], "gem_note": p.get("gem_note", ""),
                          "answers": [{"name": r["name"], "aliases": r["aliases"], "tier": r["tier"]} for r in rows]})
 
     head = ["# 만에 하나 data report", "",

@@ -8,6 +8,8 @@ hint: "본선과 성수·신정 지선 포함, 51개 역"
 status: live
 strip: ["역"]
 gem: "도림천"
+# One sentence about the gem, shown to players on the results screen
+gem_note: "2호선 신정 지선의 역으로, 이름은 옆을 흐르는 하천 '도림천'에서 왔어요."
 
 # Korean Wikipedia titles to try for each answer, in order. {name} is replaced by the answer.
 wiki_titles: ["{name}역 (서울)", "{name}역"]

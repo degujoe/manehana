@@ -8,6 +8,8 @@ hint: "물김치와 지역 김치 포함"
 status: live
 strip: ["김치"]
 gem: "비늘김치"
+# One sentence about the gem, shown to players on the results screen
+gem_note: "통무에 비늘처럼 칼집을 내고, 그 사이사이에 소를 넣어 담가요."
 
 # Korean Wikipedia titles to try for each answer, in order. {name} is replaced by the answer.
 wiki_titles: ["{name}"]

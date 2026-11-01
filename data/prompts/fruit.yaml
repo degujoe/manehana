@@ -8,6 +8,8 @@ hint: "토마토도 인정 · 채소와 견과류(밤·호두)는 제외"
 status: live
 strip: []
 gem: "으름"
+# One sentence about the gem, shown to players on the results screen
+gem_note: "산에서 자라는 덩굴 열매로, 익으면 껍질이 벌어지며 달콤한 하얀 속살이 드러나요."
 # Typed often but NOT valid. Rejected outright, so the typo fixer can't turn them into a real answer.
 reject: ["배추", "오이", "감자", "고구마", "당근", "호박", "밤", "호두", "잣", "땅콩", "은행"]
 

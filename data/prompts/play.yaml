@@ -8,6 +8,8 @@ hint: "민속놀이와 골목놀이 모두"
 status: live
 strip: ["놀이"]
 gem: "승경도"
+# One sentence about the gem, shown to players on the results screen
+gem_note: "조선 양반들이 관직 이름이 적힌 판 위에서 윤목을 굴려 벼슬을 겨루던 놀이예요."
 
 # Korean Wikipedia titles to try for each answer, in order. {name} is replaced by the answer.
 wiki_titles: ["{name}"]

@@ -8,6 +8,8 @@ hint: "물고기만 (오징어·조개 제외)"
 status: live
 strip: []
 gem: "뚝지"
+# One sentence about the gem, shown to players on the results screen
+gem_note: "강원도에서는 '도치'라 부르는 겨울 별미로, 배의 빨판으로 바위에 붙어 지내요."
 # Typed often but NOT valid. Rejected outright, so the typo fixer can't turn them into a real answer.
 reject: ["오징어", "문어", "낙지", "주꾸미", "꼴뚜기", "새우", "대게", "꽃게", "게", "조개", "전복", "굴", "소라", "멍게", "해삼", "고래", "미역", "김"]
 
