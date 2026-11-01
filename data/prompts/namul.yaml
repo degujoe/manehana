@@ -5,7 +5,7 @@ id: namul
 label: "나물"
 question: "나물 이름을 하나 대 보세요"
 hint: "산나물·들나물·나물로 무쳐 먹는 채소 모두 (김치·쌈채소는 제외)"
-status: draft
+status: live
 # "냉이나물", "고사리나물" → 냉이, 고사리. The game only adds a stripped answer form when 2+ syllables
 # are left, so 콩나물/참나물/돌나물 never shrink to 콩/참/돌.
 strip: ["나물"]
@@ -52,6 +52,8 @@ answers:
   - name: "고사리"
   - name: "도라지"
   - name: "취나물"
+    tier: 1
+    note: "the best-known mountain 나물, sold everywhere; Wikipedia mentions undercount everyday food words"
     aliases: ["취", "참취"]
   - name: "곰취"
   - name: "냉이"
@@ -62,10 +64,14 @@ answers:
   - name: "비름"
     aliases: ["참비름"]
   - name: "참나물"
+    tier: 2
+    note: "an everyday 나물 sold in every market; Wikipedia mentions undercount everyday food words"
   - name: "파드득나물"
   - name: "곤드레"
     aliases: ["고려엉겅퀴"]
   - name: "두릅"
+    tier: 2
+    note: "a famous spring 나물; Wikipedia mentions undercount everyday food words"
     aliases: ["참두릅"]
   - name: "땅두릅"
     aliases: ["독활"]

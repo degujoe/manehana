@@ -5,10 +5,10 @@ id: goryeo
 label: "고려의 왕"
 question: "고려의 왕을 한 명 대 보세요"
 hint: "태조부터 공양왕까지 34명 (묘호·시호 또는 이름) · 추존왕 제외"
-status: draft
+status: live
 strip: ["대왕", "왕"]
-gem: "충선왕"
-gem_note: "원나라에서 모함을 받아 토번(지금의 티베트)까지 유배된 고려 왕이에요."
+gem: "희종"
+gem_note: "무신 정권의 실력자 최충헌을 없애려다 실패해 왕위에서 쫓겨났어요."
 # Typed often but NOT valid. Rejected outright, so the typo fixer can't turn them into a real answer.
 # Joseon-only kings (태종, 세종, 세조 …), Goryeo 추존왕 (국조, 의조, 세조, 대종, 안종) and other rulers of the period.
 reject: ["태종", "세종", "단종", "세조", "연산군", "중종", "선조", "광해군", "인조", "효종", "영조", "정조", "순조", "철종", "국조", "의조", "대종", "안종", "궁예", "견훤", "이성계", "경순왕"]

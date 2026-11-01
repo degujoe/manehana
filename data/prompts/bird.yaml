@@ -5,10 +5,10 @@ id: bird
 label: "새"
 question: "한국에서 볼 수 있는 새를 하나 대 보세요"
 hint: "텃새·철새 모두 (닭·거위 같은 가축 제외)"
-status: draft
+status: live
 strip: []
-gem: "후투티"
-gem_note: "오디 먹으러 온 벌레를 잡아먹어 옛날엔 '오디새'라고 불렸어요."
+gem: "물까마귀"
+gem_note: "이름과 달리 까마귀가 아니라, 계곡 물속을 걸어 다니며 먹이를 잡는 새예요."
 # Typed often but NOT valid. Rejected outright, so the typo fixer can't turn them into a real answer.
 # Domestic or caged birds (닭, 거위, 집오리, 칠면조, 오골계, 십자매, 잉꼬, 카나리아, 문조, 앵무새, 공작)
 # and birds that don't live wild in Korea (타조, 펭귄, 홍학/플라밍고, 벌새, 키위, 에뮤). 박쥐 is a mammal.

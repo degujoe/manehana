@@ -5,7 +5,7 @@ id: seoul_gu
 label: "서울의 구"
 question: "서울의 자치구를 하나 대 보세요"
 hint: "25개 자치구"
-status: draft
+status: live
 strip: ["구"]
 gem: "금천구"
 gem_note: "조선 시대 지명 '금천현'을 되살린 이름으로, 중구 다음으로 작은 구예요."

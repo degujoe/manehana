@@ -5,7 +5,7 @@ id: temple
 label: "절"
 question: "한국의 절(사찰)을 하나 대 보세요"
 hint: "남한의 절 · 이름에 '사'나 '암'이 붙는 곳"
-status: draft
+status: live
 strip: []
 gem: "운주사"
 gem_note: "도선국사가 하룻밤 새 천불천탑을 세웠다는 전설이 있어요."

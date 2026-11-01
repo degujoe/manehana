@@ -5,7 +5,7 @@ id: korea_city
 label: "대한민국의 시"
 question: "대한민국의 시를 하나 대 보세요"
 hint: "특별시·광역시·특별자치시·일반 시 모두 (군 제외)"
-status: draft
+status: live
 strip: ["통합특별시", "특별자치시", "특별시", "광역시", "특례시", "시"]
 gem: "계룡"
 gem_note: "육·해·공군 본부가 모인 계룡대 덕분에 2003년 논산에서 갈라져 나온 시예요."
@@ -98,6 +98,8 @@ answers:
   - name: "동해"
   - name: "태백"
   - name: "속초"
+    tier: 2
+    note: "one of Korea's best-known tourist cities; pageviews and mentions favour large cities"
   - name: "삼척"
   # 충청북도 (3)
   - name: "청주"
@@ -158,3 +160,5 @@ answers:
   # 제주특별자치도 행정시 (2)
   - name: "제주"
   - name: "서귀포"
+    tier: 2
+    note: "Jeju's second city and a major tourist destination; pageviews and mentions favour large cities"

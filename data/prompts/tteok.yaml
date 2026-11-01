@@ -5,11 +5,11 @@ id: tteok
 label: "떡"
 question: "떡 종류를 하나 대 보세요"
 hint: "한국 떡이면 모두 (떡볶이·떡국 같은 떡 요리와 한과는 제외)"
-status: draft
+status: live
 # No strip: "떡" would turn 감자떡/호박떡/상추떡/도토리떡 into 감자/호박/상추/도토리, which aren't 떡.
 strip: []
-gem: "두텁떡"
-gem_note: "두텁떡은 궁중에서 봉우리떡·후병이라고도 부르던 떡이에요."
+gem: "쇠머리떡"
+gem_note: "썰어 놓은 모양이 소머리 편육을 닮았다고 해서 붙은 이름이에요."
 # Typed often but NOT valid. Rejected outright, so the typo fixer can't turn them into a real answer.
 # 빈대떡 is 전 (encykorea files it under 기타 as 빈자떡; pressian notes it isn't thought of as 떡 today).
 # 약과·유과·강정·다식·정과·엿 are 한과, not 떡.
