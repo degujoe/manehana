@@ -1,0 +1,303 @@
+{
+ "id": "goryeo",
+ "answers": {
+  "태조": {
+   "status": "ok",
+   "note": "",
+   "article": "태조 (고려)",
+   "qid": "Q334312",
+   "pageviews": 28109,
+   "sitelinks": 38,
+   "mentions": 3703
+  },
+  "혜종": {
+   "status": "ok",
+   "note": "",
+   "article": "혜종 (고려)",
+   "qid": "Q485587",
+   "pageviews": 11107,
+   "sitelinks": 26,
+   "mentions": 456
+  },
+  "정종": {
+   "status": "ok",
+   "note": "",
+   "article": "정종 (고려 3대)",
+   "qid": "Q493659",
+   "pageviews": 6881,
+   "sitelinks": 24,
+   "mentions": 986
+  },
+  "광종": {
+   "status": "ok",
+   "note": "",
+   "article": "광종 (고려)",
+   "qid": "Q469387",
+   "pageviews": 18582,
+   "sitelinks": 33,
+   "mentions": 532
+  },
+  "경종": {
+   "status": "ok",
+   "note": "",
+   "article": "경종 (고려)",
+   "qid": "Q493692",
+   "pageviews": 2861,
+   "sitelinks": 25,
+   "mentions": 982
+  },
+  "성종": {
+   "status": "ok",
+   "note": "",
+   "article": "성종 (고려)",
+   "qid": "Q493702",
+   "pageviews": 10440,
+   "sitelinks": 22,
+   "mentions": 2430
+  },
+  "목종": {
+   "status": "ok",
+   "note": "",
+   "article": "목종 (고려)",
+   "qid": "Q493723",
+   "pageviews": 7946,
+   "sitelinks": 23,
+   "mentions": 516
+  },
+  "현종": {
+   "status": "ok",
+   "note": "",
+   "article": "현종 (고려)",
+   "qid": "Q493736",
+   "pageviews": 12184,
+   "sitelinks": 23,
+   "mentions": 2425
+  },
+  "덕종": {
+   "status": "ok",
+   "note": "",
+   "article": "덕종 (고려)",
+   "qid": "Q493752",
+   "pageviews": 1664,
+   "sitelinks": 20,
+   "mentions": 631
+  },
+  "문종": {
+   "status": "ok",
+   "note": "",
+   "article": "문종 (고려)",
+   "qid": "Q493769",
+   "pageviews": 9198,
+   "sitelinks": 25,
+   "mentions": 1178
+  },
+  "순종": {
+   "status": "ok",
+   "note": "",
+   "article": "순종 (고려)",
+   "qid": "Q493785",
+   "pageviews": 1635,
+   "sitelinks": 20,
+   "mentions": 1091
+  },
+  "선종": {
+   "status": "ok",
+   "note": "",
+   "article": "선종 (고려)",
+   "qid": "Q493797",
+   "pageviews": 2481,
+   "sitelinks": 21,
+   "mentions": 2009
+  },
+  "헌종": {
+   "status": "ok",
+   "note": "",
+   "article": "헌종 (고려)",
+   "qid": "Q493812",
+   "pageviews": 1938,
+   "sitelinks": 20,
+   "mentions": 1158
+  },
+  "숙종": {
+   "status": "ok",
+   "note": "",
+   "article": "숙종 (고려)",
+   "qid": "Q493830",
+   "pageviews": 3179,
+   "sitelinks": 21,
+   "mentions": null
+  },
+  "예종": {
+   "status": "ok",
+   "note": "",
+   "article": "예종 (고려)",
+   "qid": "Q493852",
+   "pageviews": 2295,
+   "sitelinks": 24,
+   "mentions": 1091
+  },
+  "인종": {
+   "status": "ok",
+   "note": "",
+   "article": "인종 (고려)",
+   "qid": "Q493874",
+   "pageviews": 3279,
+   "sitelinks": 21,
+   "mentions": null
+  },
+  "의종": {
+   "status": "ok",
+   "note": "",
+   "article": "의종 (고려)",
+   "qid": "Q493893",
+   "pageviews": 3693,
+   "sitelinks": 19,
+   "mentions": 663
+  },
+  "명종": {
+   "status": "ok",
+   "note": "",
+   "article": "명종 (고려)",
+   "qid": "Q493913",
+   "pageviews": 2519,
+   "sitelinks": 19,
+   "mentions": 1857
+  },
+  "신종": {
+   "status": "ok",
+   "note": "",
+   "article": "신종 (고려)",
+   "qid": "Q493930",
+   "pageviews": 1915,
+   "sitelinks": 19,
+   "mentions": null
+  },
+  "희종": {
+   "status": "ok",
+   "note": "",
+   "article": "희종 (고려)",
+   "qid": "Q493946",
+   "pageviews": 2319,
+   "sitelinks": 19,
+   "mentions": null
+  },
+  "강종": {
+   "status": "ok",
+   "note": "",
+   "article": "강종 (고려)",
+   "qid": "Q704280",
+   "pageviews": 2219,
+   "sitelinks": 19,
+   "mentions": 274
+  },
+  "고종": {
+   "status": "ok",
+   "note": "",
+   "article": "고종 (고려)",
+   "qid": "Q368892",
+   "pageviews": 4129,
+   "sitelinks": 19,
+   "mentions": 4602
+  },
+  "원종": {
+   "status": "ok",
+   "note": "",
+   "article": "원종 (고려)",
+   "qid": "Q493978",
+   "pageviews": 3568,
+   "sitelinks": 20,
+   "mentions": 952
+  },
+  "충렬왕": {
+   "status": "ok",
+   "note": "",
+   "article": "충렬왕",
+   "qid": "Q493993",
+   "pageviews": 5836,
+   "sitelinks": 20,
+   "mentions": 881
+  },
+  "충선왕": {
+   "status": "ok",
+   "note": "",
+   "article": "충선왕",
+   "qid": "Q494012",
+   "pageviews": 7352,
+   "sitelinks": 20,
+   "mentions": 469
+  },
+  "충숙왕": {
+   "status": "ok",
+   "note": "",
+   "article": "충숙왕",
+   "qid": "Q494035",
+   "pageviews": 4835,
+   "sitelinks": 20,
+   "mentions": 545
+  },
+  "충혜왕": {
+   "status": "ok",
+   "note": "",
+   "article": "충혜왕",
+   "qid": "Q487766",
+   "pageviews": 6747,
+   "sitelinks": 19,
+   "mentions": 370
+  },
+  "충목왕": {
+   "status": "ok",
+   "note": "",
+   "article": "충목왕",
+   "qid": "Q494056",
+   "pageviews": 2549,
+   "sitelinks": 20,
+   "mentions": 328
+  },
+  "충정왕": {
+   "status": "ok",
+   "note": "",
+   "article": "충정왕",
+   "qid": "Q485495",
+   "pageviews": 3497,
+   "sitelinks": 20,
+   "mentions": 286
+  },
+  "공민왕": {
+   "status": "ok",
+   "note": "",
+   "article": "공민왕",
+   "qid": "Q494074",
+   "pageviews": 19325,
+   "sitelinks": 27,
+   "mentions": 1174
+  },
+  "우왕": {
+   "status": "ok",
+   "note": "",
+   "article": "우왕",
+   "qid": "Q302096",
+   "pageviews": 10331,
+   "sitelinks": 25,
+   "mentions": 823
+  },
+  "창왕": {
+   "status": "ok",
+   "note": "",
+   "article": "창왕",
+   "qid": "Q485504",
+   "pageviews": 8259,
+   "sitelinks": 22,
+   "mentions": 360
+  },
+  "공양왕": {
+   "status": "ok",
+   "note": "",
+   "article": "공양왕",
+   "qid": "Q485590",
+   "pageviews": 12151,
+   "sitelinks": 24,
+   "mentions": 644
+  }
+ },
+ "collected": "2026-11-02"
+}
