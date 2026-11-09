@@ -1,0 +1,685 @@
+{
+ "id": "tteok",
+ "answers": {
+  "가래떡": {
+   "status": "ok",
+   "note": "",
+   "article": "가래떡",
+   "qid": "Q5368786",
+   "pageviews": 1906,
+   "sitelinks": 6,
+   "mentions": 119,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "인절미": {
+   "status": "ok",
+   "note": "",
+   "article": "인절미",
+   "qid": "Q1077966",
+   "pageviews": 2523,
+   "sitelinks": 8,
+   "mentions": 125,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "송편": {
+   "status": "ok",
+   "note": "",
+   "article": "송편",
+   "qid": "Q716797",
+   "pageviews": 4642,
+   "sitelinks": 18,
+   "mentions": 184,
+   "wordfreq": 3.19,
+   "wordfreq_homonym": false
+  },
+  "시루떡": {
+   "status": "ok",
+   "note": "",
+   "article": "시루떡",
+   "qid": "Q5361198",
+   "pageviews": 1979,
+   "sitelinks": 8,
+   "mentions": 118,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "백설기": {
+   "status": "ok",
+   "note": "",
+   "article": "백설기",
+   "qid": "Q862974",
+   "pageviews": 2154,
+   "sitelinks": 9,
+   "mentions": 118,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "절편": {
+   "status": "ok",
+   "note": "picked from disambiguation page 절편",
+   "article": "절편 (떡)",
+   "qid": "Q5247475",
+   "pageviews": 1082,
+   "sitelinks": 7,
+   "mentions": 161,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": true
+  },
+  "꿀떡": {
+   "status": "ok",
+   "note": "",
+   "article": "꿀떡",
+   "qid": "Q60030154",
+   "pageviews": 1267,
+   "sitelinks": 1,
+   "mentions": 106,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "경단": {
+   "status": "ok",
+   "note": "",
+   "article": "경단",
+   "qid": "Q28132082",
+   "pageviews": 1253,
+   "sitelinks": 5,
+   "mentions": 173,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "약식": {
+   "status": "ok",
+   "note": "",
+   "article": "약식",
+   "qid": "Q705123",
+   "pageviews": 2462,
+   "sitelinks": 12,
+   "mentions": 336,
+   "wordfreq": 3.28,
+   "wordfreq_homonym": false
+  },
+  "증편": {
+   "status": "ok",
+   "note": "",
+   "article": "증편",
+   "qid": "Q6189326",
+   "pageviews": 920,
+   "sitelinks": 5,
+   "mentions": 232,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "찹쌀떡": {
+   "status": "ok",
+   "note": "",
+   "article": "찹쌀떡",
+   "qid": "Q5073431",
+   "pageviews": 1409,
+   "sitelinks": 7,
+   "mentions": 110,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "개피떡": {
+   "status": "ok",
+   "note": "",
+   "article": "개피떡",
+   "qid": "Q4858303",
+   "pageviews": 1035,
+   "sitelinks": 2,
+   "mentions": 103,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "무지개떡": {
+   "status": "ok",
+   "note": "",
+   "article": "무지개떡",
+   "qid": "Q954266",
+   "pageviews": 976,
+   "sitelinks": 6,
+   "mentions": 106,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "쑥떡": {
+   "status": "ok",
+   "note": "",
+   "article": "쑥떡",
+   "qid": "Q16164832",
+   "pageviews": 408,
+   "sitelinks": 1,
+   "mentions": 102,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "콩떡": {
+   "status": "missing",
+   "note": "no Korean Wikipedia article",
+   "pageviews": 0,
+   "mentions": 3,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "호박떡": {
+   "status": "ok",
+   "note": "",
+   "article": "호박떡",
+   "qid": "Q5874625",
+   "pageviews": 400,
+   "sitelinks": 2,
+   "mentions": 3,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "감자떡": {
+   "status": "ok",
+   "note": "",
+   "article": "감자떡",
+   "qid": null,
+   "pageviews": 229,
+   "sitelinks": null,
+   "mentions": 99,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "오메기떡": {
+   "status": "ok",
+   "note": "",
+   "article": "오메기떡",
+   "qid": "Q30637566",
+   "pageviews": 3401,
+   "sitelinks": 3,
+   "mentions": 6,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "빙떡": {
+   "status": "ok",
+   "note": "",
+   "article": "빙떡",
+   "qid": "Q12599538",
+   "pageviews": 682,
+   "sitelinks": 1,
+   "mentions": 8,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "망개떡": {
+   "status": "ok",
+   "note": "",
+   "article": "망개떡",
+   "qid": "Q85978376",
+   "pageviews": 2989,
+   "sitelinks": 1,
+   "mentions": 10,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "두텁떡": {
+   "status": "check",
+   "note": "article intro doesn't mention: 떡, 음식",
+   "article": "인수 합병",
+   "qid": "Q731112",
+   "pageviews": 3308,
+   "sitelinks": 36,
+   "mentions": 101,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "쇠머리떡": {
+   "status": "missing",
+   "note": "no Korean Wikipedia article",
+   "pageviews": 0,
+   "mentions": 0,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "화전": {
+   "status": "ok",
+   "note": "picked from disambiguation page 화전",
+   "article": "화전 (음식)",
+   "qid": "Q703147",
+   "pageviews": 2243,
+   "sitelinks": 15,
+   "mentions": 306,
+   "wordfreq": 3.08,
+   "wordfreq_homonym": true
+  },
+  "주악": {
+   "status": "ok",
+   "note": "",
+   "article": "주악",
+   "qid": "Q60041581",
+   "pageviews": 1535,
+   "sitelinks": 1,
+   "mentions": 126,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "부꾸미": {
+   "status": "ok",
+   "note": "",
+   "article": "부꾸미",
+   "qid": "Q4986986",
+   "pageviews": 1197,
+   "sitelinks": 8,
+   "mentions": 108,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "수수팥떡": {
+   "status": "missing",
+   "note": "no Korean Wikipedia article",
+   "pageviews": 0,
+   "mentions": 2,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "단자": {
+   "status": "ok",
+   "note": "picked from disambiguation page 단자",
+   "article": "단자 (음식)",
+   "qid": "Q5219923",
+   "pageviews": 203,
+   "sitelinks": 4,
+   "mentions": 822,
+   "wordfreq": 3.64,
+   "wordfreq_homonym": true
+  },
+  "석이단자": {
+   "status": "missing",
+   "note": "no Korean Wikipedia article",
+   "pageviews": 0,
+   "mentions": 97,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "대추단자": {
+   "status": "missing",
+   "note": "no Korean Wikipedia article",
+   "pageviews": 0,
+   "mentions": 97,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "쑥구리단자": {
+   "status": "missing",
+   "note": "no Korean Wikipedia article",
+   "pageviews": 0,
+   "mentions": 97,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "유자단자": {
+   "status": "missing",
+   "note": "no Korean Wikipedia article",
+   "pageviews": 0,
+   "mentions": 97,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "밤단자": {
+   "status": "missing",
+   "note": "no Korean Wikipedia article",
+   "pageviews": 0,
+   "mentions": 99,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "쑥굴레": {
+   "status": "missing",
+   "note": "no Korean Wikipedia article",
+   "pageviews": 0,
+   "mentions": 0,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "쑥버무리": {
+   "status": "missing",
+   "note": "no Korean Wikipedia article",
+   "pageviews": 0,
+   "mentions": 3,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "수리취떡": {
+   "status": "missing",
+   "note": "no Korean Wikipedia article",
+   "pageviews": 0,
+   "mentions": 5,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "모싯잎송편": {
+   "status": "missing",
+   "note": "no Korean Wikipedia article",
+   "pageviews": 0,
+   "mentions": 2,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "감자송편": {
+   "status": "missing",
+   "note": "no Korean Wikipedia article",
+   "pageviews": 0,
+   "mentions": 4,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "구름떡": {
+   "status": "missing",
+   "note": "no Korean Wikipedia article",
+   "pageviews": 0,
+   "mentions": 97,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "상추떡": {
+   "status": "missing",
+   "note": "no Korean Wikipedia article",
+   "pageviews": 0,
+   "mentions": 0,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "느티떡": {
+   "status": "missing",
+   "note": "no Korean Wikipedia article",
+   "pageviews": 0,
+   "mentions": 97,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "송기떡": {
+   "status": "missing",
+   "note": "no Korean Wikipedia article",
+   "pageviews": 0,
+   "mentions": 98,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "골무떡": {
+   "status": "missing",
+   "note": "no Korean Wikipedia article",
+   "pageviews": 0,
+   "mentions": 0,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "고치떡": {
+   "status": "missing",
+   "note": "no Korean Wikipedia article",
+   "pageviews": 0,
+   "mentions": 1,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "개떡": {
+   "status": "ok",
+   "note": "",
+   "article": "개떡",
+   "qid": "Q55736560",
+   "pageviews": 1072,
+   "sitelinks": 1,
+   "mentions": 8,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "꼬장떡": {
+   "status": "missing",
+   "note": "no Korean Wikipedia article",
+   "pageviews": 0,
+   "mentions": 0,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "노티": {
+   "status": "ok",
+   "note": "",
+   "article": "노티",
+   "qid": "Q55728796",
+   "pageviews": 482,
+   "sitelinks": 1,
+   "mentions": 114,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "오그랑떡": {
+   "status": "missing",
+   "note": "no Korean Wikipedia article",
+   "pageviews": 0,
+   "mentions": 0,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "우메기": {
+   "status": "ok",
+   "note": "",
+   "article": "우메기",
+   "qid": "Q16163009",
+   "pageviews": 162,
+   "sitelinks": 1,
+   "mentions": 2,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "여주산병": {
+   "status": "check",
+   "note": "article intro doesn't mention: 떡, 음식",
+   "article": "산병",
+   "qid": "Q1481555",
+   "pageviews": 365,
+   "sitelinks": 18,
+   "mentions": 0,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "꽃산병": {
+   "status": "missing",
+   "note": "no Korean Wikipedia article",
+   "pageviews": 0,
+   "mentions": 0,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "잡과병": {
+   "status": "missing",
+   "note": "no Korean Wikipedia article",
+   "pageviews": 0,
+   "mentions": 97,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "석탄병": {
+   "status": "ok",
+   "note": "",
+   "article": "석탄병",
+   "qid": null,
+   "pageviews": 217,
+   "sitelinks": null,
+   "mentions": 98,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "혼돈병": {
+   "status": "missing",
+   "note": "no Korean Wikipedia article",
+   "pageviews": 0,
+   "mentions": 0,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "무시루떡": {
+   "status": "ok",
+   "note": "",
+   "article": "로박고우",
+   "qid": "Q708906",
+   "pageviews": 535,
+   "sitelinks": 14,
+   "mentions": 1,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "물호박떡": {
+   "status": "missing",
+   "note": "no Korean Wikipedia article",
+   "pageviews": 0,
+   "mentions": 97,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "각색편": {
+   "status": "missing",
+   "note": "no Korean Wikipedia article",
+   "pageviews": 0,
+   "mentions": 98,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "백편": {
+   "status": "missing",
+   "note": "no Korean Wikipedia article",
+   "pageviews": 0,
+   "mentions": 2,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "약편": {
+   "status": "missing",
+   "note": "no Korean Wikipedia article",
+   "pageviews": 0,
+   "mentions": 1,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "도토리떡": {
+   "status": "ok",
+   "note": "",
+   "article": "도토리떡",
+   "qid": null,
+   "pageviews": 201,
+   "sitelinks": null,
+   "mentions": 2,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "칡떡": {
+   "status": "missing",
+   "note": "no Korean Wikipedia article",
+   "pageviews": 0,
+   "mentions": 2,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "메밀전병": {
+   "status": "missing",
+   "note": "no Korean Wikipedia article",
+   "pageviews": 0,
+   "mentions": 6,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "상애떡": {
+   "status": "missing",
+   "note": "no Korean Wikipedia article",
+   "pageviews": 0,
+   "mentions": 1,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "상화병": {
+   "status": "ambiguous",
+   "note": "only disambiguation pages: 상화",
+   "mentions": 98,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "차좁쌀떡": {
+   "status": "missing",
+   "note": "no Korean Wikipedia article",
+   "pageviews": 0,
+   "mentions": 2,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "잣구리": {
+   "status": "missing",
+   "note": "no Korean Wikipedia article",
+   "pageviews": 0,
+   "mentions": 1,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "부편": {
+   "status": "ok",
+   "note": "",
+   "article": "부편",
+   "qid": "Q4998037",
+   "pageviews": 237,
+   "sitelinks": 6,
+   "mentions": 25,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "색떡": {
+   "status": "missing",
+   "note": "no Korean Wikipedia article",
+   "pageviews": 0,
+   "mentions": 0,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "봉치떡": {
+   "status": "missing",
+   "note": "no Korean Wikipedia article",
+   "pageviews": 0,
+   "mentions": 2,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "달떡": {
+   "status": "missing",
+   "note": "no Korean Wikipedia article",
+   "pageviews": 0,
+   "mentions": 1,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "해장떡": {
+   "status": "missing",
+   "note": "no Korean Wikipedia article",
+   "pageviews": 0,
+   "mentions": 0,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "오쟁이떡": {
+   "status": "missing",
+   "note": "no Korean Wikipedia article",
+   "pageviews": 0,
+   "mentions": 0,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "니도래미": {
+   "status": "missing",
+   "note": "no Korean Wikipedia article",
+   "pageviews": 0,
+   "mentions": 0,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  },
+  "감고지떡": {
+   "status": "missing",
+   "note": "no Korean Wikipedia article",
+   "pageviews": 0,
+   "mentions": 1,
+   "wordfreq": 0.0,
+   "wordfreq_homonym": false
+  }
+ },
+ "collected": "2026-11-09"
+}

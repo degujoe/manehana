@@ -1,0 +1,771 @@
+{
+ "id": "korea_city",
+ "answers": {
+  "서울": {
+   "status": "ok",
+   "note": "",
+   "article": "서울특별시",
+   "qid": "Q8684",
+   "pageviews": 130071,
+   "sitelinks": 223,
+   "mentions": 37803
+  },
+  "부산": {
+   "status": "ok",
+   "note": "",
+   "article": "부산광역시",
+   "qid": "Q16520",
+   "pageviews": 56959,
+   "sitelinks": 127,
+   "mentions": 16129
+  },
+  "대구": {
+   "status": "ok",
+   "note": "",
+   "article": "대구광역시",
+   "qid": "Q20927",
+   "pageviews": 49311,
+   "sitelinks": 96,
+   "mentions": 12612
+  },
+  "인천": {
+   "status": "ok",
+   "note": "",
+   "article": "인천광역시",
+   "qid": "Q20934",
+   "pageviews": 38802,
+   "sitelinks": 108,
+   "mentions": 12352
+  },
+  "대전": {
+   "status": "ok",
+   "note": "",
+   "article": "대전광역시",
+   "qid": "Q20921",
+   "pageviews": 36894,
+   "sitelinks": 90,
+   "mentions": 27957
+  },
+  "울산": {
+   "status": "ok",
+   "note": "",
+   "article": "울산광역시",
+   "qid": "Q41278",
+   "pageviews": 45840,
+   "sitelinks": 86,
+   "mentions": 8602
+  },
+  "세종": {
+   "status": "ok",
+   "note": "",
+   "article": "세종특별자치시",
+   "qid": "Q20929",
+   "pageviews": 29248,
+   "sitelinks": 59,
+   "mentions": 7383
+  },
+  "전남광주": {
+   "status": "ok",
+   "note": "",
+   "article": "전남광주통합특별시",
+   "qid": "Q138870299",
+   "pageviews": 28732,
+   "sitelinks": 7,
+   "mentions": 1143
+  },
+  "광주": {
+   "status": "ok",
+   "note": "",
+   "article": "광주광역시",
+   "qid": "Q41283",
+   "pageviews": 55177,
+   "sitelinks": 88,
+   "mentions": 11737
+  },
+  "수원": {
+   "status": "ok",
+   "note": "",
+   "article": "수원시",
+   "qid": "Q20714",
+   "pageviews": 27128,
+   "sitelinks": 79,
+   "mentions": 7332
+  },
+  "성남": {
+   "status": "ok",
+   "note": "",
+   "article": "성남시",
+   "qid": "Q42108",
+   "pageviews": 17791,
+   "sitelinks": 59,
+   "mentions": 4140
+  },
+  "고양": {
+   "status": "ok",
+   "note": "",
+   "article": "고양시",
+   "qid": "Q42061",
+   "pageviews": 26561,
+   "sitelinks": 54,
+   "mentions": 3951
+  },
+  "용인": {
+   "status": "ok",
+   "note": "",
+   "article": "용인시",
+   "qid": "Q18459",
+   "pageviews": 20026,
+   "sitelinks": 47,
+   "mentions": 3316
+  },
+  "부천": {
+   "status": "ok",
+   "note": "",
+   "article": "부천시",
+   "qid": "Q42099",
+   "pageviews": 15483,
+   "sitelinks": 49,
+   "mentions": 3062
+  },
+  "안산": {
+   "status": "ok",
+   "note": "",
+   "article": "안산시",
+   "qid": "Q42117",
+   "pageviews": 24549,
+   "sitelinks": 56,
+   "mentions": 3863
+  },
+  "안양": {
+   "status": "ok",
+   "note": "",
+   "article": "안양시",
+   "qid": "Q42120",
+   "pageviews": 11583,
+   "sitelinks": 44,
+   "mentions": 3476
+  },
+  "남양주": {
+   "status": "ok",
+   "note": "",
+   "article": "남양주시",
+   "qid": "Q42084",
+   "pageviews": 15446,
+   "sitelinks": 39,
+   "mentions": 1508
+  },
+  "화성": {
+   "status": "ok",
+   "note": "",
+   "article": "화성시",
+   "qid": "Q42160",
+   "pageviews": 31658,
+   "sitelinks": 48,
+   "mentions": 5129
+  },
+  "평택": {
+   "status": "ok",
+   "note": "",
+   "article": "평택시",
+   "qid": "Q42154",
+   "pageviews": 27331,
+   "sitelinks": 41,
+   "mentions": 3718
+  },
+  "의정부": {
+   "status": "ok",
+   "note": "",
+   "article": "의정부시",
+   "qid": "Q42135",
+   "pageviews": 9789,
+   "sitelinks": 41,
+   "mentions": 4050
+  },
+  "시흥": {
+   "status": "ok",
+   "note": "",
+   "article": "시흥시",
+   "qid": "Q42113",
+   "pageviews": 10556,
+   "sitelinks": 36,
+   "mentions": 2370
+  },
+  "파주": {
+   "status": "ok",
+   "note": "",
+   "article": "파주시",
+   "qid": "Q42153",
+   "pageviews": 16216,
+   "sitelinks": 45,
+   "mentions": 2260
+  },
+  "김포": {
+   "status": "ok",
+   "note": "",
+   "article": "김포시",
+   "qid": "Q42080",
+   "pageviews": 13092,
+   "sitelinks": 44,
+   "mentions": 2512
+  },
+  "광명": {
+   "status": "ok",
+   "note": "",
+   "article": "광명시",
+   "qid": "Q42066",
+   "pageviews": 10654,
+   "sitelinks": 38,
+   "mentions": 2331
+  },
+  "군포": {
+   "status": "ok",
+   "note": "",
+   "article": "군포시",
+   "qid": "Q42075",
+   "pageviews": 7696,
+   "sitelinks": 43,
+   "mentions": 2367
+  },
+  "하남": {
+   "status": "ok",
+   "note": "",
+   "article": "하남시",
+   "qid": "Q42159",
+   "pageviews": 7824,
+   "sitelinks": 41,
+   "mentions": 2508
+  },
+  "오산": {
+   "status": "ok",
+   "note": "",
+   "article": "오산시",
+   "qid": "Q42129",
+   "pageviews": 11120,
+   "sitelinks": 41,
+   "mentions": 2546
+  },
+  "이천": {
+   "status": "ok",
+   "note": "",
+   "article": "이천시",
+   "qid": "Q42136",
+   "pageviews": 10824,
+   "sitelinks": 39,
+   "mentions": 3233
+  },
+  "안성": {
+   "status": "ok",
+   "note": "",
+   "article": "안성시",
+   "qid": "Q42119",
+   "pageviews": 15413,
+   "sitelinks": 45,
+   "mentions": 2277
+  },
+  "의왕": {
+   "status": "ok",
+   "note": "",
+   "article": "의왕시",
+   "qid": "Q42134",
+   "pageviews": 7947,
+   "sitelinks": 37,
+   "mentions": 1681
+  },
+  "양주": {
+   "status": "ok",
+   "note": "",
+   "article": "양주시",
+   "qid": "Q42124",
+   "pageviews": 12226,
+   "sitelinks": 37,
+   "mentions": 2863
+  },
+  "구리": {
+   "status": "ok",
+   "note": "",
+   "article": "구리시",
+   "qid": "Q42071",
+   "pageviews": 8783,
+   "sitelinks": 39,
+   "mentions": 5201
+  },
+  "포천": {
+   "status": "ok",
+   "note": "",
+   "article": "포천시",
+   "qid": "Q42155",
+   "pageviews": 15096,
+   "sitelinks": 35,
+   "mentions": 3059
+  },
+  "동두천": {
+   "status": "ok",
+   "note": "",
+   "article": "동두천시",
+   "qid": "Q42092",
+   "pageviews": 10819,
+   "sitelinks": 39,
+   "mentions": 2297
+  },
+  "과천": {
+   "status": "ok",
+   "note": "",
+   "article": "과천시",
+   "qid": "Q42064",
+   "pageviews": 6630,
+   "sitelinks": 36,
+   "mentions": 1283
+  },
+  "여주": {
+   "status": "ok",
+   "note": "",
+   "article": "여주시",
+   "qid": "Q50257",
+   "pageviews": 12423,
+   "sitelinks": 36,
+   "mentions": 3297
+  },
+  "춘천": {
+   "status": "ok",
+   "note": "",
+   "article": "춘천시",
+   "qid": "Q42148",
+   "pageviews": 13218,
+   "sitelinks": 47,
+   "mentions": 4401
+  },
+  "원주": {
+   "status": "ok",
+   "note": "",
+   "article": "원주시",
+   "qid": "Q42131",
+   "pageviews": 15200,
+   "sitelinks": 42,
+   "mentions": 4806
+  },
+  "강릉": {
+   "status": "ok",
+   "note": "",
+   "article": "강릉시",
+   "qid": "Q42056",
+   "pageviews": 13510,
+   "sitelinks": 50,
+   "mentions": 5151
+  },
+  "동해": {
+   "status": "ok",
+   "note": "",
+   "article": "동해시",
+   "qid": "Q42093",
+   "pageviews": 11099,
+   "sitelinks": 33,
+   "mentions": 4032
+  },
+  "태백": {
+   "status": "ok",
+   "note": "",
+   "article": "태백시",
+   "qid": "Q42150",
+   "pageviews": 9778,
+   "sitelinks": 36,
+   "mentions": 2574
+  },
+  "속초": {
+   "status": "ok",
+   "note": "",
+   "article": "속초시",
+   "qid": "Q42109",
+   "pageviews": 9285,
+   "sitelinks": 32,
+   "mentions": 2317
+  },
+  "삼척": {
+   "status": "ok",
+   "note": "",
+   "article": "삼척시",
+   "qid": "Q42102",
+   "pageviews": 10316,
+   "sitelinks": 33,
+   "mentions": 3595
+  },
+  "청주": {
+   "status": "ok",
+   "note": "",
+   "article": "청주시",
+   "qid": "Q42147",
+   "pageviews": 19130,
+   "sitelinks": 47,
+   "mentions": 5676
+  },
+  "충주": {
+   "status": "ok",
+   "note": "",
+   "article": "충주시",
+   "qid": "Q31094",
+   "pageviews": 16187,
+   "sitelinks": 43,
+   "mentions": 4393
+  },
+  "제천": {
+   "status": "ok",
+   "note": "",
+   "article": "제천시",
+   "qid": "Q42143",
+   "pageviews": 16261,
+   "sitelinks": 35,
+   "mentions": 2813
+  },
+  "천안": {
+   "status": "ok",
+   "note": "",
+   "article": "천안시",
+   "qid": "Q42146",
+   "pageviews": 16526,
+   "sitelinks": 37,
+   "mentions": 3627
+  },
+  "공주": {
+   "status": "ok",
+   "note": "",
+   "article": "공주시",
+   "qid": "Q42062",
+   "pageviews": 14663,
+   "sitelinks": 39,
+   "mentions": 7783
+  },
+  "보령": {
+   "status": "ok",
+   "note": "",
+   "article": "보령시",
+   "qid": "Q42098",
+   "pageviews": 8922,
+   "sitelinks": 35,
+   "mentions": 2370
+  },
+  "아산": {
+   "status": "ok",
+   "note": "",
+   "article": "아산시",
+   "qid": "Q42114",
+   "pageviews": 14094,
+   "sitelinks": 41,
+   "mentions": 3182
+  },
+  "서산": {
+   "status": "ok",
+   "note": "",
+   "article": "서산시",
+   "qid": "Q42105",
+   "pageviews": 10551,
+   "sitelinks": 35,
+   "mentions": 3167
+  },
+  "논산": {
+   "status": "ok",
+   "note": "",
+   "article": "논산시",
+   "qid": "Q42088",
+   "pageviews": 14507,
+   "sitelinks": 35,
+   "mentions": 2123
+  },
+  "계룡": {
+   "status": "ok",
+   "note": "",
+   "article": "계룡시",
+   "qid": "Q42060",
+   "pageviews": 7216,
+   "sitelinks": 31,
+   "mentions": 1189
+  },
+  "당진": {
+   "status": "ok",
+   "note": "",
+   "article": "당진시",
+   "qid": "Q42089",
+   "pageviews": 16127,
+   "sitelinks": 32,
+   "mentions": 2363
+  },
+  "전주": {
+   "status": "ok",
+   "note": "",
+   "article": "전주시",
+   "qid": "Q42140",
+   "pageviews": 17521,
+   "sitelinks": 54,
+   "mentions": 6927
+  },
+  "군산": {
+   "status": "ok",
+   "note": "",
+   "article": "군산시",
+   "qid": "Q42074",
+   "pageviews": 12104,
+   "sitelinks": 40,
+   "mentions": 3654
+  },
+  "익산": {
+   "status": "ok",
+   "note": "",
+   "article": "익산시",
+   "qid": "Q42137",
+   "pageviews": 16425,
+   "sitelinks": 39,
+   "mentions": 2680
+  },
+  "정읍": {
+   "status": "ok",
+   "note": "",
+   "article": "정읍시",
+   "qid": "Q42141",
+   "pageviews": 10885,
+   "sitelinks": 33,
+   "mentions": 2747
+  },
+  "남원": {
+   "status": "ok",
+   "note": "",
+   "article": "남원시",
+   "qid": "Q42087",
+   "pageviews": 7673,
+   "sitelinks": 30,
+   "mentions": 3245
+  },
+  "김제": {
+   "status": "ok",
+   "note": "",
+   "article": "김제시",
+   "qid": "Q42077",
+   "pageviews": 7645,
+   "sitelinks": 32,
+   "mentions": 2377
+  },
+  "목포": {
+   "status": "ok",
+   "note": "",
+   "article": "목포시",
+   "qid": "Q42094",
+   "pageviews": 18947,
+   "sitelinks": 43,
+   "mentions": 4355
+  },
+  "여수": {
+   "status": "ok",
+   "note": "",
+   "article": "여수시",
+   "qid": "Q42125",
+   "pageviews": 15018,
+   "sitelinks": 43,
+   "mentions": 3775
+  },
+  "순천": {
+   "status": "ok",
+   "note": "most-viewed of 2 articles on disambiguation page 순천시: 순천시 (전남광주통합특별시), 순천시 (평안남도)",
+   "article": "순천시 (전남광주통합특별시)",
+   "qid": "Q42112",
+   "pageviews": 4885,
+   "sitelinks": 34,
+   "mentions": 4149
+  },
+  "나주": {
+   "status": "ok",
+   "note": "",
+   "article": "나주시",
+   "qid": "Q42083",
+   "pageviews": 9992,
+   "sitelinks": 31,
+   "mentions": 2895
+  },
+  "광양": {
+   "status": "ok",
+   "note": "",
+   "article": "광양시",
+   "qid": "Q42067",
+   "pageviews": 7145,
+   "sitelinks": 38,
+   "mentions": 2763
+  },
+  "포항": {
+   "status": "ok",
+   "note": "",
+   "article": "포항시",
+   "qid": "Q42157",
+   "pageviews": 19379,
+   "sitelinks": 47,
+   "mentions": 5586
+  },
+  "경주": {
+   "status": "ok",
+   "note": "",
+   "article": "경주시",
+   "qid": "Q42097",
+   "pageviews": 25258,
+   "sitelinks": 55,
+   "mentions": 10325
+  },
+  "김천": {
+   "status": "ok",
+   "note": "",
+   "article": "김천시",
+   "qid": "Q42078",
+   "pageviews": 9958,
+   "sitelinks": 39,
+   "mentions": 3079
+  },
+  "안동": {
+   "status": "ok",
+   "note": "",
+   "article": "안동시",
+   "qid": "Q42116",
+   "pageviews": 15492,
+   "sitelinks": 54,
+   "mentions": 5739
+  },
+  "구미": {
+   "status": "ok",
+   "note": "",
+   "article": "구미시",
+   "qid": "Q42073",
+   "pageviews": 14434,
+   "sitelinks": 44,
+   "mentions": 3443
+  },
+  "영주": {
+   "status": "ok",
+   "note": "",
+   "article": "영주시",
+   "qid": "Q42126",
+   "pageviews": 10199,
+   "sitelinks": 37,
+   "mentions": 4139
+  },
+  "영천": {
+   "status": "ok",
+   "note": "",
+   "article": "영천시",
+   "qid": "Q42128",
+   "pageviews": 7833,
+   "sitelinks": 34,
+   "mentions": 2721
+  },
+  "상주": {
+   "status": "ok",
+   "note": "",
+   "article": "상주시",
+   "qid": "Q42163",
+   "pageviews": 10977,
+   "sitelinks": 37,
+   "mentions": 5339
+  },
+  "문경": {
+   "status": "ok",
+   "note": "",
+   "article": "문경시",
+   "qid": "Q42095",
+   "pageviews": 11681,
+   "sitelinks": 31,
+   "mentions": 3302
+  },
+  "경산": {
+   "status": "ok",
+   "note": "",
+   "article": "경산시",
+   "qid": "Q42059",
+   "pageviews": 9650,
+   "sitelinks": 37,
+   "mentions": 3117
+  },
+  "창원": {
+   "status": "ok",
+   "note": "",
+   "article": "창원시",
+   "qid": "Q243327",
+   "pageviews": 26966,
+   "sitelinks": 61,
+   "mentions": 5003
+  },
+  "진주": {
+   "status": "ok",
+   "note": "",
+   "article": "진주시",
+   "qid": "Q42144",
+   "pageviews": 18920,
+   "sitelinks": 40,
+   "mentions": 6170
+  },
+  "통영": {
+   "status": "ok",
+   "note": "",
+   "article": "통영시",
+   "qid": "Q42152",
+   "pageviews": 14386,
+   "sitelinks": 32,
+   "mentions": 3047
+  },
+  "사천": {
+   "status": "ok",
+   "note": "",
+   "article": "사천시",
+   "qid": "Q42100",
+   "pageviews": 11621,
+   "sitelinks": 31,
+   "mentions": 2874
+  },
+  "김해": {
+   "status": "ok",
+   "note": "",
+   "article": "김해시",
+   "qid": "Q42082",
+   "pageviews": 11307,
+   "sitelinks": 42,
+   "mentions": 3396
+  },
+  "밀양": {
+   "status": "ok",
+   "note": "",
+   "article": "밀양시",
+   "qid": "Q42096",
+   "pageviews": 9346,
+   "sitelinks": 30,
+   "mentions": 4238
+  },
+  "거제": {
+   "status": "ok",
+   "note": "",
+   "article": "거제시",
+   "qid": "Q42057",
+   "pageviews": 13727,
+   "sitelinks": 43,
+   "mentions": 2336
+  },
+  "양산": {
+   "status": "ok",
+   "note": "",
+   "article": "양산시",
+   "qid": "Q42123",
+   "pageviews": 13251,
+   "sitelinks": 35,
+   "mentions": 3722
+  },
+  "제주": {
+   "status": "ok",
+   "note": "",
+   "article": "제주시",
+   "qid": "Q42142",
+   "pageviews": 11361,
+   "sitelinks": 48,
+   "mentions": 8041
+  },
+  "서귀포": {
+   "status": "ok",
+   "note": "",
+   "article": "서귀포시",
+   "qid": "Q42103",
+   "pageviews": 9280,
+   "sitelinks": 39,
+   "mentions": 2204
+  }
+ },
+ "collected": "2026-11-09"
+}

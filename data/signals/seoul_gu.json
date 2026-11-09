@@ -1,0 +1,231 @@
+{
+ "id": "seoul_gu",
+ "answers": {
+  "강남구": {
+   "status": "ok",
+   "note": "",
+   "article": "강남구",
+   "qid": "Q20398",
+   "pageviews": 15151,
+   "sitelinks": 52,
+   "mentions": 4655
+  },
+  "서초구": {
+   "status": "ok",
+   "note": "",
+   "article": "서초구",
+   "qid": "Q20395",
+   "pageviews": 16770,
+   "sitelinks": 26,
+   "mentions": 3393
+  },
+  "송파구": {
+   "status": "ok",
+   "note": "",
+   "article": "송파구",
+   "qid": "Q50415",
+   "pageviews": 21236,
+   "sitelinks": 26,
+   "mentions": 2788
+  },
+  "종로구": {
+   "status": "ok",
+   "note": "",
+   "article": "종로구",
+   "qid": "Q36929",
+   "pageviews": 15008,
+   "sitelinks": 33,
+   "mentions": 4461
+  },
+  "용산구": {
+   "status": "ok",
+   "note": "",
+   "article": "용산구",
+   "qid": "Q50429",
+   "pageviews": 11229,
+   "sitelinks": 34,
+   "mentions": 3300
+  },
+  "마포구": {
+   "status": "ok",
+   "note": "",
+   "article": "마포구",
+   "qid": "Q50388",
+   "pageviews": 11482,
+   "sitelinks": 30,
+   "mentions": 3158
+  },
+  "중구": {
+   "status": "ok",
+   "note": "",
+   "article": "중구 (서울특별시)",
+   "qid": "Q50441",
+   "pageviews": 10841,
+   "sitelinks": 32,
+   "mentions": 7291
+  },
+  "영등포구": {
+   "status": "ok",
+   "note": "",
+   "article": "영등포구",
+   "qid": "Q50190",
+   "pageviews": 8739,
+   "sitelinks": 27,
+   "mentions": 3158
+  },
+  "강동구": {
+   "status": "ok",
+   "note": "",
+   "article": "강동구",
+   "qid": "Q50348",
+   "pageviews": 13378,
+   "sitelinks": 28,
+   "mentions": 2319
+  },
+  "강서구": {
+   "status": "ok",
+   "note": "",
+   "article": "강서구 (서울특별시)",
+   "qid": "Q50192",
+   "pageviews": 10778,
+   "sitelinks": 26,
+   "mentions": 3588
+  },
+  "성동구": {
+   "status": "ok",
+   "note": "",
+   "article": "성동구",
+   "qid": "Q50411",
+   "pageviews": 15327,
+   "sitelinks": 28,
+   "mentions": 2578
+  },
+  "광진구": {
+   "status": "ok",
+   "note": "",
+   "article": "광진구",
+   "qid": "Q50355",
+   "pageviews": 6959,
+   "sitelinks": 28,
+   "mentions": 2227
+  },
+  "동대문구": {
+   "status": "ok",
+   "note": "",
+   "article": "동대문구",
+   "qid": "Q50382",
+   "pageviews": 6698,
+   "sitelinks": 29,
+   "mentions": 2512
+  },
+  "서대문구": {
+   "status": "ok",
+   "note": "",
+   "article": "서대문구",
+   "qid": "Q50408",
+   "pageviews": 8569,
+   "sitelinks": 28,
+   "mentions": 2718
+  },
+  "성북구": {
+   "status": "ok",
+   "note": "",
+   "article": "성북구",
+   "qid": "Q50412",
+   "pageviews": 7732,
+   "sitelinks": 27,
+   "mentions": 2632
+  },
+  "노원구": {
+   "status": "ok",
+   "note": "",
+   "article": "노원구",
+   "qid": "Q50368",
+   "pageviews": 11888,
+   "sitelinks": 28,
+   "mentions": 2352
+  },
+  "은평구": {
+   "status": "ok",
+   "note": "",
+   "article": "은평구",
+   "qid": "Q50432",
+   "pageviews": 8612,
+   "sitelinks": 27,
+   "mentions": 2316
+  },
+  "관악구": {
+   "status": "ok",
+   "note": "",
+   "article": "관악구",
+   "qid": "Q50353",
+   "pageviews": 7370,
+   "sitelinks": 29,
+   "mentions": 2410
+  },
+  "동작구": {
+   "status": "ok",
+   "note": "",
+   "article": "동작구",
+   "qid": "Q50385",
+   "pageviews": 10073,
+   "sitelinks": 32,
+   "mentions": 2342
+  },
+  "양천구": {
+   "status": "ok",
+   "note": "",
+   "article": "양천구",
+   "qid": "Q50420",
+   "pageviews": 5772,
+   "sitelinks": 28,
+   "mentions": 2233
+  },
+  "구로구": {
+   "status": "ok",
+   "note": "",
+   "article": "구로구",
+   "qid": "Q50356",
+   "pageviews": 11287,
+   "sitelinks": 28,
+   "mentions": 2329
+  },
+  "강북구": {
+   "status": "ok",
+   "note": "",
+   "article": "강북구",
+   "qid": "Q50349",
+   "pageviews": 6799,
+   "sitelinks": 29,
+   "mentions": 2120
+  },
+  "도봉구": {
+   "status": "ok",
+   "note": "",
+   "article": "도봉구",
+   "qid": "Q50374",
+   "pageviews": 8510,
+   "sitelinks": 30,
+   "mentions": 2150
+  },
+  "중랑구": {
+   "status": "ok",
+   "note": "",
+   "article": "중랑구",
+   "qid": "Q50444",
+   "pageviews": 7106,
+   "sitelinks": 27,
+   "mentions": 2099
+  },
+  "금천구": {
+   "status": "ok",
+   "note": "",
+   "article": "금천구",
+   "qid": "Q50359",
+   "pageviews": 9817,
+   "sitelinks": 29,
+   "mentions": 2172
+  }
+ },
+ "collected": "2026-11-09"
+}
