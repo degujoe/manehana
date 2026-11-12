@@ -1,6 +1,6 @@
 # 만에 하나 daily schedule
 
-Updated 2026-11-12 05:07 KST · 10 live questions · 0 never used yet.
+Updated 2026-11-12 20:47 KST · 10 live questions · 0 never used yet.
 
 Each day needs 7 questions. To go 60 days without a repeat the pool needs 420 questions.
 
