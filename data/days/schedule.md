@@ -1,19 +1,20 @@
 # 만에 하나 daily schedule
 
-Updated 2026-11-12 20:47 KST · 10 live questions · 0 never used yet.
+Updated 2026-11-13 05:44 KST · 10 live questions · 0 never used yet.
 
 Each day needs 7 questions. To go 60 days without a repeat the pool needs 420 questions.
 
 | # | date | questions | note |
 |---|---|---|---|
+| 25 | 2026-11-20 | 전통 놀이, 조선의 왕, 2호선, 김치, 국악기, 생선, 과일 | repeats within 60 days: play, joseon, line2, kimchi, gugak, fish, fruit |
 | 24 | 2026-11-19 | 섬, 산, 과일, 김치, 국악기, 생선, 성씨 | repeats within 60 days: island, mountain, fruit, kimchi, gugak, fish, surname |
 | 23 | 2026-11-18 | 국악기, 조선의 왕, 전통 놀이, 생선, 김치, 성씨, 2호선 | repeats within 60 days: gugak, joseon, play, fish, kimchi, surname, line2 |
 | 22 | 2026-11-17 | 과일, 생선, 섬, 김치, 성씨, 2호선, 산 | repeats within 60 days: fruit, fish, island, kimchi, surname, line2, mountain |
 | 21 | 2026-11-16 | 조선의 왕, 전통 놀이, 김치, 성씨, 산, 국악기, 2호선 | repeats within 60 days: joseon, play, kimchi, surname, mountain, gugak, line2 |
 | 20 | 2026-11-15 | 산, 2호선, 생선, 섬, 과일, 국악기, 성씨 | repeats within 60 days: mountain, line2, fish, island, fruit, gugak, surname |
-| 19 | 2026-11-14 | 성씨, 김치, 섬, 전통 놀이, 과일, 국악기, 조선의 왕 | repeats within 60 days: surname, kimchi, island, play, fruit, gugak, joseon |
-| 18 | 2026-11-13 | 과일, 전통 놀이, 생선, 2호선, 국악기, 조선의 왕, 산 |  |
-| 17 | 2026-11-12 | 섬, 국악기, 2호선, 김치, 성씨, 조선의 왕, 산 | today |
+| 19 | 2026-11-14 | 성씨, 김치, 섬, 전통 놀이, 과일, 국악기, 조선의 왕 |  |
+| 18 | 2026-11-13 | 과일, 전통 놀이, 생선, 2호선, 국악기, 조선의 왕, 산 | today |
+| 17 | 2026-11-12 | 섬, 국악기, 2호선, 김치, 성씨, 조선의 왕, 산 | played |
 | 16 | 2026-11-11 | 성씨, 조선의 왕, 전통 놀이, 김치, 산, 과일, 생선 | played |
 | 15 | 2026-11-10 | 김치, 생선, 국악기, 과일, 섬, 산, 2호선 | played |
 | 14 | 2026-11-09 | 조선의 왕, 과일, 산, 성씨, 2호선, 섬, 전통 놀이 | played |
