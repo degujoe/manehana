@@ -1,0 +1,842 @@
+{
+ "id": "temple",
+ "answers": {
+  "조계사": {
+   "status": "ok",
+   "note": "",
+   "article": "조계사",
+   "qid": "Q488824",
+   "pageviews": 2499,
+   "sitelinks": 11,
+   "mentions": 82
+  },
+  "용주사": {
+   "status": "ok",
+   "note": "",
+   "article": "용주사",
+   "qid": "Q483113",
+   "pageviews": 6138,
+   "sitelinks": 5,
+   "mentions": 84
+  },
+  "신흥사": {
+   "status": "ambiguous",
+   "note": "only disambiguation pages: 신흥사",
+   "mentions": 117
+  },
+  "월정사": {
+   "status": "ambiguous",
+   "note": "only disambiguation pages: 월정사",
+   "mentions": 109
+  },
+  "법주사": {
+   "status": "ok",
+   "note": "",
+   "article": "법주사",
+   "qid": "Q484931",
+   "pageviews": 6288,
+   "sitelinks": 14,
+   "mentions": 153
+  },
+  "마곡사": {
+   "status": "ok",
+   "note": "",
+   "article": "마곡사",
+   "qid": "Q624128",
+   "pageviews": 2910,
+   "sitelinks": 11,
+   "mentions": 77
+  },
+  "수덕사": {
+   "status": "ok",
+   "note": "",
+   "article": "수덕사",
+   "qid": "Q491449",
+   "pageviews": 13373,
+   "sitelinks": 6,
+   "mentions": 86
+  },
+  "직지사": {
+   "status": "ok",
+   "note": "",
+   "article": "직지사",
+   "qid": "Q625286",
+   "pageviews": 3345,
+   "sitelinks": 4,
+   "mentions": 83
+  },
+  "동화사": {
+   "status": "ok",
+   "note": "",
+   "article": "동화사",
+   "qid": "Q623815",
+   "pageviews": 7222,
+   "sitelinks": 7,
+   "mentions": 168
+  },
+  "은해사": {
+   "status": "ok",
+   "note": "",
+   "article": "은해사",
+   "qid": "Q623545",
+   "pageviews": 4161,
+   "sitelinks": 7,
+   "mentions": 72
+  },
+  "불국사": {
+   "status": "ok",
+   "note": "",
+   "article": "불국사",
+   "qid": "Q408318",
+   "pageviews": 14076,
+   "sitelinks": 39,
+   "mentions": 704
+  },
+  "해인사": {
+   "status": "ok",
+   "note": "",
+   "article": "해인사",
+   "qid": "Q489795",
+   "pageviews": 13218,
+   "sitelinks": 37,
+   "mentions": 1038
+  },
+  "쌍계사": {
+   "status": "ok",
+   "note": "",
+   "article": "쌍계사",
+   "qid": "Q623528",
+   "pageviews": 8018,
+   "sitelinks": 4,
+   "mentions": 258
+  },
+  "범어사": {
+   "status": "ok",
+   "note": "",
+   "article": "범어사",
+   "qid": "Q487662",
+   "pageviews": 4346,
+   "sitelinks": 16,
+   "mentions": 222
+  },
+  "통도사": {
+   "status": "ok",
+   "note": "",
+   "article": "통도사",
+   "qid": "Q491454",
+   "pageviews": 8796,
+   "sitelinks": 14,
+   "mentions": 740
+  },
+  "고운사": {
+   "status": "ok",
+   "note": "",
+   "article": "고운사",
+   "qid": "Q624542",
+   "pageviews": 2992,
+   "sitelinks": 5,
+   "mentions": 34
+  },
+  "금산사": {
+   "status": "ok",
+   "note": "",
+   "article": "금산사",
+   "qid": "Q489528",
+   "pageviews": 4313,
+   "sitelinks": 7,
+   "mentions": 121
+  },
+  "백양사": {
+   "status": "ok",
+   "note": "",
+   "article": "백양사",
+   "qid": "Q623574",
+   "pageviews": 2165,
+   "sitelinks": 7,
+   "mentions": 334
+  },
+  "화엄사": {
+   "status": "ok",
+   "note": "",
+   "article": "화엄사",
+   "qid": "Q491233",
+   "pageviews": 4149,
+   "sitelinks": 10,
+   "mentions": 129
+  },
+  "선암사": {
+   "status": "ok",
+   "note": "",
+   "article": "선암사",
+   "qid": "Q7451561",
+   "pageviews": 4129,
+   "sitelinks": 9,
+   "mentions": 111
+  },
+  "송광사": {
+   "status": "ok",
+   "note": "",
+   "article": "송광사",
+   "qid": "Q490384",
+   "pageviews": 16794,
+   "sitelinks": 10,
+   "mentions": 212
+  },
+  "대흥사": {
+   "status": "ok",
+   "note": "",
+   "article": "대흥사",
+   "qid": "Q623807",
+   "pageviews": 3564,
+   "sitelinks": 8,
+   "mentions": 105
+  },
+  "관음사": {
+   "status": "ok",
+   "note": "picked from disambiguation page 관음사",
+   "article": "한국불교대학 대관음사 팔공산도량(관음사)",
+   "qid": null,
+   "pageviews": 1643,
+   "sitelinks": null,
+   "mentions": 99
+  },
+  "선운사": {
+   "status": "ok",
+   "note": "",
+   "article": "선운사",
+   "qid": "Q625017",
+   "pageviews": 8187,
+   "sitelinks": 4,
+   "mentions": 573
+  },
+  "봉선사": {
+   "status": "ok",
+   "note": "",
+   "article": "봉선사",
+   "qid": "Q623698",
+   "pageviews": 2863,
+   "sitelinks": 4,
+   "mentions": 57
+  },
+  "부석사": {
+   "status": "ok",
+   "note": "",
+   "article": "부석사",
+   "qid": "Q3540839",
+   "pageviews": 5838,
+   "sitelinks": 16,
+   "mentions": 270
+  },
+  "봉정사": {
+   "status": "ok",
+   "note": "",
+   "article": "봉정사",
+   "qid": "Q623978",
+   "pageviews": 8072,
+   "sitelinks": 13,
+   "mentions": 68
+  },
+  "석굴암": {
+   "status": "ok",
+   "note": "",
+   "article": "석굴암",
+   "qid": "Q489820",
+   "pageviews": 14613,
+   "sitelinks": 40,
+   "mentions": 491
+  },
+  "봉은사": {
+   "status": "ok",
+   "note": "",
+   "article": "봉은사",
+   "qid": "Q135709",
+   "pageviews": 4271,
+   "sitelinks": 12,
+   "mentions": 131
+  },
+  "낙산사": {
+   "status": "ok",
+   "note": "",
+   "article": "낙산사",
+   "qid": "Q562760",
+   "pageviews": 4117,
+   "sitelinks": 5,
+   "mentions": 64
+  },
+  "운주사": {
+   "status": "ok",
+   "note": "",
+   "article": "운주사",
+   "qid": "Q493623",
+   "pageviews": 798,
+   "sitelinks": 5,
+   "mentions": 48
+  },
+  "미황사": {
+   "status": "ok",
+   "note": "",
+   "article": "미황사",
+   "qid": "Q11242559",
+   "pageviews": 3432,
+   "sitelinks": 3,
+   "mentions": 34
+  },
+  "내소사": {
+   "status": "ok",
+   "note": "",
+   "article": "내소사",
+   "qid": "Q10856109",
+   "pageviews": 2395,
+   "sitelinks": 4,
+   "mentions": 44
+  },
+  "개심사": {
+   "status": "ambiguous",
+   "note": "only disambiguation pages: 개심사",
+   "mentions": 101
+  },
+  "기림사": {
+   "status": "ok",
+   "note": "",
+   "article": "기림사",
+   "qid": "Q624555",
+   "pageviews": 2153,
+   "sitelinks": 4,
+   "mentions": 65
+  },
+  "청량사": {
+   "status": "ambiguous",
+   "note": "only disambiguation pages: 청량사",
+   "mentions": 51
+  },
+  "전등사": {
+   "status": "ok",
+   "note": "",
+   "article": "전등사",
+   "qid": "Q11269377",
+   "pageviews": 9162,
+   "sitelinks": 5,
+   "mentions": 85
+  },
+  "보문사": {
+   "status": "ambiguous",
+   "note": "only disambiguation pages: 보문사",
+   "mentions": 71
+  },
+  "상원사": {
+   "status": "ambiguous",
+   "note": "only disambiguation pages: 상원사",
+   "mentions": 91
+  },
+  "백담사": {
+   "status": "ok",
+   "note": "",
+   "article": "백담사",
+   "qid": "Q4841251",
+   "pageviews": 5480,
+   "sitelinks": 4,
+   "mentions": 41
+  },
+  "갑사": {
+   "status": "ok",
+   "note": "picked from disambiguation page 갑사",
+   "article": "갑사 (사찰)",
+   "qid": "Q12582686",
+   "pageviews": 1455,
+   "sitelinks": 2,
+   "mentions": 112
+  },
+  "동학사": {
+   "status": "ok",
+   "note": "",
+   "article": "동학사",
+   "qid": "Q12593594",
+   "pageviews": 9559,
+   "sitelinks": 2,
+   "mentions": 534
+  },
+  "신원사": {
+   "status": "ok",
+   "note": "picked from disambiguation page 신원사",
+   "article": "신원사 (사찰)",
+   "qid": "Q7525236",
+   "pageviews": 1449,
+   "sitelinks": 3,
+   "mentions": 121
+  },
+  "구인사": {
+   "status": "ok",
+   "note": "",
+   "article": "구인사",
+   "qid": "Q5616611",
+   "pageviews": 3513,
+   "sitelinks": 4,
+   "mentions": 60
+  },
+  "표충사": {
+   "status": "check",
+   "note": "article intro doesn't mention: 사찰, 절, 불교, 조계종, 천태종, 암자, 본사, 말사",
+   "article": "천황산 표충사 일원",
+   "qid": "Q7263134",
+   "pageviews": 276,
+   "sitelinks": 3,
+   "mentions": 532
+  },
+  "해동용궁사": {
+   "status": "ok",
+   "note": "",
+   "article": "해동용궁사",
+   "qid": "Q2494268",
+   "pageviews": 2719,
+   "sitelinks": 12,
+   "mentions": 40
+  },
+  "길상사": {
+   "status": "ambiguous",
+   "note": "only disambiguation pages: 길상사",
+   "mentions": 34
+  },
+  "진관사": {
+   "status": "ok",
+   "note": "",
+   "article": "진관사",
+   "qid": "Q22975011",
+   "pageviews": 2253,
+   "sitelinks": 1,
+   "mentions": 62
+  },
+  "도선사": {
+   "status": "ok",
+   "note": "",
+   "article": "도선사 (사찰)",
+   "qid": "Q5299262",
+   "pageviews": 1184,
+   "sitelinks": 3,
+   "mentions": 105
+  },
+  "화계사": {
+   "status": "ok",
+   "note": "",
+   "article": "화계사",
+   "qid": "Q12625549",
+   "pageviews": 2308,
+   "sitelinks": 2,
+   "mentions": 51
+  },
+  "봉원사": {
+   "status": "ok",
+   "note": "",
+   "article": "봉원사",
+   "qid": "Q626319",
+   "pageviews": 1904,
+   "sitelinks": 8,
+   "mentions": 40
+  },
+  "승가사": {
+   "status": "missing",
+   "note": "no Korean Wikipedia article",
+   "pageviews": 0,
+   "mentions": 19
+  },
+  "신륵사": {
+   "status": "ok",
+   "note": "",
+   "article": "신륵사",
+   "qid": "Q7515366",
+   "pageviews": 2703,
+   "sitelinks": 3,
+   "mentions": 58
+  },
+  "용문사": {
+   "status": "ambiguous",
+   "note": "only disambiguation pages: 용문사",
+   "mentions": 129
+  },
+  "수종사": {
+   "status": "ok",
+   "note": "",
+   "article": "수종사",
+   "qid": "Q12603322",
+   "pageviews": 5937,
+   "sitelinks": 1,
+   "mentions": 26
+  },
+  "칠장사": {
+   "status": "ok",
+   "note": "",
+   "article": "안성 칠장사",
+   "qid": "Q18231000",
+   "pageviews": 866,
+   "sitelinks": 1,
+   "mentions": 51
+  },
+  "정암사": {
+   "status": "ambiguous",
+   "note": "only disambiguation pages: 정암사",
+   "mentions": 313
+  },
+  "법흥사": {
+   "status": "ambiguous",
+   "note": "only disambiguation pages: 법흥사",
+   "mentions": 29
+  },
+  "삼화사": {
+   "status": "ok",
+   "note": "",
+   "article": "삼화사",
+   "qid": "Q13827412",
+   "pageviews": 1409,
+   "sitelinks": 2,
+   "mentions": 22
+  },
+  "건봉사": {
+   "status": "ok",
+   "note": "",
+   "article": "건봉사",
+   "qid": "Q339039",
+   "pageviews": 1957,
+   "sitelinks": 3,
+   "mentions": 24
+  },
+  "구룡사": {
+   "status": "ok",
+   "note": "",
+   "article": "구룡사",
+   "qid": "Q12585388",
+   "pageviews": 1556,
+   "sitelinks": 2,
+   "mentions": 53
+  },
+  "청평사": {
+   "status": "ok",
+   "note": "",
+   "article": "청평사",
+   "qid": "Q16100158",
+   "pageviews": 1111,
+   "sitelinks": 2,
+   "mentions": 24
+  },
+  "무량사": {
+   "status": "ambiguous",
+   "note": "only disambiguation pages: 무량사",
+   "mentions": 71
+  },
+  "관촉사": {
+   "status": "ok",
+   "note": "",
+   "article": "관촉사",
+   "qid": "Q97009868",
+   "pageviews": 1010,
+   "sitelinks": 1,
+   "mentions": 376
+  },
+  "고란사": {
+   "status": "ok",
+   "note": "",
+   "article": "고란사",
+   "qid": "Q15115960",
+   "pageviews": 1664,
+   "sitelinks": 3,
+   "mentions": 69
+  },
+  "보경사": {
+   "status": "ok",
+   "note": "",
+   "article": "보경사",
+   "qid": "Q12598297",
+   "pageviews": 1192,
+   "sitelinks": 2,
+   "mentions": 60
+  },
+  "운문사": {
+   "status": "ok",
+   "note": "",
+   "article": "운문사",
+   "qid": "Q7897126",
+   "pageviews": 4665,
+   "sitelinks": 5,
+   "mentions": 529
+  },
+  "분황사": {
+   "status": "ok",
+   "note": "",
+   "article": "분황사",
+   "qid": "Q491069",
+   "pageviews": 2852,
+   "sitelinks": 11,
+   "mentions": 208
+  },
+  "파계사": {
+   "status": "ok",
+   "note": "",
+   "article": "파계사",
+   "qid": "Q12621424",
+   "pageviews": 2883,
+   "sitelinks": 2,
+   "mentions": 53
+  },
+  "옥천사": {
+   "status": "ok",
+   "note": "",
+   "article": "옥천사",
+   "qid": "Q12608220",
+   "pageviews": 445,
+   "sitelinks": 1,
+   "mentions": 282
+  },
+  "실상사": {
+   "status": "ok",
+   "note": "",
+   "article": "실상사",
+   "qid": "Q12618982",
+   "pageviews": 1473,
+   "sitelinks": 5,
+   "mentions": 71
+  },
+  "천은사": {
+   "status": "ambiguous",
+   "note": "only disambiguation pages: 천은사",
+   "mentions": 55
+  },
+  "내장사": {
+   "status": "missing",
+   "note": "no Korean Wikipedia article",
+   "pageviews": 0,
+   "mentions": 20
+  },
+  "무위사": {
+   "status": "ok",
+   "note": "",
+   "article": "무위사",
+   "qid": "Q6944291",
+   "pageviews": 645,
+   "sitelinks": 5,
+   "mentions": 46
+  },
+  "도갑사": {
+   "status": "ok",
+   "note": "",
+   "article": "도갑사",
+   "qid": "Q12592927",
+   "pageviews": 504,
+   "sitelinks": 2,
+   "mentions": 43
+  },
+  "흥국사": {
+   "status": "ambiguous",
+   "note": "only disambiguation pages: 흥국사",
+   "mentions": 133
+  },
+  "화암사": {
+   "status": "ambiguous",
+   "note": "only disambiguation pages: 화암사",
+   "mentions": 42
+  },
+  "개암사": {
+   "status": "ok",
+   "note": "",
+   "article": "개암사",
+   "qid": "Q12492838",
+   "pageviews": 845,
+   "sitelinks": 2,
+   "mentions": 24
+  },
+  "쌍봉사": {
+   "status": "ok",
+   "note": "",
+   "article": "쌍봉사",
+   "qid": "Q7586630",
+   "pageviews": 615,
+   "sitelinks": 3,
+   "mentions": 40
+  },
+  "태안사": {
+   "status": "ok",
+   "note": "",
+   "article": "태안사",
+   "qid": "Q15135398",
+   "pageviews": 1050,
+   "sitelinks": 2,
+   "mentions": 33
+  },
+  "약천사": {
+   "status": "ok",
+   "note": "",
+   "article": "약천사",
+   "qid": "Q21709992",
+   "pageviews": 3885,
+   "sitelinks": 5,
+   "mentions": 10
+  },
+  "오어사": {
+   "status": "ok",
+   "note": "",
+   "article": "오어사",
+   "qid": "Q15958441",
+   "pageviews": 143,
+   "sitelinks": 2,
+   "mentions": 22
+  },
+  "불영사": {
+   "status": "ambiguous",
+   "note": "only disambiguation pages: 불영사",
+   "mentions": 38
+  },
+  "봉암사": {
+   "status": "ok",
+   "note": "",
+   "article": "봉암사",
+   "qid": "Q18444235",
+   "pageviews": 1577,
+   "sitelinks": 1,
+   "mentions": 65
+  },
+  "보림사": {
+   "status": "check",
+   "note": "article intro doesn't mention: 사찰, 절, 불교, 조계종, 천태종, 암자, 본사, 말사",
+   "article": "보림사",
+   "qid": "Q4945137",
+   "pageviews": 1271,
+   "sitelinks": 3,
+   "mentions": 95
+  },
+  "인각사": {
+   "status": "ok",
+   "note": "",
+   "article": "인각사",
+   "qid": null,
+   "pageviews": 216,
+   "sitelinks": null,
+   "mentions": 26
+  },
+  "골굴사": {
+   "status": "ok",
+   "note": "",
+   "article": "골굴사",
+   "qid": "Q5580683",
+   "pageviews": 1992,
+   "sitelinks": 6,
+   "mentions": 12
+  },
+  "선본사": {
+   "status": "ok",
+   "note": "",
+   "article": "선본사",
+   "qid": "Q12601689",
+   "pageviews": 2221,
+   "sitelinks": 1,
+   "mentions": 18
+  },
+  "연곡사": {
+   "status": "ok",
+   "note": "",
+   "article": "연곡사",
+   "qid": "Q16094002",
+   "pageviews": 1157,
+   "sitelinks": 1,
+   "mentions": 29
+  },
+  "보리암": {
+   "status": "ambiguous",
+   "note": "only disambiguation pages: 보리암",
+   "mentions": 22
+  },
+  "향일암": {
+   "status": "ok",
+   "note": "",
+   "article": "향일암",
+   "qid": "Q16096104",
+   "pageviews": 3867,
+   "sitelinks": 2,
+   "mentions": 30
+  },
+  "홍련암": {
+   "status": "check",
+   "note": "article intro doesn't mention: 사찰, 절, 불교, 조계종, 천태종, 암자, 본사, 말사",
+   "article": "양양 낙산사 홍련암",
+   "qid": "Q19349301",
+   "pageviews": 3369,
+   "sitelinks": 1,
+   "mentions": 10
+  },
+  "봉정암": {
+   "status": "missing",
+   "note": "no Korean Wikipedia article",
+   "pageviews": 0,
+   "mentions": 11
+  },
+  "오세암": {
+   "status": "ok",
+   "note": "",
+   "article": "오세암",
+   "qid": "Q15383194",
+   "pageviews": 2203,
+   "sitelinks": 3,
+   "mentions": 59
+  },
+  "사리암": {
+   "status": "ok",
+   "note": "",
+   "article": "사리암",
+   "qid": null,
+   "pageviews": 7857,
+   "sitelinks": null,
+   "mentions": 4
+  },
+  "연주암": {
+   "status": "ok",
+   "note": "",
+   "article": "연주암",
+   "qid": "Q136757944",
+   "pageviews": 303,
+   "sitelinks": 1,
+   "mentions": 14
+  },
+  "간월암": {
+   "status": "ok",
+   "note": "",
+   "article": "간월암",
+   "qid": "Q12582562",
+   "pageviews": 3210,
+   "sitelinks": 1,
+   "mentions": 9
+  },
+  "황룡사": {
+   "status": "ok",
+   "note": "",
+   "article": "경주 황룡사지",
+   "qid": "Q491548",
+   "pageviews": 2588,
+   "sitelinks": 14,
+   "mentions": 370
+  },
+  "미륵사": {
+   "status": "ok",
+   "note": "",
+   "article": "익산 미륵사지",
+   "qid": "Q6873175",
+   "pageviews": 4609,
+   "sitelinks": 12,
+   "mentions": 56
+  },
+  "감은사": {
+   "status": "ok",
+   "note": "",
+   "article": "경주 감은사지",
+   "qid": "Q12582656",
+   "pageviews": 1396,
+   "sitelinks": 4,
+   "mentions": 18
+  },
+  "정림사": {
+   "status": "ok",
+   "note": "",
+   "article": "부여 정림사지",
+   "qid": "Q16094566",
+   "pageviews": 671,
+   "sitelinks": 7,
+   "mentions": 6
+  }
+ },
+ "collected": "2026-11-16"
+}
