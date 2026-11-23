@@ -1,0 +1,249 @@
+{
+ "id": "joseon",
+ "answers": {
+  "세종": {
+   "status": "ok",
+   "note": "",
+   "article": "세종",
+   "qid": "Q37682",
+   "pageviews": 160658,
+   "sitelinks": 73,
+   "mentions": 7399
+  },
+  "태조": {
+   "status": "ok",
+   "note": "",
+   "article": "태조 (조선)",
+   "qid": "Q378483",
+   "pageviews": 77728,
+   "sitelinks": 46,
+   "mentions": 3708
+  },
+  "정조": {
+   "status": "ok",
+   "note": "",
+   "article": "정조",
+   "qid": "Q26530",
+   "pageviews": 119433,
+   "sitelinks": 35,
+   "mentions": 2146
+  },
+  "영조": {
+   "status": "ok",
+   "note": "",
+   "article": "영조",
+   "qid": "Q485009",
+   "pageviews": 60481,
+   "sitelinks": 31,
+   "mentions": 2343
+  },
+  "태종": {
+   "status": "ok",
+   "note": "",
+   "article": "태종 (조선)",
+   "qid": "Q14304",
+   "pageviews": 100307,
+   "sitelinks": 35,
+   "mentions": 3218
+  },
+  "세조": {
+   "status": "ok",
+   "note": "",
+   "article": "세조 (조선)",
+   "qid": "Q334308",
+   "pageviews": 355249,
+   "sitelinks": 38,
+   "mentions": 1903
+  },
+  "연산군": {
+   "status": "ok",
+   "note": "",
+   "article": "연산군",
+   "qid": "Q470084",
+   "pageviews": 159882,
+   "sitelinks": 33,
+   "mentions": 904
+  },
+  "광해군": {
+   "status": "ok",
+   "note": "",
+   "article": "광해군",
+   "qid": "Q482874",
+   "pageviews": 141746,
+   "sitelinks": 32,
+   "mentions": 1244
+  },
+  "단종": {
+   "status": "ok",
+   "note": "",
+   "article": "단종 (조선)",
+   "qid": "Q485023",
+   "pageviews": 227005,
+   "sitelinks": 28,
+   "mentions": 1307
+  },
+  "고종": {
+   "status": "ok",
+   "note": "",
+   "article": "고종 (대한제국)",
+   "qid": "Q257425",
+   "pageviews": 90285,
+   "sitelinks": 47,
+   "mentions": 4614
+  },
+  "선조": {
+   "status": "ok",
+   "note": "",
+   "article": "선조 (조선)",
+   "qid": "Q484359",
+   "pageviews": 55171,
+   "sitelinks": 32,
+   "mentions": 3085
+  },
+  "숙종": {
+   "status": "ok",
+   "note": "",
+   "article": "숙종 (조선)",
+   "qid": "Q485664",
+   "pageviews": 48186,
+   "sitelinks": 34,
+   "mentions": 2971
+  },
+  "인조": {
+   "status": "ok",
+   "note": "",
+   "article": "인조",
+   "qid": "Q484453",
+   "pageviews": 1400,
+   "sitelinks": 27,
+   "mentions": 6564
+  },
+  "성종": {
+   "status": "ok",
+   "note": "",
+   "article": "성종 (조선)",
+   "qid": "Q484006",
+   "pageviews": 127371,
+   "sitelinks": 28,
+   "mentions": 2439
+  },
+  "순종": {
+   "status": "check",
+   "note": "article intro doesn't mention: 조선",
+   "article": "순종 (대한제국)",
+   "qid": "Q334111",
+   "pageviews": 48899,
+   "sitelinks": 40,
+   "mentions": 1093
+  },
+  "중종": {
+   "status": "ok",
+   "note": "",
+   "article": "중종 (조선)",
+   "qid": "Q483008",
+   "pageviews": 52974,
+   "sitelinks": 28,
+   "mentions": 1778
+  },
+  "철종": {
+   "status": "ok",
+   "note": "",
+   "article": "철종 (조선)",
+   "qid": "Q482850",
+   "pageviews": 28439,
+   "sitelinks": 33,
+   "mentions": 1032
+  },
+  "문종": {
+   "status": "ok",
+   "note": "",
+   "article": "문종 (조선)",
+   "qid": "Q483821",
+   "pageviews": 48500,
+   "sitelinks": 30,
+   "mentions": 1177
+  },
+  "정종": {
+   "status": "ok",
+   "note": "",
+   "article": "정종 (조선)",
+   "qid": "Q485556",
+   "pageviews": 38039,
+   "sitelinks": 31,
+   "mentions": 987
+  },
+  "효종": {
+   "status": "ok",
+   "note": "",
+   "article": "효종 (조선)",
+   "qid": "Q484446",
+   "pageviews": 27794,
+   "sitelinks": 27,
+   "mentions": 1286
+  },
+  "현종": {
+   "status": "ok",
+   "note": "",
+   "article": "현종 (조선)",
+   "qid": "Q484253",
+   "pageviews": 26105,
+   "sitelinks": 27,
+   "mentions": 2429
+  },
+  "명종": {
+   "status": "ok",
+   "note": "",
+   "article": "명종 (조선)",
+   "qid": "Q483641",
+   "pageviews": 41106,
+   "sitelinks": 27,
+   "mentions": 1858
+  },
+  "순조": {
+   "status": "ok",
+   "note": "",
+   "article": "순조",
+   "qid": "Q459964",
+   "pageviews": 53346,
+   "sitelinks": 32,
+   "mentions": 1407
+  },
+  "헌종": {
+   "status": "ok",
+   "note": "",
+   "article": "헌종 (조선)",
+   "qid": "Q484966",
+   "pageviews": 28200,
+   "sitelinks": 30,
+   "mentions": 1158
+  },
+  "예종": {
+   "status": "ok",
+   "note": "",
+   "article": "예종 (조선)",
+   "qid": "Q488694",
+   "pageviews": 50590,
+   "sitelinks": 26,
+   "mentions": 1092
+  },
+  "인종": {
+   "status": "ok",
+   "note": "",
+   "article": "인종 (조선)",
+   "qid": "Q483631",
+   "pageviews": 32759,
+   "sitelinks": 28,
+   "mentions": 5979
+  },
+  "경종": {
+   "status": "ok",
+   "note": "",
+   "article": "경종 (조선)",
+   "qid": "Q484995",
+   "pageviews": 35386,
+   "sitelinks": 30,
+   "mentions": 982
+  }
+ },
+ "collected": "2026-11-23"
+}

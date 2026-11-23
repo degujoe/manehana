@@ -1,0 +1,731 @@
+{
+ "id": "island",
+ "answers": {
+  "제주도": {
+   "status": "ok",
+   "note": "",
+   "article": "제주도",
+   "qid": "Q29151",
+   "pageviews": 29534,
+   "sitelinks": 66,
+   "mentions": 2123
+  },
+  "울릉도": {
+   "status": "ok",
+   "note": "",
+   "article": "울릉도",
+   "qid": "Q41172",
+   "pageviews": 11230,
+   "sitelinks": 36,
+   "mentions": 687
+  },
+  "독도": {
+   "status": "ok",
+   "note": "",
+   "article": "독도",
+   "qid": "Q20317",
+   "pageviews": 49943,
+   "sitelinks": 49,
+   "mentions": 1250
+  },
+  "강화도": {
+   "status": "ok",
+   "note": "",
+   "article": "강화도",
+   "qid": "Q494786",
+   "pageviews": 9481,
+   "sitelinks": 37,
+   "mentions": 929
+  },
+  "거제도": {
+   "status": "ok",
+   "note": "",
+   "article": "거제도",
+   "qid": "Q485222",
+   "pageviews": 11047,
+   "sitelinks": 21,
+   "mentions": 371
+  },
+  "진도": {
+   "status": "ok",
+   "note": "",
+   "article": "진도 (섬)",
+   "qid": "Q485651",
+   "pageviews": 3813,
+   "sitelinks": 24,
+   "mentions": 3030
+  },
+  "완도": {
+   "status": "ok",
+   "note": "",
+   "article": "완도",
+   "qid": "Q195792",
+   "pageviews": 947,
+   "sitelinks": 8,
+   "mentions": 2001
+  },
+  "남해도": {
+   "status": "ok",
+   "note": "",
+   "article": "남해도",
+   "qid": "Q491554",
+   "pageviews": 1377,
+   "sitelinks": 11,
+   "mentions": 203
+  },
+  "백령도": {
+   "status": "ok",
+   "note": "",
+   "article": "백령도",
+   "qid": "Q485315",
+   "pageviews": 9763,
+   "sitelinks": 25,
+   "mentions": 571
+  },
+  "연평도": {
+   "status": "ok",
+   "note": "",
+   "article": "연평도",
+   "qid": "Q273890",
+   "pageviews": 5404,
+   "sitelinks": 34,
+   "mentions": 252
+  },
+  "우도": {
+   "status": "ok",
+   "note": "",
+   "article": "우도",
+   "qid": "Q496912",
+   "pageviews": 4236,
+   "sitelinks": 16,
+   "mentions": 470
+  },
+  "마라도": {
+   "status": "ok",
+   "note": "",
+   "article": "마라도",
+   "qid": "Q495231",
+   "pageviews": 2771,
+   "sitelinks": 22,
+   "mentions": 63
+  },
+  "안면도": {
+   "status": "ok",
+   "note": "",
+   "article": "안면도",
+   "qid": "Q496473",
+   "pageviews": 2352,
+   "sitelinks": 11,
+   "mentions": 311
+  },
+  "영종도": {
+   "status": "ok",
+   "note": "",
+   "article": "영종도",
+   "qid": "Q490495",
+   "pageviews": 11096,
+   "sitelinks": 11,
+   "mentions": 302
+  },
+  "대부도": {
+   "status": "ok",
+   "note": "",
+   "article": "대부도",
+   "qid": "Q509539",
+   "pageviews": 3738,
+   "sitelinks": 9,
+   "mentions": 73
+  },
+  "흑산도": {
+   "status": "ok",
+   "note": "",
+   "article": "흑산도",
+   "qid": "Q478199",
+   "pageviews": 4178,
+   "sitelinks": 14,
+   "mentions": 265
+  },
+  "홍도": {
+   "status": "ok",
+   "note": "",
+   "article": "홍도",
+   "qid": "Q490430",
+   "pageviews": 2179,
+   "sitelinks": 12,
+   "mentions": 456
+  },
+  "청산도": {
+   "status": "ok",
+   "note": "",
+   "article": "청산도",
+   "qid": "Q18815767",
+   "pageviews": 2202,
+   "sitelinks": 7,
+   "mentions": 189
+  },
+  "보길도": {
+   "status": "ok",
+   "note": "",
+   "article": "보길도",
+   "qid": "Q12506721",
+   "pageviews": 720,
+   "sitelinks": 6,
+   "mentions": 172
+  },
+  "외도": {
+   "status": "ok",
+   "note": "",
+   "article": "외도",
+   "qid": "Q495483",
+   "pageviews": 5481,
+   "sitelinks": 10,
+   "mentions": 410
+  },
+  "소매물도": {
+   "status": "ok",
+   "note": "",
+   "article": "소매물도",
+   "qid": "Q27834385",
+   "pageviews": 1212,
+   "sitelinks": 1,
+   "mentions": 353
+  },
+  "욕지도": {
+   "status": "ok",
+   "note": "",
+   "article": "욕지도",
+   "qid": "Q18815644",
+   "pageviews": 1359,
+   "sitelinks": 3,
+   "mentions": 40
+  },
+  "비진도": {
+   "status": "ok",
+   "note": "",
+   "article": "비진도",
+   "qid": "Q12599475",
+   "pageviews": 2055,
+   "sitelinks": 3,
+   "mentions": 14
+  },
+  "덕적도": {
+   "status": "ok",
+   "note": "",
+   "article": "덕적도",
+   "qid": "Q486992",
+   "pageviews": 5447,
+   "sitelinks": 7,
+   "mentions": 306
+  },
+  "교동도": {
+   "status": "ok",
+   "note": "",
+   "article": "교동도",
+   "qid": "Q493592",
+   "pageviews": 5135,
+   "sitelinks": 6,
+   "mentions": 36
+  },
+  "석모도": {
+   "status": "ok",
+   "note": "",
+   "article": "석모도",
+   "qid": "Q624579",
+   "pageviews": 1443,
+   "sitelinks": 5,
+   "mentions": 199
+  },
+  "실미도": {
+   "status": "check",
+   "note": "article intro doesn't mention: 섬",
+   "article": "실미도",
+   "qid": "Q494986",
+   "pageviews": 2493,
+   "sitelinks": 14,
+   "mentions": 355
+  },
+  "무의도": {
+   "status": "ok",
+   "note": "",
+   "article": "무의도",
+   "qid": "Q490942",
+   "pageviews": 2678,
+   "sitelinks": 9,
+   "mentions": 194
+  },
+  "선유도": {
+   "status": "ok",
+   "note": "",
+   "article": "선유도 (군산시)",
+   "qid": "Q12601737",
+   "pageviews": 2967,
+   "sitelinks": 6,
+   "mentions": 90
+  },
+  "위도": {
+   "status": "ok",
+   "note": "",
+   "article": "위도 (부안군)",
+   "qid": "Q12609555",
+   "pageviews": 1209,
+   "sitelinks": 4,
+   "mentions": 1196
+  },
+  "거문도": {
+   "status": "ok",
+   "note": "",
+   "article": "거문도",
+   "qid": "Q490697",
+   "pageviews": 3527,
+   "sitelinks": 10,
+   "mentions": 403
+  },
+  "추자도": {
+   "status": "ok",
+   "note": "",
+   "article": "추자도",
+   "qid": null,
+   "pageviews": 265,
+   "sitelinks": null,
+   "mentions": 133
+  },
+  "대청도": {
+   "status": "ok",
+   "note": "",
+   "article": "대청도",
+   "qid": "Q484894",
+   "pageviews": 5540,
+   "sitelinks": 12,
+   "mentions": 56
+  },
+  "영흥도": {
+   "status": "ok",
+   "note": "",
+   "article": "영흥도",
+   "qid": "Q626174",
+   "pageviews": 1439,
+   "sitelinks": 9,
+   "mentions": 49
+  },
+  "제부도": {
+   "status": "ok",
+   "note": "",
+   "article": "제부도",
+   "qid": "Q6761875",
+   "pageviews": 1647,
+   "sitelinks": 5,
+   "mentions": 28
+  },
+  "가파도": {
+   "status": "ok",
+   "note": "",
+   "article": "가파도",
+   "qid": "Q10855076",
+   "pageviews": 2148,
+   "sitelinks": 7,
+   "mentions": 22
+  },
+  "장봉도": {
+   "status": "ok",
+   "note": "",
+   "article": "장봉도",
+   "qid": "Q12614484",
+   "pageviews": 879,
+   "sitelinks": 3,
+   "mentions": 10
+  },
+  "금오도": {
+   "status": "ok",
+   "note": "",
+   "article": "금오도",
+   "qid": "Q22973052",
+   "pageviews": 1092,
+   "sitelinks": 3,
+   "mentions": 156
+  },
+  "돌산도": {
+   "status": "ok",
+   "note": "",
+   "article": "돌산도",
+   "qid": "Q11597597",
+   "pageviews": 356,
+   "sitelinks": 7,
+   "mentions": 200
+  },
+  "증도": {
+   "status": "ok",
+   "note": "",
+   "article": "증도",
+   "qid": "Q16189852",
+   "pageviews": 749,
+   "sitelinks": 2,
+   "mentions": 177
+  },
+  "비금도": {
+   "status": "ok",
+   "note": "",
+   "article": "비금도",
+   "qid": "Q16160241",
+   "pageviews": 1515,
+   "sitelinks": 7,
+   "mentions": 163
+  },
+  "임자도": {
+   "status": "ok",
+   "note": "",
+   "article": "임자도",
+   "qid": "Q16189127",
+   "pageviews": 1141,
+   "sitelinks": 4,
+   "mentions": 165
+  },
+  "하의도": {
+   "status": "ok",
+   "note": "",
+   "article": "하의도",
+   "qid": "Q488122",
+   "pageviews": 875,
+   "sitelinks": 7,
+   "mentions": 158
+  },
+  "도초도": {
+   "status": "ok",
+   "note": "",
+   "article": "도초도",
+   "qid": "Q16180966",
+   "pageviews": 539,
+   "sitelinks": 4,
+   "mentions": 154
+  },
+  "노화도": {
+   "status": "ok",
+   "note": "",
+   "article": "노화도",
+   "qid": "Q18755822",
+   "pageviews": 318,
+   "sitelinks": 4,
+   "mentions": 158
+  },
+  "백도": {
+   "status": "ok",
+   "note": "",
+   "article": "백도 (여수시)",
+   "qid": "Q12597742",
+   "pageviews": 502,
+   "sitelinks": 1,
+   "mentions": 234
+  },
+  "소청도": {
+   "status": "ok",
+   "note": "",
+   "article": "소청도",
+   "qid": "Q487510",
+   "pageviews": 3670,
+   "sitelinks": 9,
+   "mentions": 352
+  },
+  "자월도": {
+   "status": "check",
+   "note": "article intro doesn't mention: 섬",
+   "article": "자월도",
+   "qid": "Q12614179",
+   "pageviews": 998,
+   "sitelinks": 4,
+   "mentions": 16
+  },
+  "관매도": {
+   "status": "ok",
+   "note": "",
+   "article": "관매도",
+   "qid": "Q12608519",
+   "pageviews": 648,
+   "sitelinks": 4,
+   "mentions": 146
+  },
+  "압해도": {
+   "status": "ok",
+   "note": "",
+   "article": "압해도",
+   "qid": "Q12605969",
+   "pageviews": 1070,
+   "sitelinks": 3,
+   "mentions": 529
+  },
+  "자은도": {
+   "status": "ok",
+   "note": "",
+   "article": "자은도",
+   "qid": "Q16167952",
+   "pageviews": 940,
+   "sitelinks": 4,
+   "mentions": 152
+  },
+  "안좌도": {
+   "status": "ok",
+   "note": "",
+   "article": "안좌도",
+   "qid": "Q12605821",
+   "pageviews": 230,
+   "sitelinks": 2,
+   "mentions": 146
+  },
+  "암태도": {
+   "status": "ok",
+   "note": "",
+   "article": "암태도",
+   "qid": "Q16170676",
+   "pageviews": 1123,
+   "sitelinks": 4,
+   "mentions": 168
+  },
+  "어청도": {
+   "status": "ok",
+   "note": "",
+   "article": "어청도",
+   "qid": "Q11696977",
+   "pageviews": 724,
+   "sitelinks": 4,
+   "mentions": 72
+  },
+  "외연도": {
+   "status": "check",
+   "note": "article intro doesn't mention: 섬",
+   "article": "외연열도",
+   "qid": "Q11262602",
+   "pageviews": 124,
+   "sitelinks": 3,
+   "mentions": 13
+  },
+  "삽시도": {
+   "status": "ok",
+   "note": "",
+   "article": "삽시도",
+   "qid": "Q16880383",
+   "pageviews": 263,
+   "sitelinks": 3,
+   "mentions": 10
+  },
+  "원산도": {
+   "status": "ok",
+   "note": "",
+   "article": "원산도",
+   "qid": "Q17990495",
+   "pageviews": 505,
+   "sitelinks": 5,
+   "mentions": 30
+  },
+  "신시도": {
+   "status": "ok",
+   "note": "",
+   "article": "신시도",
+   "qid": "Q12604403",
+   "pageviews": 505,
+   "sitelinks": 3,
+   "mentions": 53
+  },
+  "만재도": {
+   "status": "ok",
+   "note": "",
+   "article": "만재도",
+   "qid": "Q12594826",
+   "pageviews": 611,
+   "sitelinks": 1,
+   "mentions": 144
+  },
+  "팔금도": {
+   "status": "ok",
+   "note": "",
+   "article": "팔금도",
+   "qid": "Q16183274",
+   "pageviews": 558,
+   "sitelinks": 3,
+   "mentions": 146
+  },
+  "장고도": {
+   "status": "ambiguous",
+   "note": "only disambiguation pages: 장고도",
+   "mentions": 9
+  },
+  "가거도": {
+   "status": "ok",
+   "note": "",
+   "article": "가거도",
+   "qid": "Q495194",
+   "pageviews": 9563,
+   "sitelinks": 13,
+   "mentions": 173
+  },
+  "남이섬": {
+   "status": "ok",
+   "note": "",
+   "article": "남이섬",
+   "qid": "Q487536",
+   "pageviews": 4592,
+   "sitelinks": 20,
+   "mentions": 57
+  },
+  "여의도": {
+   "status": "ok",
+   "note": "",
+   "article": "여의도",
+   "qid": "Q22982",
+   "pageviews": 19326,
+   "sitelinks": 17,
+   "mentions": 1031
+  },
+  "영도": {
+   "status": "ok",
+   "note": "",
+   "article": "영도",
+   "qid": "Q16179096",
+   "pageviews": 1547,
+   "sitelinks": 3,
+   "mentions": 613
+  },
+  "가덕도": {
+   "status": "ok",
+   "note": "",
+   "article": "가덕도",
+   "qid": "Q12612282",
+   "pageviews": 1818,
+   "sitelinks": 10,
+   "mentions": 242
+  },
+  "한산도": {
+   "status": "ok",
+   "note": "",
+   "article": "한산도",
+   "qid": "Q485029",
+   "pageviews": 2853,
+   "sitelinks": 11,
+   "mentions": 115
+  },
+  "오동도": {
+   "status": "ok",
+   "note": "",
+   "article": "오동도",
+   "qid": "Q16181364",
+   "pageviews": 994,
+   "sitelinks": 2,
+   "mentions": 377
+  },
+  "소록도": {
+   "status": "ok",
+   "note": "",
+   "article": "소록도",
+   "qid": "Q489336",
+   "pageviews": 7725,
+   "sitelinks": 5,
+   "mentions": 191
+  },
+  "나로도": {
+   "status": "ok",
+   "note": "",
+   "article": "나로도",
+   "qid": "Q626853",
+   "pageviews": 2251,
+   "sitelinks": 3,
+   "mentions": 617
+  },
+  "오륙도": {
+   "status": "ok",
+   "note": "",
+   "article": "오륙도",
+   "qid": "Q11261050",
+   "pageviews": 1654,
+   "sitelinks": 10,
+   "mentions": 68
+  },
+  "사량도": {
+   "status": "ok",
+   "note": "",
+   "article": "사량도",
+   "qid": "Q22974041",
+   "pageviews": 1899,
+   "sitelinks": 3,
+   "mentions": 20
+  },
+  "지심도": {
+   "status": "missing",
+   "note": "no Korean Wikipedia article",
+   "pageviews": 0,
+   "mentions": 7
+  },
+  "거금도": {
+   "status": "ok",
+   "note": "",
+   "article": "거금도",
+   "qid": "Q16179652",
+   "pageviews": 1301,
+   "sitelinks": 4,
+   "mentions": 321
+  },
+  "비양도": {
+   "status": "ok",
+   "note": "",
+   "article": "비양도",
+   "qid": "Q12599451",
+   "pageviews": 2353,
+   "sitelinks": 5,
+   "mentions": 253
+  },
+  "굴업도": {
+   "status": "ok",
+   "note": "",
+   "article": "굴업도",
+   "qid": "Q16167065",
+   "pageviews": 2699,
+   "sitelinks": 4,
+   "mentions": 14
+  },
+  "연화도": {
+   "status": "missing",
+   "note": "no Korean Wikipedia article",
+   "pageviews": 0,
+   "mentions": 22
+  },
+  "선재도": {
+   "status": "ok",
+   "note": "",
+   "article": "선재도",
+   "qid": "Q16172866",
+   "pageviews": 776,
+   "sitelinks": 3,
+   "mentions": 15
+  },
+  "소안도": {
+   "status": "ok",
+   "note": "",
+   "article": "소안도",
+   "qid": "Q18815568",
+   "pageviews": 2446,
+   "sitelinks": 4,
+   "mentions": 156
+  },
+  "신지도": {
+   "status": "ok",
+   "note": "",
+   "article": "신지도",
+   "qid": "Q485943",
+   "pageviews": 371,
+   "sitelinks": 7,
+   "mentions": 166
+  },
+  "고금도": {
+   "status": "ok",
+   "note": "",
+   "article": "고금도",
+   "qid": "Q10855266",
+   "pageviews": 904,
+   "sitelinks": 2,
+   "mentions": 174
+  },
+  "장사도": {
+   "status": "missing",
+   "note": "no Korean Wikipedia article",
+   "pageviews": 0,
+   "mentions": 22
+  }
+ },
+ "collected": "2026-11-23"
+}

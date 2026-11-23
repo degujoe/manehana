@@ -1,0 +1,438 @@
+{
+ "id": "gugak",
+ "answers": {
+  "가야금": {
+   "status": "ok",
+   "note": "",
+   "article": "가야금",
+   "qid": "Q717407",
+   "pageviews": 6707,
+   "sitelinks": 27,
+   "mentions": 325
+  },
+  "장구": {
+   "status": "ok",
+   "note": "",
+   "article": "장구",
+   "qid": "Q1062015",
+   "pageviews": 3576,
+   "sitelinks": 15,
+   "mentions": 207
+  },
+  "꽹과리": {
+   "status": "ok",
+   "note": "",
+   "article": "꽹과리",
+   "qid": "Q843271",
+   "pageviews": 1283,
+   "sitelinks": 10,
+   "mentions": 58
+  },
+  "북": {
+   "status": "ok",
+   "note": "",
+   "article": "한국의 북",
+   "qid": "Q17062763",
+   "pageviews": 251,
+   "sitelinks": 2,
+   "mentions": null
+  },
+  "거문고": {
+   "status": "ok",
+   "note": "",
+   "article": "거문고",
+   "qid": "Q713298",
+   "pageviews": 4959,
+   "sitelinks": 11,
+   "mentions": 273
+  },
+  "해금": {
+   "status": "ok",
+   "note": "",
+   "article": "해금",
+   "qid": "Q706025",
+   "pageviews": 6727,
+   "sitelinks": 12,
+   "mentions": 346
+  },
+  "대금": {
+   "status": "ok",
+   "note": "",
+   "article": "대금",
+   "qid": "Q706424",
+   "pageviews": 2433,
+   "sitelinks": 12,
+   "mentions": 352
+  },
+  "단소": {
+   "status": "ok",
+   "note": "",
+   "article": "단소",
+   "qid": "Q846109",
+   "pageviews": 1729,
+   "sitelinks": 10,
+   "mentions": 77
+  },
+  "피리": {
+   "status": "ok",
+   "note": "",
+   "article": "피리 (악기)",
+   "qid": "Q750934",
+   "pageviews": 206,
+   "sitelinks": 17,
+   "mentions": 785
+  },
+  "징": {
+   "status": "ok",
+   "note": "",
+   "article": "징",
+   "qid": "Q2815701",
+   "pageviews": 1284,
+   "sitelinks": 6,
+   "mentions": null
+  },
+  "태평소": {
+   "status": "ok",
+   "note": "",
+   "article": "태평소",
+   "qid": "Q842190",
+   "pageviews": 2312,
+   "sitelinks": 8,
+   "mentions": 52
+  },
+  "아쟁": {
+   "status": "ok",
+   "note": "",
+   "article": "아쟁",
+   "qid": "Q411880",
+   "pageviews": 1107,
+   "sitelinks": 14,
+   "mentions": 75
+  },
+  "소고": {
+   "status": "ok",
+   "note": "",
+   "article": "소고",
+   "qid": "Q16175840",
+   "pageviews": 1038,
+   "sitelinks": 2,
+   "mentions": 400
+  },
+  "편종": {
+   "status": "ok",
+   "note": "",
+   "article": "편종",
+   "qid": "Q133722",
+   "pageviews": 890,
+   "sitelinks": 16,
+   "mentions": 25
+  },
+  "편경": {
+   "status": "ok",
+   "note": "",
+   "article": "편경",
+   "qid": "Q120718315",
+   "pageviews": 2358,
+   "sitelinks": 1,
+   "mentions": 23
+  },
+  "양금": {
+   "status": "ok",
+   "note": "",
+   "article": "양금",
+   "qid": "Q16256860",
+   "pageviews": 1504,
+   "sitelinks": 3,
+   "mentions": 28
+  },
+  "생황": {
+   "status": "ok",
+   "note": "",
+   "article": "생황",
+   "qid": "Q4217223",
+   "pageviews": 4157,
+   "sitelinks": 7,
+   "mentions": 37
+  },
+  "소금": {
+   "status": "ok",
+   "note": "",
+   "article": "소금 (악기)",
+   "qid": "Q704687",
+   "pageviews": 1680,
+   "sitelinks": 4,
+   "mentions": 1865
+  },
+  "퉁소": {
+   "status": "ok",
+   "note": "",
+   "article": "퉁소",
+   "qid": "Q4207259",
+   "pageviews": 933,
+   "sitelinks": 4,
+   "mentions": 28
+  },
+  "나발": {
+   "status": "ok",
+   "note": "",
+   "article": "나발",
+   "qid": "Q6956736",
+   "pageviews": 1489,
+   "sitelinks": 4,
+   "mentions": 131
+  },
+  "박": {
+   "status": "ok",
+   "note": "",
+   "article": "박 (악기)",
+   "qid": "Q4848966",
+   "pageviews": 1255,
+   "sitelinks": 6,
+   "mentions": null
+  },
+  "비파": {
+   "status": "ok",
+   "note": "",
+   "article": "비파 (악기)",
+   "qid": "Q6685124",
+   "pageviews": 4548,
+   "sitelinks": 45,
+   "mentions": 103
+  },
+  "좌고": {
+   "status": "ok",
+   "note": "",
+   "article": "좌고",
+   "qid": "Q85985374",
+   "pageviews": 107,
+   "sitelinks": 1,
+   "mentions": 18
+  },
+  "중금": {
+   "status": "ok",
+   "note": "",
+   "article": "중금",
+   "qid": "Q6312746",
+   "pageviews": 318,
+   "sitelinks": 4,
+   "mentions": 14
+  },
+  "나각": {
+   "status": "ok",
+   "note": "",
+   "article": "나각",
+   "qid": "Q44150",
+   "pageviews": 933,
+   "sitelinks": 5,
+   "mentions": 7
+  },
+  "축": {
+   "status": "ok",
+   "note": "",
+   "article": "축 (악기)",
+   "qid": "Q12620014",
+   "pageviews": 610,
+   "sitelinks": 3,
+   "mentions": null
+  },
+  "훈": {
+   "status": "ok",
+   "note": "",
+   "article": "훈 (악기)",
+   "qid": "Q839767",
+   "pageviews": 852,
+   "sitelinks": 15,
+   "mentions": null
+  },
+  "지": {
+   "status": "ok",
+   "note": "",
+   "article": "지 (악기)",
+   "qid": "Q5953170",
+   "pageviews": 279,
+   "sitelinks": 5,
+   "mentions": null
+  },
+  "공후": {
+   "status": "ok",
+   "note": "",
+   "article": "공후",
+   "qid": "Q60517",
+   "pageviews": 399,
+   "sitelinks": 12,
+   "mentions": 50
+  },
+  "월금": {
+   "status": "ok",
+   "note": "",
+   "article": "월금",
+   "qid": "Q1370147",
+   "pageviews": 468,
+   "sitelinks": 17,
+   "mentions": 9
+  },
+  "운라": {
+   "status": "ok",
+   "note": "",
+   "article": "운라",
+   "qid": "Q16891573",
+   "pageviews": 415,
+   "sitelinks": 2,
+   "mentions": 14
+  },
+  "용고": {
+   "status": "ok",
+   "note": "",
+   "article": "용고",
+   "qid": "Q43895968",
+   "pageviews": 210,
+   "sitelinks": 2,
+   "mentions": 8
+  },
+  "대쟁": {
+   "status": "ok",
+   "note": "",
+   "article": "대쟁",
+   "qid": "Q12591695",
+   "pageviews": 113,
+   "sitelinks": 1,
+   "mentions": 4
+  },
+  "노도": {
+   "status": "ok",
+   "note": "",
+   "article": "노도 (악기)",
+   "qid": "Q25203915",
+   "pageviews": 107,
+   "sitelinks": 2,
+   "mentions": 53
+  },
+  "뇌고": {
+   "status": "ok",
+   "note": "",
+   "article": "뇌고",
+   "qid": "Q97338528",
+   "pageviews": 58,
+   "sitelinks": 1,
+   "mentions": 7
+  },
+  "영고": {
+   "status": "ok",
+   "note": "",
+   "article": "영고 (악기)",
+   "qid": null,
+   "pageviews": 76,
+   "sitelinks": null,
+   "mentions": 30
+  },
+  "방향": {
+   "status": "ok",
+   "note": "",
+   "article": "방향 (악기)",
+   "qid": "Q849667",
+   "pageviews": 434,
+   "sitelinks": 7,
+   "mentions": 8160
+  },
+  "특종": {
+   "status": "ok",
+   "note": "",
+   "article": "특종 (악기)",
+   "qid": "Q12621381",
+   "pageviews": 200,
+   "sitelinks": 1,
+   "mentions": 477
+  },
+  "특경": {
+   "status": "ok",
+   "note": "",
+   "article": "특경",
+   "qid": null,
+   "pageviews": 235,
+   "sitelinks": null,
+   "mentions": 21
+  },
+  "어": {
+   "status": "ok",
+   "note": "",
+   "article": "어 (악기)",
+   "qid": "Q848250",
+   "pageviews": 1757,
+   "sitelinks": 5,
+   "mentions": null
+  },
+  "자바라": {
+   "status": "ok",
+   "note": "",
+   "article": "자바라 (악기)",
+   "qid": null,
+   "pageviews": 496,
+   "sitelinks": null,
+   "mentions": 92
+  },
+  "응고": {
+   "status": "ok",
+   "note": "",
+   "article": "응고 (악기)",
+   "qid": "Q12610687",
+   "pageviews": 63,
+   "sitelinks": 1,
+   "mentions": 476
+  },
+  "진고": {
+   "status": "ok",
+   "note": "",
+   "article": "진고",
+   "qid": "Q12618162",
+   "pageviews": 355,
+   "sitelinks": 1,
+   "mentions": 48
+  },
+  "건고": {
+   "status": "ok",
+   "note": "",
+   "article": "건고",
+   "qid": "Q12583380",
+   "pageviews": 104,
+   "sitelinks": 1,
+   "mentions": 4
+  },
+  "교방고": {
+   "status": "ok",
+   "note": "",
+   "article": "교방고",
+   "qid": "Q12585258",
+   "pageviews": 103,
+   "sitelinks": 1,
+   "mentions": 4
+  },
+  "당적": {
+   "status": "ok",
+   "note": "",
+   "article": "당적",
+   "qid": "Q1146067",
+   "pageviews": 199,
+   "sitelinks": 24,
+   "mentions": 152
+  },
+  "금": {
+   "status": "ok",
+   "note": "",
+   "article": "고금",
+   "qid": "Q723720",
+   "pageviews": 706,
+   "sitelinks": 35,
+   "mentions": null
+  },
+  "슬": {
+   "status": "ok",
+   "note": "",
+   "article": "슬 (악기)",
+   "qid": "Q1155980",
+   "pageviews": 499,
+   "sitelinks": 13,
+   "mentions": null
+  }
+ },
+ "collected": "2026-11-23"
+}
